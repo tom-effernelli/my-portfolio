@@ -117,8 +117,8 @@ const Home = () => {
       <div className="w-[1084px] absolute !!m-[0 important] top-[0px] left-[23px] h-[5000px] z-[3]">
         <div className="absolute top-[-1.5px] left-[32.5px] border-[#000] border-dashed border-r-[3px] box-border w-[3px] h-[5003px]" />
         <div className="absolute top-[830.5px] left-[32.5px] border-[#ed1c24] border-solid border-r-[3px] box-border w-[3px] h-[781px]" />
-        <div className="absolute top-[1448px] left-[27px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
-        <div className="absolute top-[974px] left-[27px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
+        <div className="absolute top-[1450px] left-[29px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
+        <div className="absolute top-[976px] left-[29px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
         <div className="absolute top-[1391.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border w-[949px] h-px lg:w-[700px]" />
         <div className="absolute top-[1239.5px] left-[31.5px] border-[#494949] border-solid border-t-[1px] box-border w-[758px] h-px lg:w-[550px]" />
         <div className="absolute top-[1361.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border w-[949px] h-px lg:w-[700px]" />
@@ -128,7 +128,7 @@ const Home = () => {
         <div className="absolute top-[1453.5px] left-[984.5px] border-[#000] border-dashed border-t-[3px] box-border w-[101px] h-[3px]" />
         <div className="absolute top-[979.5px] left-[343.5px] border-[#000] border-dashed border-t-[3px] box-border w-[376px] h-[3px]" />
         <Image
-          className="absolute top-[820px] left-[22px] w-[21.2px] h-[21.2px] object-contain"
+          className="absolute top-[820px] left-[24px] w-[21.2px] h-[21.2px] object-contain"
           width={21.2}
           height={21.2}
           sizes="100vw"
