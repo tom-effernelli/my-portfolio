@@ -50,12 +50,14 @@ const FooterHomeAboutContact = ({ className = "" }) => {
           <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
             <div className="flex items-center py-0 pl-[7px] pr-0 gap-5">
               <button
-                className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
+                className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
+                style={{ backgroundImage: "url('/LinkedInLogo.png')" }}
                 id="socialsButton"
                 onClick={onLinkedInLogoClick}
               />
               <button
-                className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
+                className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
+                style={{ backgroundImage: "url('/GithubLogo.png')" }}
                 id="socialsButton"
                 onClick={onGithubLogoClick}
               />
@@ -202,12 +204,14 @@ const FooterHomeAboutContact = ({ className = "" }) => {
           <div className="self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer md:flex md:flex-1 md:cursor-auto sm:flex-1">
             <div className="flex items-center py-0 pl-[7px] pr-0 gap-5">
               <button
-                className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
+                className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
+                style={{ backgroundImage: "url('/LinkedInLogo.png')" }}
                 id="socialsButton"
                 onClick={onLinkedInLogoClick}
               />
               <button
-                className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
+                className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
+                style={{ backgroundImage: "url('/GithubLogo.png')" }}
                 id="socialsButton"
                 onClick={onGithubLogoClick}
               />
