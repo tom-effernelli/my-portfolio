@@ -13,6 +13,11 @@ module.exports = {
         max: "720px",
       },
     },
+    extend: {
+      fontFamily: {
+        'space-grotesk': ['"Space Grotesk"', 'sans-serif'],
+      },
+    },
   },
   corePlugins: {
     preflight: false,

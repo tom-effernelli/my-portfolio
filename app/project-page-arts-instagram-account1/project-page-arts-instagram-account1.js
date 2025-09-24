@@ -121,7 +121,7 @@ const ProjectPageArtsInstagramAccount1 = () => {
         alt=""
         src="/Separator.svg"
       />
-      <div className="self-stretch flex flex-col items-start py-0 pl-[74px] pr-[174px] gap-[47px] z-[2] text-[200px] font-['Space_Grotesk'] md:pr-[74px] md:box-border">
+      <div className="self-stretch flex flex-col items-start py-0 pl-[74px] pr-[174px] gap-[47px] z-[2] text-[200px] font-space-grotesk md:pr-[74px] md:box-border">
         <div className="self-stretch relative leading-[100%] font-medium lg:text-[160px] md:text-[120px] sm:text-[80px]">
           <p className="m-0">PROJECT:</p>
           <p className="m-0">INSTAGRAM</p>

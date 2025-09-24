@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[140px] text-left text-[110px] text-[#000] font-['Space_Grotesk'] md:gap-[100px] md:pr-[74px] md:box-border">
+    <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[140px] text-left text-[110px] text-[#000] font-space-grotesk md:gap-[100px] md:pr-[74px] md:box-border">
       <div className="self-stretch flex flex-col items-start gap-[33px] text-[45px] font-[Inter]">
         <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
           <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">

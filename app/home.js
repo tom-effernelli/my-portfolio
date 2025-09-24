@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Inter } from 'next/font/google'
 
 const Home = () => {
   return (
-    <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000] font-['Space_Grotesk']">
+    <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000] font-space-grotesk">
       <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[174px] gap-[33px] z-[4] font-[Inter] md:pr-[74px] md:box-border">
         <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
           <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
@@ -137,7 +138,7 @@ const Home = () => {
       </div>
       <div className="self-stretch overflow-hidden flex items-start justify-between gap-0 z-[2] text-[150px]">
         <div className="flex flex-col items-start gap-[180px] shrink-0 lg:w-auto lg:[align-self:unset] lg:pt-[130px] lg:box-border">
-          <div className="relative tracking-[-0.01em] leading-[103%] font-medium lg:text-[110px] lg:w-auto lg:[align-self:unset] sm:text-[50px]">
+          <div className="relative tracking-[-0.01em] leading-[103%] font-space-grotesk font-medium lg:text-[110px] lg:w-auto lg:[align-self:unset] sm:text-[50px]">
             <p className="m-0">DEVELOPPER,</p>
             <p className="m-0">DESIGNER,</p>
             <p className="m-0">CS STUDENT.</p>
