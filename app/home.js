@@ -138,7 +138,7 @@ const Home = () => {
       </div>
       <div className="self-stretch overflow-hidden flex items-start justify-between gap-0 z-[2] text-[150px]">
         <div className="flex flex-col items-start gap-[180px] shrink-0 lg:w-auto lg:[align-self:unset] lg:pt-[130px] lg:box-border">
-          <div className="relative tracking-[-0.01em] leading-[103%] font-space-grotesk font-medium lg:text-[110px] lg:w-auto lg:[align-self:unset] sm:text-[50px]">
+          <div className="relative tracking-[-0.01em] leading-[103%] font-space-grotesk font-bold lg:text-[110px] lg:w-auto lg:[align-self:unset] sm:text-[50px]">
             <p className="m-0">DEVELOPPER,</p>
             <p className="m-0">DESIGNER,</p>
             <p className="m-0">CS STUDENT.</p>

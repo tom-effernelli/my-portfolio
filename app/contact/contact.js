@@ -126,7 +126,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch flex items-center gap-[84px] z-[0] text-[125px] font-['DM_Serif_Text'] sm:flex-col sm:gap-[35px]">
+      <div className="self-stretch flex items-center gap-[84px] z-[0] text-[125px] font-dm-serif-text sm:flex-col sm:gap-[35px]">
         <Image
           className="w-[588px] relative h-[620px] object-cover lg:w-[400px] lg:h-[422px] md:w-[300px] md:h-[317px] sm:hidden sm:w-[300px] sm:h-[317px]"
           width={588}
@@ -136,7 +136,7 @@ const Contact = () => {
           src="/writing-machine@2x.png"
         />
         <div className="self-stretch flex-1 flex flex-col items-start justify-between gap-0 lg:self-stretch lg:h-auto sm:flex-[unset] sm:self-stretch">
-          <div className="self-stretch relative leading-[130px] lg:text-[100px] lg:leading-[90px] md:text-[75px] md:leading-[75px] sm:text-3xl sm:leading-[100px] sm:text-left">
+          <div className="self-stretch relative leading-[130px] lg:text-[100px] lg:leading-[90px] md:text-[75px] md:leading-[75px] sm:text-3xl sm:leading-[100px] sm:text-left font-bold">
             DROP ME A LINE.
           </div>
           <div className="self-stretch flex flex-col items-start pt-[50px] px-0 pb-0 gap-[9px] text-[28px] font-[Inter] sm:pt-[50px] sm:box-border">
