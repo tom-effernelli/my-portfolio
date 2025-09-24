@@ -10,6 +10,11 @@
 body {
   @apply leading-[normal] m-0;
   font-family: 'Space Grotesk', sans-serif;
+  font-feature-settings: normal;
+  font-variant-ligatures: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 @layer base {
   *,
