@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import Link from "next/link";
 import PropTypes from "prop-types";
 
-const FooterHomeAboutContact = ({ className = "" }) => {
+const FooterDevArts = ({ className = "" }) => {
   const onLinkedInLogoClick = useCallback(() => {
     window.open("https://www.linkedin.com/in/tom-effernelli/");
   }, []);
@@ -19,7 +19,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
 
   return (
     <div
-      className={`w-full bg-[#090909] h-[693px] overflow-hidden flex flex-col items-start pt-14 pb-20 pl-[74px] pr-[174px] box-border gap-[54px] text-left text-[35px] text-[#fff] font-[Inter] md:pr-[74px] md:box-border ${className}`}
+      className={`w-full bg-[#090909] border-[#FFF] border-solid border-t-[1px] h-[693px] overflow-hidden flex flex-col items-start pt-14 pb-20 pl-[74px] pr-[174px] box-border gap-[54px] text-left text-[35px] text-[#fff] font-[Inter] md:pr-[74px] md:box-border ${className}`}
     >
       <div className="relative leading-[121.1%] font-extrabold lg:text-3xl md:text-[25px]">
         <p className="m-0">TOM</p>
@@ -255,8 +255,8 @@ const FooterHomeAboutContact = ({ className = "" }) => {
   );
 };
 
-FooterHomeAboutContact.propTypes = {
+FooterDevArts.propTypes = {
   className: PropTypes.string,
 };
 
-export default FooterHomeAboutContact;
+export default FooterDevArts;
