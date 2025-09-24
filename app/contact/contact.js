@@ -157,12 +157,12 @@ const Contact = () => {
             <div className="self-stretch border-[#000] border-solid border-b-[1px] flex flex-col items-start pt-0 px-0 pb-2.5">
               <div className="flex items-center py-0 pl-[5px] pr-0 gap-[25px]">
                 <button
-                  className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-6 md:h-[23px] sm:w-[18px] sm:h-[17px]"
+                  className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-[url('/LinkedInLogoVBLACK.png')] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-6 md:h-[23px] sm:w-[18px] sm:h-[17px]"
                   id="socialsButton"
                   onClick={onLinkedInLogoVBLACKClick}
                 />
                 <button
-                  className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-6 md:h-[23px] sm:w-[18px] sm:h-[17px]"
+                  className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-[url('/GithubLogoVBLACK.png')] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-6 md:h-[23px] sm:w-[18px] sm:h-[17px]"
                   id="socialsButton"
                   onClick={onGithubLogoVBLACKClick}
                 />
