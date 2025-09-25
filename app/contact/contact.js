@@ -96,7 +96,10 @@ const Contact = () => {
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[22px]">
-                  1.96437295429E+16
+                  {(() => {
+                    const timestamp = Date.now().toString();
+                    return timestamp.length > 16 ? timestamp.slice(-16) : timestamp.padStart(16, '0');
+                  })()}
                 </div>
               </div>
             </div>
