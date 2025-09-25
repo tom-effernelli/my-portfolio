@@ -1,9 +1,11 @@
 import Link from "next/link";
+import FooterDevArts from "../../components/footer-dev-arts";
 import Image from "next/image";
 
 const ProjectPageArtsThisPortfolio = () => {
   return (
-    <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
+    <>
+      <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
       <div className="self-stretch h-[382px] flex flex-col items-start py-0 pl-[74px] pr-[174px] box-border gap-[33px] z-[0] md:pr-[74px] md:box-border">
         <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
           <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
@@ -182,7 +184,9 @@ const ProjectPageArtsThisPortfolio = () => {
         </div>
       </div>
       <div className="w-0.5 absolute !!m-[0 important] top-[-1px] left-[43px] border-[#fff] border-dashed border-r-[2px] box-border h-[5713px] z-[3]" />
-    </div>
+      </div>
+      <FooterDevArts />
+    </>
   );
 };
 
