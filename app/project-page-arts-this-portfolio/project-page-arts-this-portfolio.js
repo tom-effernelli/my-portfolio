@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ProjectPageArtsThisPortfolio = () => {
   return (
-    <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff] font-[Inter]">
+    <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
       <div className="self-stretch h-[382px] flex flex-col items-start py-0 pl-[74px] pr-[174px] box-border gap-[33px] z-[0] md:pr-[74px] md:box-border">
         <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
           <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
@@ -127,7 +127,7 @@ const ProjectPageArtsThisPortfolio = () => {
           <p className="m-0">THIS</p>
           <p className="m-0">PORTFOLIO</p>
         </div>
-        <div className="self-stretch relative text-[35px] leading-[200%] font-medium font-[Inter] lg:text-[25px] md:text-xl sm:text-[15px]">
+        <div className="self-stretch relative text-[35px] leading-[200%] font-medium lg:text-[25px] md:text-xl sm:text-[15px]">
           <p className="m-0">
             This project is certainly the one I’ve learned the most from. It all
             started at the beginning of the 2025 summer vacation, when I thought

@@ -6,7 +6,7 @@ const Arts = () => {
   return (
     <>
       <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[123px] text-left text-[45px] text-[#fff] font-space-grotesk md:pr-[74px] md:box-border">
-        <div className="self-stretch flex flex-col items-start gap-[33px] font-[Inter]">
+        <div className="self-stretch flex flex-col items-start gap-[33px]">
           <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
               TOM EFFERNELLI
@@ -132,13 +132,13 @@ const Arts = () => {
         </div>
         <div className="self-stretch flex items-end justify-center min-h-[800px] text-right text-3xl lg:min-h-[500px] sm:flex-col">
           <div className="w-[686px] flex flex-col items-end justify-end py-0 pl-0 pr-[30px] box-border gap-5 max-w-[730px] z-[1] lg:max-w-[500px] md:w-[400px] md:max-w-[400px] sm:w-[300px] sm:max-w-[300px]">
-            <div className="self-stretch relative leading-[121.1%] font-[Inter] lg:text-[25px] md:text-xl sm:text-[15px]">
+            <div className="self-stretch relative leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px]">
               IN HERE YOU WILL FIND MY
             </div>
-            <div className="self-stretch relative text-[300px] leading-[80%] font-medium text-left lg:text-[230px] lg:h-auto md:text-[150px] sm:text-[110px]">
+            <div className="self-stretch relative text-[300px] leading-[80%] font-medium text-left lg:text-[230px] lg:h-auto md:text-[150px] sm:text-[110px] font-space-grotesk">
               ART
             </div>
-            <div className="self-stretch relative text-[120px] leading-[121.1%] lg:text-[90px] md:text-[70px] sm:text-[50px]">
+            <div className="self-stretch relative text-[120px] leading-[121.1%] lg:text-[90px] md:text-[70px] sm:text-[50px] font-space-grotesk">
               CREATIONS
             </div>
           </div>
@@ -164,7 +164,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-medium lg:text-[90px] md:text-6xl">
                 THIS PORTFOLIO
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] font-[Inter] whitespace-pre-wrap lg:text-3xl md:hidden">
+              <div className="self-stretch relative text-[35px] leading-[121%] whitespace-pre-wrap lg:text-3xl md:hidden">
                 I spent all my summer on this project, which aims to better
                 highlight my work. LinkedIn is just messy when it comes to
                 showcase dev work, and not made at all to shocase design work.
@@ -184,7 +184,7 @@ const Arts = () => {
               <div className="self-stretch relative text-[50px] leading-[121%] font-medium">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] font-[Inter] lg:text-3xl md:hidden">
+              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
                 VibeMatch is a plateform designed to improve connection between
                 content creators and sponsors. Check out the promotion video I
                 created for this occasion!
@@ -203,7 +203,7 @@ const Arts = () => {
               <div className="self-stretch relative text-[50px] leading-[121%] font-medium">
                 2ND POSITION GAMEJAM PROJECT
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] font-[Inter] lg:text-3xl md:hidden">
+              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
                 The Sound of Silence is a game where you explore a mansion, trying
                 not to go insane. Creating the design was pretty fun and taught me
                 a lot of things about tilemapping.
@@ -219,7 +219,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-medium lg:text-[90px] md:text-6xl">
                 INSTAGRAM ACCOUNT - 2
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] font-[Inter] lg:text-3xl md:hidden">
+              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
                 This Instagram account I designed was for my engineering school,
                 in order to help new students make their decision upon which
                 school to choose, presenting all the benefits of mine...
@@ -238,7 +238,7 @@ const Arts = () => {
               <div className="self-stretch relative text-[50px] leading-[121%] font-medium">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] font-[Inter] lg:text-3xl md:hidden">
+              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
                 A hackathon project to make medical healthcare systems such as
                 hospitals more efficient, working on the patient priority sorting
                 process. Check out the demo video!
@@ -254,7 +254,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-medium lg:text-[90px] md:text-6xl">
                 INSTAGRAM ACCOUNT - 1
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] font-[Inter] lg:text-3xl md:hidden">
+              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
                 This Instagram account I designed with some other teammates too
                 was created during the student board election campaign I took part
                 in. I was in charge of all the communication processes.
@@ -266,7 +266,7 @@ const Arts = () => {
           <div className="relative leading-[121.1%] font-medium lg:text-[80px] md:text-6xl sm:text-[45px]">
             DESIGN STACK:
           </div>
-          <div className="self-stretch relative text-[35px] leading-[121%] font-[Inter] lg:text-3xl md:text-[22px] sm:text-[17px]">
+          <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:text-[22px] sm:text-[17px]">
             <p className="m-0">
               Here are the softwares I’m the most familiar with for graphic
               creations:

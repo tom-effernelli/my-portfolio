@@ -20,7 +20,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="w-full relative bg-[#fff3d9] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[140px] text-left text-[45px] text-[#000] font-[Inter] md:gap-[100px] md:pr-[74px] md:box-border">
+      <div className="w-full relative bg-[#fff3d9] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[140px] text-left text-[45px] text-[#000] md:gap-[100px] md:pr-[74px] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px] z-[1]">
           <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
@@ -141,10 +141,10 @@ const Contact = () => {
             <div className="self-stretch relative leading-[130px] lg:text-[100px] lg:leading-[90px] md:text-[75px] md:leading-[75px] sm:text-3xl sm:leading-[100px] sm:text-left font-bold">
               DROP ME A LINE.
             </div>
-            <div className="self-stretch flex flex-col items-start pt-[50px] px-0 pb-0 gap-[9px] text-[28px] font-[Inter] sm:pt-[50px] sm:box-border">
+            <div className="self-stretch flex flex-col items-start pt-[50px] px-0 pb-0 gap-[9px] text-[28px] sm:pt-[50px] sm:box-border">
               <div className="self-stretch border-[#000] border-solid border-b-[1px] flex flex-col items-start pt-0 px-0 pb-2.5">
                 <button
-                  className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-[28px] [text-decoration:underline] leading-[121.1%] font-[Inter] text-[#000] text-left inline-block lg:text-xl md:text-[15px]"
+                  className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-[28px] [text-decoration:underline] leading-[121.1%] text-[#000] text-left inline-block lg:text-xl md:text-[15px]"
                   id="socialsButton"
                   onClick={onMakeMyInboxClick}
                 >

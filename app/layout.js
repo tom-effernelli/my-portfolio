@@ -1,11 +1,18 @@
 import "./global.css";
-import { Space_Grotesk } from 'next/font/google';
+import { Inter, Space_Grotesk } from 'next/font/google';
 import { ReactNode } from "react";
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800'],
+  display: 'swap',
+});
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '700'],
+  weight: ['300', '400', '500', '600', '700'],
   display: 'swap',
+  variable: '--font-space-grotesk',
 });
 
 export const metadata = {
@@ -14,7 +21,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={spaceGrotesk.className}>
+    <html lang="en" className={`${inter.className} ${spaceGrotesk.variable}`}>
       <body>{children}</body>
     </html>
   );

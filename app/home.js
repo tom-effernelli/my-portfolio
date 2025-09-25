@@ -1,13 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Inter } from 'next/font/google'
 import FooterHomeAboutContact from "../components/footer-home-about-contact";
 
 const Home = () => {
   return (
     <>
       <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000] font-space-grotesk">
-        <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[174px] gap-[33px] z-[4] font-[Inter] md:pr-[74px] md:box-border">
+        <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[174px] gap-[33px] z-[4] md:pr-[74px] md:box-border">
           <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
               TOM EFFERNELLI
@@ -145,7 +144,7 @@ const Home = () => {
               <p className="m-0">DESIGNER,</p>
               <p className="m-0">CS STUDENT.</p>
             </div>
-            <div className="self-stretch flex items-center justify-center text-5xl font-[Inter] lg:pt-5 lg:box-border">
+            <div className="self-stretch flex items-center justify-center text-5xl lg:pt-5 lg:box-border">
               <div className="flex-1 relative leading-[51px] font-light lg:text-3xl lg:leading-[45px] lg:self-stretch lg:h-auto md:leading-[48px]">
                 <p className="m-0">Hello, welcome to my website!</p>
                 <p className="m-0">&nbsp;</p>
@@ -166,24 +165,24 @@ const Home = () => {
           />
         </div>
         <div className="self-stretch flex flex-col items-end py-0 pl-0 pr-[174px] gap-[58px] z-[1] text-[100px] text-[#fff] md:pr-[74px] md:box-border">
-          <div className="self-stretch relative text-[110px] leading-[121%] font-medium text-[#000] text-right lg:text-[90px] md:text-[70px]">
+          <div className="self-stretch relative text-[110px] leading-[121%] font-medium text-[#000] text-right lg:text-[90px] md:text-[70px] font-space-grotesk">
             TOP PROJECTS:
           </div>
           <div className="self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-cover bg-no-repeat bg-[top] md:h-[500px]">
             <div className="self-stretch flex items-end justify-between gap-0">
               <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 pr-[75px] gap-[23px]">
-                <div className="self-stretch relative leading-[121%] font-medium">
+                <div className="self-stretch relative leading-[121%] font-medium font-space-grotesk">
                   VIBEMATCH
                 </div>
-                <div className="self-stretch relative text-[50px] leading-[121%] font-medium">
+                <div className="self-stretch relative text-[50px] leading-[121%] font-medium font-space-grotesk">
                   TOP5 WINNING HACKATHON PROJECT
                 </div>
-                <div className="self-stretch relative text-[35px] leading-[121%] font-[Inter] lg:hidden">
+                <div className="self-stretch relative text-[35px] leading-[121%] lg:hidden">
                   VibeMatch is a plateform designed to improve connection between
                   content creators and sponsors.
                 </div>
               </div>
-              <b className="relative text-[35px] leading-[113%] inline-block font-[Inter] max-w-[300px] lg:text-[25px] md:text-[25px]">
+              <b className="relative text-[35px] leading-[113%] inline-block max-w-[300px] lg:text-[25px] md:text-[25px]">
                 <p className="m-0">{`> View dev work`}</p>
                 <p className="m-0">&nbsp;</p>
                 <p className="m-0">{`> View creative work`}</p>
@@ -193,18 +192,18 @@ const Home = () => {
           <div className="self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end p-5 box-border bg-cover bg-no-repeat bg-[top] md:h-[500px]">
             <div className="self-stretch flex items-center gap-[58px]">
               <div className="flex-[0.9146] flex flex-col items-start justify-end py-0 pl-0 pr-[75px] gap-[23px] lg:pr-[50px] lg:box-border">
-                <div className="self-stretch relative leading-[121%] font-medium">
+                <div className="self-stretch relative leading-[121%] font-medium font-space-grotesk">
                   THE SOUND OF SILENCE
                 </div>
-                <div className="self-stretch relative text-[50px] leading-[121%] font-medium">
+                <div className="self-stretch relative text-[50px] leading-[121%] font-medium font-space-grotesk">
                   2ND POSITION GAMEJAM PROJECT
                 </div>
-                <div className="self-stretch relative text-[35px] leading-[121%] font-[Inter] lg:hidden">
+                <div className="self-stretch relative text-[35px] leading-[121%] lg:hidden">
                   The Sound of Silence is a game where you explore a mansion,
                   trying not to go insane.
                 </div>
               </div>
-              <b className="self-stretch flex-1 relative text-[35px] leading-[113%] flex font-[Inter] items-end max-w-[300px] lg:text-[25px] md:text-[25px]">
+              <b className="self-stretch flex-1 relative text-[35px] leading-[113%] flex items-end max-w-[300px] lg:text-[25px] md:text-[25px]">
                 <span>
                   <p className="m-0">{`> View dev work`}</p>
                   <p className="m-0">&nbsp;</p>

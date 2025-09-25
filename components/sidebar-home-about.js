@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const SidebarHomeAbout = ({ className = "" }) => {
   return (
     <div
-      className={`w-[100px] bg-[#fff] border-[#000] border-solid border-l-[1px] box-border h-[982px] overflow-x-auto flex flex-col items-center justify-between pt-[71px] px-0 pb-4 gap-0 text-left text-base text-[#000] font-[Inter] ${className}`}
+      className={`w-[100px] bg-[#fff] border-[#000] border-solid border-l-[1px] box-border h-[982px] overflow-x-auto flex flex-col items-center justify-between pt-[71px] px-0 pb-4 gap-0 text-left text-base text-[#000] ${className}`}
     >
       <Image
         className="w-[133.2px] relative h-[231.8px]"

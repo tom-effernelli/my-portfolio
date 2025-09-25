@@ -15,7 +15,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'space-grotesk': ['"Space Grotesk"', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
+        'space-grotesk': ['var(--font-space-grotesk)', 'Space Grotesk', 'sans-serif'],
         'dm-serif-text': ['"DM Serif Text"', 'serif'],
       },
     },

@@ -19,7 +19,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
 
   return (
     <div
-      className={`w-full bg-[#090909] h-[693px] overflow-hidden flex flex-col items-start pt-14 pb-20 pl-[74px] pr-[174px] box-border gap-[54px] text-left text-[35px] text-[#fff] font-[Inter] md:pr-[74px] md:box-border ${className}`}
+      className={`w-full bg-[#090909] h-[693px] overflow-hidden flex flex-col items-start pt-14 pb-20 pl-[74px] pr-[174px] box-border gap-[54px] text-left text-[35px] text-[#fff] md:pr-[74px] md:box-border ${className}`}
     >
       <div className="relative leading-[121.1%] font-extrabold lg:text-3xl md:text-[25px]">
         <p className="m-0">TOM</p>
@@ -87,7 +87,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
           <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
           <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
             <button
-              className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-xl [text-decoration:underline] leading-[121.1%] font-light font-[Inter] text-[#fff] text-left inline-block lg:text-[17px] md:text-sm"
+              className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-xl [text-decoration:underline] leading-[121.1%] font-light text-[#fff] text-left inline-block lg:text-[17px] md:text-sm"
               id="socialsButton"
               onClick={onMakeMyInboxClick}
             >
@@ -234,7 +234,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
           <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
           <div className="self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer md:flex md:flex-1 md:cursor-auto sm:flex sm:flex-1">
             <button
-              className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-xl [text-decoration:underline] leading-[121.1%] font-light font-[Inter] text-[#fff] text-left inline-block lg:text-[17px] md:text-sm"
+              className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-xl [text-decoration:underline] leading-[121.1%] font-light text-[#fff] text-left inline-block lg:text-[17px] md:text-sm"
               id="socialsButton"
               onClick={onMakeMyInboxClick}
             >

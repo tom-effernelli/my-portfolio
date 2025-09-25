@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ProjectPageArtsCaresync = () => {
   return (
-    <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff] font-[Inter]">
+    <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
       <div className="self-stretch h-[382px] flex flex-col items-start py-0 pl-[74px] pr-[174px] box-border gap-[33px] z-[0] md:pr-[74px] md:box-border">
         <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
           <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
@@ -127,7 +127,7 @@ const ProjectPageArtsCaresync = () => {
           <p className="m-0">CARESYNC</p>
         </div>
         <div className="self-stretch relative text-[75px] leading-[100%] font-space-grotesk font-medium lg:text-[50px] md:text-[40px] sm:text-3xl">{`TOP5 WINNING HACKATHON PROJECT - SHIPFAST HACKATHON @ ECOLE 42 `}</div>
-        <div className="self-stretch relative text-[35px] leading-[200%] font-medium font-[Inter] lg:text-[25px] md:text-xl sm:text-[15px]">
+        <div className="self-stretch relative text-[35px] leading-[200%] font-medium lg:text-[25px] md:text-xl sm:text-[15px]">
           <p className="m-0">
             CareSync was an app we created during the Shipfast hackathon at
             École 42. In just 8 hours, we coded a healthcare application
