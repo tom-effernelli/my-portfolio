@@ -121,8 +121,8 @@ const ProjectPageArtsVibematch = () => {
         alt=""
         src="/Separator.svg"
       />
-      <div className="self-stretch flex flex-col items-start py-0 pl-[74px] pr-[174px] gap-[47px] z-[2] text-[200px] font-space-grotesk md:pr-[74px] md:box-border">
-        <div className="self-stretch relative leading-[100%] font-medium lg:text-[160px] md:text-[120px] sm:text-[80px]">
+      <div className="self-stretch flex flex-col items-start py-0 pl-[74px] pr-[174px] gap-[47px] z-[2] text-[200px] md:pr-[74px] md:box-border">
+        <div className="self-stretch relative leading-[100%] font-space-grotesk font-medium lg:text-[160px] md:text-[120px] sm:text-[80px]">
           <p className="m-0">PROJECT:</p>
           <p className="m-0">VIBEMATCH</p>
         </div>
@@ -131,7 +131,7 @@ const ProjectPageArtsVibematch = () => {
         </div>
         <div className="self-stretch relative text-[35px] leading-[200%] lg:text-[25px] md:text-xl sm:text-[15px]">
           <p className="m-0">
-            <span className="font-medium ">
+            <span className="font-medium">
               VibeMatch was an app my friend and I developed during a hackathon
               organized by Cerebras and Cline. The idea behind this app is to
               speed up and make more efficient the connection between content

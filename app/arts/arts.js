@@ -5,7 +5,7 @@ import FooterDevArts from "../../components/footer-dev-arts";
 const Arts = () => {
   return (
     <>
-      <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[123px] text-left text-[45px] text-[#fff] font-space-grotesk md:pr-[74px] md:box-border">
+      <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[123px] text-left text-[45px] text-[#fff] md:pr-[74px] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px]">
           <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
@@ -125,9 +125,9 @@ const Arts = () => {
             src="/First-decoration-image@2x.png"
           />
           <div className="self-stretch w-[426px] relative leading-[92%] inline-block shrink-0 max-w-[426px] lg:text-[120px] lg:h-auto lg:max-w-[350px] md:text-[100px] sm:text-[100px] sm:w-full">
-            <span className="font-medium">{`LET THE ARTS `}</span>
+            <span className="font-space-grotesk font-medium">{`LET THE ARTS `}</span>
             <b>IN</b>
-            <span className="font-medium">.</span>
+            <span className="font-space-grotesk font-medium">.</span>
           </div>
         </div>
         <div className="self-stretch flex items-end justify-center min-h-[800px] text-right text-3xl lg:min-h-[500px] sm:flex-col">
@@ -135,7 +135,7 @@ const Arts = () => {
             <div className="self-stretch relative leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px]">
               IN HERE YOU WILL FIND MY
             </div>
-            <div className="self-stretch relative text-[300px] leading-[80%] font-medium text-left lg:text-[230px] lg:h-auto md:text-[150px] sm:text-[110px] font-space-grotesk">
+            <div className="self-stretch relative text-[300px] leading-[80%] font-space-grotesk font-medium text-left lg:text-[230px] lg:h-auto md:text-[150px] sm:text-[110px] font-space-grotesk">
               ART
             </div>
             <div className="self-stretch relative text-[120px] leading-[121.1%] lg:text-[90px] md:text-[70px] sm:text-[50px] font-space-grotesk">
@@ -152,7 +152,7 @@ const Arts = () => {
           />
         </div>
         <div className="self-stretch flex flex-col items-end gap-[61px] text-[100px] md:gap-5">
-          <div className="self-stretch relative text-[130px] leading-[121.1%] font-medium text-right lg:text-[100px] md:text-[80px] md:h-auto">
+          <div className="self-stretch relative text-[130px] leading-[121.1%] font-space-grotesk font-medium text-right lg:text-[100px] md:text-[80px] md:h-auto">
             PROJECTS:
           </div>
           <Link
@@ -161,7 +161,7 @@ const Arts = () => {
             href="/project-page-arts-this-portfolio"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
                 THIS PORTFOLIO
               </div>
               <div className="self-stretch relative text-[35px] leading-[121%] whitespace-pre-wrap lg:text-3xl md:hidden">
@@ -178,10 +178,10 @@ const Arts = () => {
             href="/project-page-arts-vibematch"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-medium">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium">
                 VIBEMATCH
               </div>
-              <div className="self-stretch relative text-[50px] leading-[121%] font-medium">
+              <div className="self-stretch relative text-[50px] leading-[121%] font-space-grotesk font-medium">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
               <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
@@ -197,10 +197,10 @@ const Arts = () => {
             href="/project-page-arts-t-s-o-s"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
                 THE SOUND OF SILENCE
               </div>
-              <div className="self-stretch relative text-[50px] leading-[121%] font-medium">
+              <div className="self-stretch relative text-[50px] leading-[121%] font-space-grotesk font-medium">
                 2ND POSITION GAMEJAM PROJECT
               </div>
               <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
@@ -216,7 +216,7 @@ const Arts = () => {
             href="/project-page-arts-instagram-account2"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
                 INSTAGRAM ACCOUNT - 2
               </div>
               <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
@@ -232,10 +232,10 @@ const Arts = () => {
             href="/project-page-arts-caresync"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
                 CARESYNC
               </div>
-              <div className="self-stretch relative text-[50px] leading-[121%] font-medium">
+              <div className="self-stretch relative text-[50px] leading-[121%] font-space-grotesk font-medium">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
               <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
@@ -251,7 +251,7 @@ const Arts = () => {
             href="/project-page-arts-instagram-account1"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
                 INSTAGRAM ACCOUNT - 1
               </div>
               <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
@@ -263,7 +263,7 @@ const Arts = () => {
           </Link>
         </div>
         <div className="self-stretch flex flex-col items-start gap-[39px] text-[90px]">
-          <div className="relative leading-[121.1%] font-medium lg:text-[80px] md:text-6xl sm:text-[45px]">
+          <div className="relative leading-[121.1%] font-space-grotesk font-medium lg:text-[80px] md:text-6xl sm:text-[45px]">
             DESIGN STACK:
           </div>
           <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:text-[22px] sm:text-[17px]">

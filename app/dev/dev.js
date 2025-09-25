@@ -4,7 +4,7 @@ import FooterDevArts from "../../components/footer-dev-arts";
 const Dev = () => {
   return (
     <>
-      <div className="w-full relative overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[183px] bg-[url('/Dev@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[45px] text-[#fff] font-[Consolas] lg:gap-[140px] md:gap-[100px] md:pr-[74px] md:box-border">
+      <div className="w-full relative overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[183px] bg-[url('/Dev@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[45px] text-[#fff] lg:gap-[140px] md:gap-[100px] md:pr-[74px] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px]">
           <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
@@ -114,7 +114,7 @@ const Dev = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-start gap-[88px] text-xl">
+        <div className="self-stretch flex flex-col items-start gap-[88px] text-xl font-[Consolas]">
           <div className="self-stretch relative leading-[121.1%] lg:text-[15px] md:text-[10px] sm:text-[10px]">
             <p className="m-0 whitespace-pre-wrap">{`████████ ███████  ██████ ██   ██     ███████ ████████  █████   ██████ ██   ██ `}</p>
             <p className="m-0 whitespace-pre-wrap">{`   ██    ██      ██      ██   ██     ██         ██    ██   ██ ██      ██  ██  `}</p>
@@ -143,7 +143,7 @@ const Dev = () => {
             <p className="m-0">- Methods and Tools: Git, Responsive Design</p>
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-center py-0 pl-[171px] pr-0 gap-[63px] text-right text-[32px] md:pl-[130px] md:box-border sm:pl-[71px] sm:box-border">
+        <div className="self-stretch flex flex-col items-center py-0 pl-[171px] pr-0 gap-[63px] text-right text-[32px] md:pl-[130px] md:box-border sm:pl-[71px] sm:box-border font-[Consolas]">
           <div className="self-stretch relative text-xl leading-[121.1%] lg:text-[15px] md:text-[10px] md:h-auto">
             <p className="m-0 whitespace-pre-wrap">{`██████  ██████   ██████       ██ ███████  ██████ ████████ ███████ `}</p>
             <p className="m-0 whitespace-pre-wrap">{`██   ██ ██   ██ ██    ██      ██ ██      ██         ██    ██      `}</p>

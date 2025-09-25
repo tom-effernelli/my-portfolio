@@ -5,7 +5,7 @@ import FooterHomeAboutContact from "../../components/footer-home-about-contact";
 const About = () => {
   return (
     <>
-      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[140px] text-left text-[110px] text-[#000] font-space-grotesk md:gap-[100px] md:pr-[74px] md:box-border">
+      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[140px] text-left text-[110px] text-[#000] md:gap-[100px] md:pr-[74px] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px] text-[45px]">
           <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
@@ -185,7 +185,7 @@ const About = () => {
               <div className="self-stretch flex flex-col items-start gap-[19px] z-[0]">
                 <div className="flex items-center gap-[19px]">
                   <div className="w-[27px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px]" />
-                  <div className="relative font-semibold lg:text-3xl md:text-[25px] sm:text-xl font-space-grotesk">{`CTO & Co-Founder of VibeMatch`}</div>
+                  <div className="relative font-semibold lg:text-3xl md:text-[25px] sm:text-xl">{`CTO & Co-Founder of VibeMatch`}</div>
                 </div>
                 <div className="self-stretch flex items-center py-0 pl-[50px] pr-0 text-[25px]">
                   <div className="flex-1 relative md:text-xl sm:text-[15px]">
@@ -201,7 +201,7 @@ const About = () => {
               <div className="self-stretch flex flex-col items-start gap-2 z-[1]">
                 <div className="self-stretch flex items-center gap-[19px]">
                   <div className="w-[27px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px]" />
-                  <div className="relative font-semibold md:text-[25px] sm:text-xl font-space-grotesk">{`Hackathons & GameJams`}</div>
+                  <div className="relative font-semibold md:text-[25px] sm:text-xl">{`Hackathons & GameJams`}</div>
                 </div>
                 <div className="self-stretch h-[387px] flex flex-col items-start py-0 pl-[50px] pr-0 box-border" />
               </div>
@@ -233,7 +233,7 @@ const About = () => {
             <div className="self-stretch flex flex-col items-start gap-14 text-3xl">
               <div className="self-stretch flex flex-col items-end gap-[19px]">
                 <div className="flex items-center justify-end gap-[19px] md:gap-[19px] md:items-center md:justify-end">
-                  <div className="w-[501px] relative font-semibold flex items-center h-9 shrink-0 lg:text-3xl lg:w-auto lg:[align-self:unset] md:text-[25px] md:w-auto md:[align-self:unset] sm:text-xl font-space-grotesk">
+                  <div className="w-[501px] relative font-semibold flex items-center h-9 shrink-0 lg:text-3xl lg:w-auto lg:[align-self:unset] md:text-[25px] md:w-auto md:[align-self:unset] sm:text-xl">
                     Grande Ecole Engineering Diploma
                   </div>
                   <div className="w-[27px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px]" />
@@ -258,7 +258,7 @@ const About = () => {
               </div>
               <div className="self-stretch flex flex-col items-end gap-2 text-left">
                 <div className="self-stretch flex items-center justify-end gap-[19px]">
-                  <div className="relative font-semibold lg:text-3xl md:text-[25px] sm:text-xl font-space-grotesk">
+                  <div className="relative font-semibold lg:text-3xl md:text-[25px] sm:text-xl">
                     B.Sc. in Mathematics
                   </div>
                   <div className="w-[27px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px]" />
@@ -281,7 +281,7 @@ const About = () => {
               </div>
               <div className="self-stretch flex flex-col items-end gap-2">
                 <div className="self-stretch flex items-center justify-end gap-[19px]">
-                  <div className="relative font-semibold lg:text-3xl lg:max-w-[800px] md:text-[25px] sm:text-xl font-space-grotesk">
+                  <div className="relative font-semibold lg:text-3xl lg:max-w-[800px] md:text-[25px] sm:text-xl">
                     <p className="m-0">Preparatory Classes in Mathematics,</p>
                     <p className="m-0">Physics and Computer Sciences</p>
                   </div>
