@@ -78,7 +78,7 @@ const FooterDevArts = ({ className = "" }) => {
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
             id="sectionButton"
-            href="/dev"
+            href="/dev#tech-stack"
           >
             <div className="self-stretch relative leading-[121.1%] font-light lg:text-[26px] md:text-[23px]">
               Tech stack
@@ -99,7 +99,7 @@ const FooterDevArts = ({ className = "" }) => {
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
             id="sectionButton"
-            href="/about"
+            href="/about#who-am-i"
           >
             <div className="self-stretch relative leading-[121.1%] font-light lg:text-[26px] md:text-[23px]">
               Who am I?
@@ -118,7 +118,7 @@ const FooterDevArts = ({ className = "" }) => {
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
             id="sectionButton"
-            href="/dev"
+            href="/dev#projects"
           >
             <div className="self-stretch relative leading-[121.1%] font-light lg:text-[26px] md:text-[23px]">
               Projects
@@ -131,7 +131,7 @@ const FooterDevArts = ({ className = "" }) => {
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
             id="sectionButton"
-            href="/about"
+            href="/about#experience"
           >
             <div className="self-stretch relative leading-[121.1%] font-light lg:text-[26px] md:text-[23px]">
               Experiences
@@ -163,7 +163,7 @@ const FooterDevArts = ({ className = "" }) => {
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
             id="sectionButton"
-            href="/about"
+            href="/about#education"
           >
             <div className="self-stretch relative leading-[121.1%] font-light lg:text-[26px] md:text-[23px]">
               Education
@@ -182,7 +182,7 @@ const FooterDevArts = ({ className = "" }) => {
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
             id="sectionButton"
-            href="/arts"
+            href="/arts#projects"
           >
             <div className="self-stretch relative leading-[121.1%] font-light lg:text-[26px] md:text-[23px]">
               Projects
@@ -195,7 +195,7 @@ const FooterDevArts = ({ className = "" }) => {
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
             id="sectionButton"
-            href="/about"
+            href="/about#resume"
           >
             <div className="self-stretch relative leading-[121.1%] font-light lg:text-[26px] md:text-[23px]">
               Resume
@@ -221,7 +221,7 @@ const FooterDevArts = ({ className = "" }) => {
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
             id="sectionButton"
-            href="/arts"
+            href="/arts#design-stack"
           >
             <div className="self-stretch relative leading-[121.1%] font-light lg:text-[26px] md:text-[23px]">
               Design Stack

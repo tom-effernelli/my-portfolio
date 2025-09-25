@@ -134,7 +134,7 @@ const About = () => {
               src="/unblurred-Chrome-little-star@2x.png"
             />
           </div>
-          <div className="flex-[0.9687] border-[#000] border-dashed border-r-[2px] flex flex-col items-end py-0 pl-0 pr-[18px] gap-[33px]">
+          <div className="flex-[0.9687] border-[#000] border-dashed border-r-[2px] flex flex-col items-end py-0 pl-0 pr-[18px] gap-[33px]" id="who-am-i">
             <div className="w-full flex flex-col items-start max-w-[568px]">
               <div className="w-full relative leading-[121.1%] font-medium inline-block max-w-[568px] lg:text-[80px] md:text-[70px] sm:text-[70px] font-space-grotesk">
                 WHO AM I?
@@ -176,7 +176,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch overflow-hidden flex items-start justify-between gap-0">
+        <div className="self-stretch overflow-hidden flex items-start justify-between gap-0" id="experience">
           <div className="flex-1 flex flex-col items-start gap-[27px]">
             <div className="self-stretch relative font-medium lg:text-[80px] md:text-[70px] sm:text-[50px] font-space-grotesk">
               EXPERIENCE
@@ -217,7 +217,7 @@ const About = () => {
             src="/unblurred-Chrome-lunatic-star-1@2x.png"
           />
         </div>
-        <div className="self-stretch overflow-hidden flex items-center justify-between relative gap-0 text-right">
+        <div className="self-stretch overflow-hidden flex items-center justify-between relative gap-0 text-right" id="education">
           <Image
             className="flex-1 relative max-w-[333px] overflow-hidden max-h-[325px] object-cover z-[0] shrink-0"
             width={333}
@@ -337,7 +337,7 @@ const About = () => {
           </div>
           <div className="w-[3px] absolute !!m-[0 important] top-[140.5px] right-[11.5px] bg-[#000] border-[#000] border-solid border-r-[3px] box-border h-[1917px] z-[2] shrink-0" />
         </div>
-        <div className="self-stretch flex items-center p-2.5 text-3xl">
+        <div className="self-stretch flex items-center p-2.5 text-3xl" id="resume">
           <div className="relative font-semibold md:text-xl">
             {`You can find my complete resume `}
             <span className="[text-decoration:underline]">here.</span>
