@@ -65,9 +65,9 @@ const Contact = () => {
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[15px]">
                   <p className="m-0">
-                    <span className="[text-decoration:underline]">
+                    <a href="https://www.sciencefocus.com/planet-earth/how-much-does-a-cloud-weigh" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
                       Did you know
-                    </span>{" "}
+                    </a>{" "}
                     clouds weight ~1Mt?
                   </p>
                   <p className="m-0">Anyways, take a tour on my website!</p>
