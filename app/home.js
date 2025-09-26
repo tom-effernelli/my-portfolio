@@ -1,12 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import FooterHomeAboutContact from "../components/footer-home-about-contact";
+import StickyNavigation from "../components/sticky-navigation";
 
 const Home = () => {
   return (
     <>
+      <StickyNavigation currentPage="home" />
       <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000]">
-        <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[174px] gap-[33px] z-[4] md:pr-[74px] md:box-border">
+        <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[174px] gap-[33px] z-[4] md:pr-[74px] md:box-border" id="header">
           <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
               TOM EFFERNELLI

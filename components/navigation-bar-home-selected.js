@@ -7,7 +7,7 @@ const NavigationBarHomeSelected = ({ className = "" }) => {
     <div
       className={`w-[1524px] bg-[#fff] border-[#000] border-solid border-b-[1px] box-border max-w-full h-[101px] overflow-hidden flex items-center justify-between py-0 px-[45px] gap-0 text-left text-[29px] text-[#000] ${className}`}
     >
-      <div className="w-[50px] relative bg-[#fff] border-[#000] border-solid border-[5px] box-border h-[50px]" />
+      <Link href="/" className="w-[50px] relative bg-[#fff] border-[#000] border-solid border-[5px] box-border h-[50px] cursor-pointer" />
       <div className="flex items-center justify-center py-0 pl-[135px] pr-[100px] gap-16 lg:flex md:flex md:w-auto md:[align-self:unset] md:items-center md:justify-center md:pl-[45px] md:pr-0 md:box-border sm:flex">
         <div className="flex items-center justify-center md:hidden">
           <Link
