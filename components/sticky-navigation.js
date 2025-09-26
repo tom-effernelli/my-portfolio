@@ -12,7 +12,19 @@ const StickyNavigation = ({ currentPage = "home" }) => {
   useEffect(() => {
     const handleScroll = () => {
       // Trouve l'élément header principal par son id
-      const headerElement = document.getElementById('header');
+      let headerElement = document.getElementById('header');
+      
+      // Fallback: chercher par d'autres moyens si l'id n'est pas trouvé
+      if (!headerElement) {
+        // Chercher par le texte "TOM EFFERNELLI" et remonter au conteneur parent
+        const elements = document.querySelectorAll('b');
+        for (let element of elements) {
+          if (element.textContent.includes('TOM EFFERNELLI')) {
+            headerElement = element.closest('div[id="header"]') || element.closest('div');
+            break;
+          }
+        }
+      }
       
       if (headerElement) {
         const rect = headerElement.getBoundingClientRect();
@@ -25,10 +37,18 @@ const StickyNavigation = ({ currentPage = "home" }) => {
       }
     };
 
-    // Attendre que le DOM soit complètement chargé
-    const timeoutId = setTimeout(() => {
-      handleScroll();
-    }, 100);
+    // Attendre que le DOM soit complètement chargé avec plusieurs tentatives
+    const checkForHeader = () => {
+      const headerElement = document.getElementById('header');
+      if (headerElement) {
+        handleScroll();
+      } else {
+        setTimeout(checkForHeader, 100);
+      }
+    };
+
+    // Démarrer la vérification
+    const timeoutId = setTimeout(checkForHeader, 50);
 
     // Écouter le scroll
     window.addEventListener('scroll', handleScroll);
