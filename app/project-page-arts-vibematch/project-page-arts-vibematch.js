@@ -91,11 +91,15 @@ const ProjectPageArtsVibematch = () => {
             </div>
           </div>
           <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
-            <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px]">
-              <b className="self-stretch relative leading-[121.1%] cursor-auto lg:text-[26px] sm:text-[22px]">
+            <Link
+              className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit]"
+              id="pageButton"
+              href="/arts"
+            >
+              <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
                 ▪ ARTS
               </b>
-            </div>
+            </Link>
             <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
             <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
             <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
