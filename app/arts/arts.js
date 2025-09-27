@@ -140,7 +140,7 @@ const Arts = () => {
             <div className="self-stretch relative leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px]">
               IN HERE YOU WILL FIND MY
             </div>
-            <div className="self-stretch relative text-[300px] leading-[80%] font-space-grotesk font-medium text-left lg:text-[230px] lg:h-auto md:text-[150px] sm:text-[110px] font-space-grotesk">
+            <div className="self-stretch relative text-[300px] leading-[80%] font-space-grotesk font-medium text-left lg:text-[230px] lg:h-auto md:text-[150px] sm:text-[110px]">
               ART
             </div>
             <div className="self-stretch relative text-[120px] leading-[121.1%] lg:text-[90px] md:text-[70px] sm:text-[50px] font-space-grotesk">
