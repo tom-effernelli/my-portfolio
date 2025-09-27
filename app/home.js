@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <StickyNavigation currentPage="home" />
       <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000]">
-        <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[174px] gap-[33px] z-[4] md:pr-[74px] md:box-border" id="header">
+        <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[74px] gap-[33px] z-[4] md:box-border" id="header">
           <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
               TOM EFFERNELLI
@@ -169,7 +169,7 @@ const Home = () => {
             src="/Arch-wrapped@2x.png"
           />
         </div>
-        <div className="self-stretch flex flex-col items-end py-0 pl-0 pr-[174px] gap-[58px] z-[1] text-[100px] text-[#fff] md:pr-[74px] md:box-border">
+        <div className="self-stretch flex flex-col items-end py-0 pl-0 pr-[74px] gap-[58px] z-[1] text-[100px] text-[#fff] md:box-border">
           <div className="self-stretch relative text-[110px] leading-[121%] font-medium text-[#000] text-right lg:text-[90px] md:text-[70px] font-space-grotesk">
             TOP PROJECTS:
           </div>

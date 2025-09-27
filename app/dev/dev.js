@@ -6,7 +6,7 @@ const Dev = () => {
   return (
     <>
       <StickyNavigation currentPage="dev" />
-      <div className="dev-page w-full relative overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[174px] box-border gap-[183px] bg-[url('/Dev@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[45px] text-[#fff] lg:gap-[140px] md:gap-[100px] md:pr-[74px] md:box-border">
+      <div className="dev-page w-full relative overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[74px] box-border gap-[183px] bg-[url('/Dev@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[45px] text-[#fff] lg:gap-[140px] md:gap-[100px] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px]" id="header">
           <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
