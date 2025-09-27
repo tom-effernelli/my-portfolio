@@ -18,10 +18,14 @@ const NavigationBarAboutSelected = ({ className = "" }) => {
   return (
     <>
       {isDropdownOpen && (
-        <DropdownMenuAboutSelected 
-          className="fixed top-0 left-0 z-50" 
-          onClose={closeDropdown}
-        />
+        <>
+          {/* Overlay sombre */}
+          <div className="fixed inset-0 bg-black/20 z-40" onClick={closeDropdown} />
+          <DropdownMenuAboutSelected 
+            className="fixed top-0 left-0 z-50" 
+            onClose={closeDropdown}
+          />
+        </>
       )}
       {!isDropdownOpen && (
         <div
