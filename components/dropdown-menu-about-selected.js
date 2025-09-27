@@ -12,7 +12,7 @@ const DropdownMenuHomeSelected = ({ className = "" }) => {
         href="/home"
       >
         <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer lg:text-[26px] sm:text-[22px]">
-          ▪ HOME
+          HOME
         </b>
       </Link>
       <Link
@@ -21,7 +21,7 @@ const DropdownMenuHomeSelected = ({ className = "" }) => {
         href="/about"
       >
         <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer lg:text-[26px] sm:text-[22px]">
-          ABOUT
+        ▪ ABOUT
         </b>
       </Link>
       <Link
