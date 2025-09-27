@@ -7,7 +7,7 @@ const ProjectPageArtsThisPortfolio = () => {
   return (
     <>
       <StickyNavigation currentPage="arts" />
-      <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
+      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
       <div className="self-stretch h-[382px] flex flex-col items-start py-0 pl-[74px] pr-[174px] box-border gap-[33px] z-[0] md:pr-[74px] md:box-border" id="header">
         <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
           <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">

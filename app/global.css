@@ -38,6 +38,49 @@ img {
   -o-user-drag: none;
   user-drag: none;
 }
+
+/* Sélection inversée pour les éléments à fond sombre - sélecteurs spécifiques */
+
+/* Pages arts avec fond #090909 */
+.arts-page ::selection,
+.arts-page ::-moz-selection {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Pages dev avec fond sombre */
+.dev-page ::selection,
+.dev-page ::-moz-selection {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Footers sombres */
+.footer-dev-arts ::selection,
+.footer-dev-arts ::-moz-selection,
+.footer-home-about-contact ::selection,
+.footer-home-about-contact ::-moz-selection {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Barres de navigation sombres */
+.navigation-bar-dev ::selection,
+.navigation-bar-dev ::-moz-selection,
+.navigation-bar-arts ::selection,
+.navigation-bar-arts ::-moz-selection {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Dropdown menus sombres */
+.dropdown-menu-dev ::selection,
+.dropdown-menu-dev ::-moz-selection,
+.dropdown-menu-arts ::selection,
+.dropdown-menu-arts ::-moz-selection {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
 @layer base {
   *,
   *::before,
