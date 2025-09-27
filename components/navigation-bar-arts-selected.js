@@ -70,7 +70,7 @@ const NavigationBarArtsSelected = ({ className = "" }) => {
           </Link>
         </div>
         <Image
-          className="w-[39px] lg:w-[36px] md:w-[32px] sm:w-[24px] relative h-[34px] lg:h-[30px] md:h-[28px] sm:h-[20px] hidden md:block md:cursor-pointer"
+          className="w-[39px] lg:w-[36px] md:w-[32px] sm:w-[24px] relative h-[34px] lg:h-[30px] md:h-[28px] sm:h-[20px] hidden md:block md:cursor-pointer select-none"
           width={39}
           height={34}
           sizes="100vw"

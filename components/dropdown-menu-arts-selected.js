@@ -10,7 +10,7 @@ const DropdownMenuArtsSelected = ({ className = "", onClose }) => {
       {/* Icône de fermeture en haut à droite */}
       <div className="self-stretch flex-1 overflow-hidden flex items-center justify-end pt-0 px-0 pb-0">
         <Image
-          className="w-[39px] lg:w-[36px] md:w-[32px] sm:w-[24px] h-[34px] lg:h-[30px] md:h-[28px] sm:h-[20px] cursor-pointer"
+          className="w-[39px] lg:w-[36px] md:w-[32px] sm:w-[24px] h-[34px] lg:h-[30px] md:h-[28px] sm:h-[20px] cursor-pointer select-none"
           width={39}
           height={34}
           sizes="100vw"
