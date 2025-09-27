@@ -1,10 +1,12 @@
 import Link from "next/link";
 import FooterDevArts from "../../components/footer-dev-arts";
 import Image from "next/image";
+import StickyNavigation from "../../components/sticky-navigation";
 
 const ProjectPageArtsCaresync = () => {
   return (
     <>
+      <StickyNavigation currentPage="arts" />
       <div className="w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
       <div className="self-stretch h-[382px] flex flex-col items-start py-0 pl-[74px] pr-[174px] box-border gap-[33px] z-[0] md:pr-[74px] md:box-border" id="header">
         <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
