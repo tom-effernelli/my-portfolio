@@ -212,7 +212,7 @@ const About = () => {
                 <div className="self-stretch flex items-center py-0 pl-[50px] pr-0 text-[25px]">
                   <div className="flex-1 relative md:text-xl sm:text-[15px]">
                     <p className="m-0">
-                      Developping a B2B SaaS platform to connect content creators
+                      Developing a B2B SaaS platform to connect content creators
                       and sponsors.
                     </p>
                     <p className="m-0"> - Co-Founder</p>

@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: `My Portfolio`,
+  title: `Tom Effernelli - Developer`,
 };
 
 export default function RootLayout({ children }) {
