@@ -173,7 +173,9 @@ const ProjectPageDevVibematch = () => {
           </p>
           <p className="m-0">
             {`→ Check the creative side of our project `}
-            <span className="[text-decoration:underline]">here</span>.
+            <Link href="/project-page-arts-vibematch" className="[text-decoration:underline]">
+              here
+            </Link>.
           </p>
         </b>
       </div>

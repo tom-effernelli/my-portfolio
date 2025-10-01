@@ -169,7 +169,9 @@ const ProjectPageDevTSOS = () => {
           </p>
           <p className="m-0">
             {`→ Check the creative side of the game `}
-            <span className="[text-decoration:underline]">here</span>.
+            <Link href="/project-page-arts-t-s-o-s" className="[text-decoration:underline]">
+              here
+            </Link>.
           </p>
         </b>
       </div>

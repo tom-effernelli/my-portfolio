@@ -153,10 +153,10 @@ const ProjectPageArtsThisPortfolio = () => {
           </p>
           <p className="m-0">&nbsp;</p>
           <p className="m-0">
-            {`This project turned out to be a long one, as design was only a small part of the whole work. I’ll share more about it on the `}
-            <span className="[text-decoration:underline]">
+            {`This project turned out to be a long one, as design was only a small part of the whole work. I'll share more about it on the `}
+            <Link href="/project-page-dev-this-portfolio" className="[text-decoration:underline]">
               dev side of this project
-            </span>
+            </Link>
             , but over the summer I learned several languages. I already knew
             the basics of web development (HTML/CSS/JS), but I completely
             relearned JavaScript, then moved on to React, Tailwind CSS, and

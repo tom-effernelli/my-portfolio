@@ -171,7 +171,9 @@ const ProjectPageDevThisPortfolio = () => {
           </p>
           <p className="m-0">
             {`→ You can also explore the creative side `}
-            <span className="[text-decoration:underline]">here</span>.
+            <Link href="/project-page-arts-this-portfolio" className="[text-decoration:underline]">
+              here
+            </Link>.
           </p>
         </b>
       </div>
