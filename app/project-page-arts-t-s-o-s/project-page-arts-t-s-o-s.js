@@ -143,7 +143,7 @@ const ProjectPageArtsTSOS = () => {
           <p className="m-0">
             The Sound of Silence was a project we developed with two teammates
             during the Paris Sorbonne Université GameJam, which took place over
-            an entire weekend. The theme was “micro” — as in “microphone” — but
+            an entire weekend. The theme was "micro" - as in "microphone" - but
             it could also be interpreted as “microscopic” or in any other
             creative way.
           </p>
@@ -153,7 +153,7 @@ const ProjectPageArtsTSOS = () => {
             explores an abandoned mansion. To keep the character from losing
             their mind, you must make sounds to reassure them. The character’s
             peripheral vision represents their mental health, so as they lose
-            their mind, the field of vision shrinks. But beware — the mansion is
+            their mind, the field of vision shrinks. But beware - the mansion is
             haunted by ghosts. Some ghosts are afraid of sound and only approach
             when you are silent, while others can’t locate you unless you make
             noise!

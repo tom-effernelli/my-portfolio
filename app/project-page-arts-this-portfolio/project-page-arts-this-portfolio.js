@@ -177,7 +177,7 @@ const ProjectPageArtsThisPortfolio = () => {
             Illustrator, applied to complex shapes. That’s what I used, and it
             sparked another idea: “What if I associated one material with each
             page?” That’s what I did for the ‘Arts’ section, where I chose glass
-            — more specifically fluted glass — for its nice contrasts, repeating
+            - more specifically fluted glass - for its nice contrasts, repeating
             patterns, and interesting light-bending effects. I placed it against
             a black background to evoke a photography studio atmosphere.
             Photography is something I love and often integrate into my art

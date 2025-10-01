@@ -185,7 +185,7 @@ const About = () => {
                 <span className="leading-5">&nbsp;</span>
               </p>
               <p className="m-0">
-                <span className="leading-[180%]">{`I am open to new opportunities, let's start something awesome – `}</span>
+                <span className="leading-[180%]">{`I am open to new opportunities, let's start something awesome - `}</span>
                 <span className="leading-[180%]">
                   <button
                     className="cursor-pointer [border:none] p-0 bg-[transparent] [text-decoration:underline] text-[inherit] text-left inline-block"
@@ -267,7 +267,7 @@ const About = () => {
                       Télécom Paris | Polytechnic Institute of Paris
                     </p>
                     <p className="m-0">
-                      <i>2024 – 2027 – Palaiseau, France</i>
+                      <i>2024 - 2027 - Palaiseau, France</i>
                     </p>
                     <p className="m-0">&nbsp;</p>
                     <p className="m-0">
@@ -290,7 +290,7 @@ const About = () => {
                     <p className="m-0">&nbsp;</p>
                     <p className="m-0">Sorbonne Université</p>
                     <p className="m-0">
-                      <i>2025 – 2026 – Paris, France</i>
+                      <i>2025 - 2026 - Paris, France</i>
                     </p>
                     <p className="m-0">&nbsp;</p>
                     <p className="m-0">
@@ -323,7 +323,7 @@ const About = () => {
                     </p>
                     <p className="m-0">
                       <span>
-                        <i>2022 – 2024 – Lyon, France</i>
+                        <i>2022 - 2024 - Lyon, France</i>
                       </span>
                     </p>
                     <p className="m-0">

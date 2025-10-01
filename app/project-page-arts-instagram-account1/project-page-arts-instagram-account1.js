@@ -143,7 +143,7 @@ const ProjectPageArtsInstagramAccount1 = () => {
             This Instagram account was one I designed with some friends for the
             student board campaign during my first year at Télécom Paris. We
             needed to create a strong visual identity so people would remember
-            our team — and ultimately win the elections!
+            our team - and ultimately win the elections!
           </p>
           <p className="m-0">&nbsp;</p>
           <p className="m-0">

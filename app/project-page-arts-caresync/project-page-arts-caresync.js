@@ -152,7 +152,7 @@ const ProjectPageArtsCaresync = () => {
             that’s the real name), which relies on a complex grid spanning over
             12 pages of medical criteria, measurements, and patient-reported
             symptoms. There are even nurses whose entire job is to evaluate
-            patient priority for treatment — they are called triage nurses.
+            patient priority for treatment - they are called triage nurses.
           </p>
           <p className="m-0">
             We reflected on this and realized that the process could be
@@ -162,7 +162,7 @@ const ProjectPageArtsCaresync = () => {
           <p className="m-0">&nbsp;</p>
           <p className="m-0">
             As part of the hackathon, we also had to create a promotional video
-            for our app — and we took it seriously. Some teammates brought a
+            for our app - and we took it seriously. Some teammates brought a
             microphone and a stabilizer to record themselves presenting. Thanks
             to AI (Google Veo) and some editing in Premiere Pro, we managed to
             produce a polished video.
