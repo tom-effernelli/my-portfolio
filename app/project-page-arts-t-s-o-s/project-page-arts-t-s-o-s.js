@@ -175,7 +175,9 @@ const ProjectPageArtsTSOS = () => {
           <p className="m-0">&nbsp;</p>
           <p className="m-0">
             {`And check out The Sound of Silence `}
-            <span className="[text-decoration:underline]">here</span>!
+            <a href="https://gamejam-psu-the-sound-of-silence.vercel.app/" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+              here
+            </a>!
           </p>
         </div>
       </div>

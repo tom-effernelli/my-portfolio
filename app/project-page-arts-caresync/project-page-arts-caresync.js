@@ -180,7 +180,9 @@ const ProjectPageArtsCaresync = () => {
           <p className="m-0">&nbsp;</p>
           <p className="m-0">
             {`Check out CareSync `}
-            <span className="[text-decoration:underline]">here</span>!
+            <a href="https://hackathon-shipfast-caresync.vercel.app/" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+              here
+            </a>!
           </p>
         </div>
       </div>

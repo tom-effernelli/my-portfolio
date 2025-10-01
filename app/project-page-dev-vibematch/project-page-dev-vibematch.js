@@ -162,14 +162,12 @@ const ProjectPageDevVibematch = () => {
             opportunity of doing something really interesting, notably by its
             market area positioning (influence market, which is worth billions).
           </p>
-          <p className="m-0">
-            {`We are actually working on the project to make it even better, if you have any suggestions you can send them right `}
-            <span className="[text-decoration:underline]">here</span>!
-          </p>
           <p className="m-0">&nbsp;</p>
           <p className="m-0">
             {`→ Check VibeMatch `}
-            <span className="[text-decoration:underline]">here</span>.
+            <a href="https://vibematch.tech/" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+              here
+            </a>.
           </p>
           <p className="m-0">
             {`→ Check the creative side of our project `}

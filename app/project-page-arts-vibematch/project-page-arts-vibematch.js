@@ -216,7 +216,9 @@ const ProjectPageArtsVibematch = () => {
           <p className="m-0">
             <span className="font-medium">
               {`Check out VibeMatch `}
-              <span className="[text-decoration:underline]">here</span>!
+              <a href="https://vibematch.tech/" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+                here
+              </a>!
             </span>
           </p>
         </div>

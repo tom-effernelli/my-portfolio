@@ -167,7 +167,9 @@ const ProjectPageDevThisPortfolio = () => {
           <p className="m-0">&nbsp;</p>
           <p className="m-0">
             {`→ See source code `}
-            <span className="[text-decoration:underline]">here</span>.
+            <a href="https://github.com/tom-effernelli/my-portfolio" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+              here
+            </a>.
           </p>
           <p className="m-0">
             {`→ You can also explore the creative side `}

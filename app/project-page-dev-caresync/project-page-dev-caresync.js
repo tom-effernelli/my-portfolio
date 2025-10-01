@@ -164,11 +164,15 @@ const ProjectPageDevCaresync = () => {
           <p className="m-0">&nbsp;</p>
           <p className="m-0">
             {`→ Check CareSync `}
-            <span className="[text-decoration:underline]">here</span>.
+            <a href="https://hackathon-shipfast-caresync.vercel.app/" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+              here
+            </a>.
           </p>
           <p className="m-0">
             {`→ Check the repo `}
-            <span className="[text-decoration:underline]">here</span>.
+            <a href="https://github.com/tom-effernelli/hackathon-shipfast-caresync" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+              here
+            </a>.
           </p>
           <p className="m-0">
             {`→ Check the creative side of the project `}
