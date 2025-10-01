@@ -173,7 +173,7 @@ const Home = () => {
           <div className="self-stretch relative text-[110px] leading-[121%] font-medium text-[#000] text-right lg:text-[90px] md:text-[70px] font-space-grotesk">
             TOP PROJECTS:
           </div>
-          <div className="self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-cover bg-no-repeat bg-[top] md:h-[500px]">
+          <div className="self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px]">
             <div className="self-stretch flex items-end justify-between gap-0">
               <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 pr-[75px] gap-[23px]">
                 <div className="self-stretch relative leading-[121%] font-medium font-space-grotesk">
@@ -194,7 +194,7 @@ const Home = () => {
               </b>
             </div>
           </div>
-          <div className="self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end p-5 box-border bg-cover bg-no-repeat bg-[top] md:h-[500px]">
+          <div className="self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end p-5 box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px]">
             <div className="self-stretch flex items-center gap-[58px]">
               <div className="flex-[0.9146] flex flex-col items-start justify-end py-0 pl-0 pr-[75px] gap-[23px] lg:pr-[50px] lg:box-border">
                 <div className="self-stretch relative leading-[121%] font-medium font-space-grotesk">
