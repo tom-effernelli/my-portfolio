@@ -1,9 +1,21 @@
+"use client";
+import { useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import FooterHomeAboutContact from "../../components/footer-home-about-contact";
 import StickyNavigation from "../../components/sticky-navigation";
 
 const About = () => {
+  const onEmailMeClick = useCallback(() => {
+    window.location.href =
+      "mailto:tom.effernelli@gmail.com?subject=Hello there!";
+  }, []);
+
+  const onResumeClick = useCallback(() => {
+    // TODO: Add resume download link
+    console.log("Resume download clicked");
+  }, []);
+
   return (
     <>
       <StickyNavigation currentPage="about" />
@@ -173,9 +185,14 @@ const About = () => {
                 <span className="leading-5">&nbsp;</span>
               </p>
               <p className="m-0">
-                <span className="leading-[180%]">{`I am open to new opportunities, let’s start something awesome – `}</span>
+                <span className="leading-[180%]">{`I am open to new opportunities, let's start something awesome – `}</span>
                 <span className="leading-[180%]">
-                  <span className="[text-decoration:underline]">email me</span>!
+                  <button
+                    className="cursor-pointer [border:none] p-0 bg-[transparent] [text-decoration:underline] text-[inherit] text-left inline-block"
+                    onClick={onEmailMeClick}
+                  >
+                    email me
+                  </button>!
                 </span>
               </p>
             </div>
@@ -345,7 +362,12 @@ const About = () => {
         <div className="self-stretch flex items-center p-2.5 text-3xl" id="resume">
           <div className="relative font-semibold md:text-xl">
             {`You can find my complete resume `}
-            <span className="[text-decoration:underline]">here.</span>
+            <button
+              className="cursor-pointer [border:none] p-0 bg-[transparent] [text-decoration:underline] text-[inherit] text-left inline-block"
+              onClick={onResumeClick}
+            >
+              here.
+            </button>
           </div>
         </div>
       </div>
