@@ -188,9 +188,17 @@ const Home = () => {
                 </div>
               </div>
               <b className="relative text-[35px] leading-[113%] inline-block max-w-[300px] lg:text-[25px] md:text-[25px]">
-                <p className="m-0">{`> View dev work`}</p>
+                <p className="m-0">
+                  <Link href="/project-page-dev-vibematch" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
+                    {`> View dev work`}
+                  </Link>
+                </p>
                 <p className="m-0">&nbsp;</p>
-                <p className="m-0">{`> View creative work`}</p>
+                <p className="m-0">
+                  <Link href="/project-page-arts-vibematch" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
+                    {`> View creative work`}
+                  </Link>
+                </p>
               </b>
             </div>
           </div>
@@ -210,9 +218,17 @@ const Home = () => {
               </div>
               <b className="self-stretch flex-1 relative text-[35px] leading-[113%] flex items-end max-w-[300px] lg:text-[25px] md:text-[25px]">
                 <span>
-                  <p className="m-0">{`> View dev work`}</p>
+                  <p className="m-0">
+                    <Link href="/project-page-dev-t-s-o-s" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
+                      {`> View dev work`}
+                    </Link>
+                  </p>
                   <p className="m-0">&nbsp;</p>
-                  <p className="m-0">{`> View creative work`}</p>
+                  <p className="m-0">
+                    <Link href="/project-page-arts-t-s-o-s" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
+                      {`> View creative work`}
+                    </Link>
+                  </p>
                 </span>
               </b>
             </div>
