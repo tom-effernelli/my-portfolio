@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const DropdownMenuDevSelected = ({ className = "", onClose }) => {
   return (
     <div
-      className={`dropdown-menu-dev w-full bg-[#000] border-[#fff] border-solid border-b-[2px] box-border max-w-full h-[380px] flex flex-col items-start pt-5 pl-[45px] pr-[45px] pb-10 gap-2.5 text-left text-[29px] text-[#fff] ${className}`}
+      className={`dropdown-menu-dev w-full bg-[#000] border-[#fff] border-solid border-b-[2px] box-border max-w-full h-[380px] flex flex-col items-start pt-5 pl-[45px] pr-[45px] pb-10 gap-2.5 text-left lg:text-[29px] md:text-[26px] sm:text-[22px] text-[#fff] ${className}`}
     >
       {/* Icône de fermeture en haut à droite */}
       <div className="self-stretch flex-1 overflow-hidden flex items-center justify-end pt-0 px-0 pb-0">
@@ -24,7 +24,7 @@ const DropdownMenuDevSelected = ({ className = "", onClose }) => {
         id="pageButton"
         href="/home"
       >
-        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer lg:text-[26px] sm:text-[22px]">
+        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer">
           HOME
         </b>
       </Link>
@@ -33,7 +33,7 @@ const DropdownMenuDevSelected = ({ className = "", onClose }) => {
         id="pageButton"
         href="/about"
       >
-        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer lg:text-[26px] sm:text-[22px]">
+        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer">
           ABOUT
         </b>
       </Link>
@@ -42,7 +42,7 @@ const DropdownMenuDevSelected = ({ className = "", onClose }) => {
         id="pageButton"
         href="/dev"
       >
-        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer lg:text-[26px] sm:text-[22px]">
+        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer">
           ▪ DEV
         </b>
       </Link>
@@ -51,7 +51,7 @@ const DropdownMenuDevSelected = ({ className = "", onClose }) => {
         id="pageButton"
         href="/arts"
       >
-        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer lg:text-[26px] sm:text-[22px]">
+        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer">
           ARTS
         </b>
       </Link>
@@ -60,7 +60,7 @@ const DropdownMenuDevSelected = ({ className = "", onClose }) => {
         id="pageButton"
         href="/contact"
       >
-        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer lg:text-[26px] sm:text-[22px]">
+        <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer">
           CONTACT
         </b>
       </Link>

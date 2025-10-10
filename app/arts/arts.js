@@ -8,13 +8,13 @@ const Arts = () => {
     <>
       <StickyNavigation currentPage="arts" />
       <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[74px] box-border gap-[123px] text-left text-[45px] text-[#fff] md:box-border">
-        <div className="self-stretch flex flex-col items-start gap-[33px]" id="header">
+        <div className="self-stretch flex flex-col items-start gap-[33px] sm:gap-[20px]" id="header">
           <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
               TOM EFFERNELLI
             </b>
           </div>
-          <div className="self-stretch h-[295px] flex flex-col items-start gap-2.5 text-[29px]">
+          <div className="self-stretch h-[295px] sm:h-[230px] flex flex-col items-start gap-2.5 sm:gap-1 text-[29px]">
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center text-xl">
               <Link
                 className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[29px] text-[inherit]"
