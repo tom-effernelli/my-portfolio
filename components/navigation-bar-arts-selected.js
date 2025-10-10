@@ -33,7 +33,7 @@ const NavigationBarArtsSelected = ({ className = "" }) => {
         >
       <Link href="/" className="w-[50px] lg:w-[45px] md:w-[40px] sm:w-[30px] relative bg-[#fff] box-border h-[50px] lg:h-[45px] md:h-[40px] sm:h-[30px] cursor-pointer" />
       <div className="flex items-center justify-center py-0 pl-[135px] lg:pl-[110px] md:pl-[90px] sm:pl-[60px] pr-[20px] gap-16 lg:gap-14 md:gap-12 sm:gap-8 lg:flex md:flex md:w-auto md:[align-self:unset] md:items-center md:justify-center md:pl-0 md:box-border sm:flex">
-        <div className="flex items-center justify-center md:hidden">
+        <div className="flex items-center justify-center md:hidden sm:hidden">
           <Link
             className="cursor-pointer [text-decoration:none] relative leading-[121.1%] font-medium text-[inherit]"
             id="pageButton"
@@ -42,7 +42,7 @@ const NavigationBarArtsSelected = ({ className = "" }) => {
             ABOUT
           </Link>
         </div>
-        <div className="flex items-center justify-center md:hidden">
+        <div className="flex items-center justify-center md:hidden sm:hidden">
           <Link
             className="cursor-pointer [text-decoration:none] relative leading-[121.1%] font-medium text-[inherit]"
             id="pageButton"
@@ -51,7 +51,7 @@ const NavigationBarArtsSelected = ({ className = "" }) => {
             DEV
           </Link>
         </div>
-        <div className="flex items-center justify-center md:hidden">
+        <div className="flex items-center justify-center md:hidden sm:hidden">
           <Link
             className="cursor-pointer relative leading-[121.1%] font-medium text-[inherit] underline"
             id="pageButton"
@@ -60,7 +60,7 @@ const NavigationBarArtsSelected = ({ className = "" }) => {
             ARTS
           </Link>
         </div>
-        <div className="flex items-center justify-center md:hidden">
+        <div className="flex items-center justify-center md:hidden sm:hidden">
           <Link
             className="cursor-pointer [text-decoration:none] relative leading-[121.1%] font-medium text-[inherit] md:block"
             id="pageButton"
@@ -70,7 +70,7 @@ const NavigationBarArtsSelected = ({ className = "" }) => {
           </Link>
         </div>
         <Image
-          className="w-[39px] lg:w-[36px] md:w-[32px] sm:w-[24px] relative h-[34px] lg:h-[30px] md:h-[28px] sm:h-[20px] hidden md:block md:cursor-pointer select-none"
+          className="w-[39px] lg:w-[36px] md:w-[32px] sm:w-[24px] relative h-[34px] lg:h-[30px] md:h-[28px] sm:h-[20px] hidden md:block md:cursor-pointer sm:block sm:cursor-pointer select-none"
           width={39}
           height={34}
           sizes="100vw"
