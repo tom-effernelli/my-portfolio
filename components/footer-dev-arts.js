@@ -36,9 +36,9 @@ const FooterDevArts = ({ className = "" }) => {
               HOME
             </b>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] sm:hidden md:hidden"
             id="pageButton"
             href="/dev"
           >
@@ -46,8 +46,8 @@ const FooterDevArts = ({ className = "" }) => {
               DEV
             </b>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-          <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+          <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
             <div className="flex items-center py-0 pl-[7px] pr-0 gap-5">
               <button
                 className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
@@ -74,9 +74,9 @@ const FooterDevArts = ({ className = "" }) => {
               ABOUT
             </b>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] sm:hidden md:hidden"
             id="sectionButton"
             href="/dev#tech-stack"
           >
@@ -84,8 +84,8 @@ const FooterDevArts = ({ className = "" }) => {
               Tech stack
             </div>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-          <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+          <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
             <button
               className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-xl [text-decoration:underline] leading-[121.1%] font-light text-[#fff] text-left inline-block lg:text-[17px] md:text-sm"
               id="socialsButton"
@@ -97,7 +97,7 @@ const FooterDevArts = ({ className = "" }) => {
         </div>
         <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] sm:hidden md:hidden"
             id="sectionButton"
             href="/about#who-am-i"
           >
@@ -106,7 +106,7 @@ const FooterDevArts = ({ className = "" }) => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] md:flex md:flex-1 sm:flex-1"
+            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] sm:flex sm:flex-1 md:flex md:flex-1"
             id="pageButton"
             href="/dev"
           >
@@ -114,9 +114,9 @@ const FooterDevArts = ({ className = "" }) => {
               DEV
             </b>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] sm:hidden md:hidden"
             id="sectionButton"
             href="/dev#projects"
           >
@@ -124,12 +124,12 @@ const FooterDevArts = ({ className = "" }) => {
               Projects
             </div>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
         </div>
         <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] sm:hidden md:hidden"
             id="sectionButton"
             href="/about#experience"
           >
@@ -138,7 +138,7 @@ const FooterDevArts = ({ className = "" }) => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] md:flex md:flex-1 sm:flex-1"
+            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] sm:flex sm:flex-1 md:flex md:flex-1"
             id="pageButton"
             href="/arts"
           >
@@ -146,9 +146,9 @@ const FooterDevArts = ({ className = "" }) => {
               ARTS
             </b>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] sm:hidden md:hidden"
             id="pageButton"
             href="/arts"
           >
@@ -156,12 +156,12 @@ const FooterDevArts = ({ className = "" }) => {
               ARTS
             </b>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
         </div>
         <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] sm:hidden md:hidden"
             id="sectionButton"
             href="/about#education"
           >
@@ -170,7 +170,7 @@ const FooterDevArts = ({ className = "" }) => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] md:flex md:flex-1 sm:flex-1"
+            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] sm:flex sm:flex-1 md:flex md:flex-1"
             id="pageButton"
             href="/contact"
           >
@@ -178,9 +178,9 @@ const FooterDevArts = ({ className = "" }) => {
               CONTACT
             </b>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] sm:hidden md:hidden"
             id="sectionButton"
             href="/arts#projects"
           >
@@ -188,12 +188,12 @@ const FooterDevArts = ({ className = "" }) => {
               Projects
             </div>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
         </div>
         <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] sm:hidden md:hidden"
             id="sectionButton"
             href="/about#resume"
           >
@@ -201,7 +201,7 @@ const FooterDevArts = ({ className = "" }) => {
               Resume
             </div>
           </Link>
-          <div className="self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer md:flex md:flex-1 md:cursor-auto sm:flex-1">
+          <div className="self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer sm:flex sm:flex-1 sm:cursor-auto md:flex md:flex-1 md:cursor-auto">
             <div className="flex items-center py-0 pl-[7px] pr-0 gap-5">
               <button
                 className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px]"
@@ -217,9 +217,9 @@ const FooterDevArts = ({ className = "" }) => {
               />
             </div>
           </div>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end text-[inherit] sm:hidden md:hidden"
             id="sectionButton"
             href="/arts#design-stack"
           >
@@ -227,12 +227,12 @@ const FooterDevArts = ({ className = "" }) => {
               Design Stack
             </div>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
         </div>
         <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
-          <div className="self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer md:flex md:flex-1 md:cursor-auto sm:flex sm:flex-1">
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
+          <div className="self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer sm:flex sm:flex-1 sm:cursor-auto md:flex md:flex-1 md:cursor-auto">
             <button
               className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-xl [text-decoration:underline] leading-[121.1%] font-light text-[#fff] text-left inline-block lg:text-[17px] md:text-sm"
               id="socialsButton"
@@ -241,9 +241,9 @@ const FooterDevArts = ({ className = "" }) => {
               Make my inbox a happy place
             </button>
           </div>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] md:hidden"
+            className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] sm:hidden md:hidden"
             id="pageButton"
             href="/contact"
           >
@@ -251,8 +251,8 @@ const FooterDevArts = ({ className = "" }) => {
               CONTACT
             </b>
           </Link>
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+          <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
         </div>
       </div>
     </div>

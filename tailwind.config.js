@@ -4,14 +4,14 @@ module.exports = {
   theme: {
     screens: {
       lg: {
-        min: "1200px",
+        min: "1024px",
       },
       md: {
-        min: "800px",
-        max: "1200px",
+        min: "768px",
+        max: "1024px",
       },
       sm: {
-        max: "800px",
+        max: "768px",
       },
     },
     extend: {
