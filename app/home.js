@@ -125,14 +125,14 @@ const Home = () => {
           <div className="absolute top-[830.5px] left-[32.5px] border-[#ed1c24] border-solid border-r-[3px] box-border w-[3px] h-[781px]" />
           <div className="absolute top-[1450px] left-[29px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
           <div className="absolute top-[976px] left-[29px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
-          <div className="absolute top-[1391.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border w-[949px] h-px lg:w-[700px]" />
-          <div className="absolute top-[1239.5px] left-[31.5px] border-[#494949] border-solid border-t-[1px] box-border w-[758px] h-px lg:w-[550px]" />
-          <div className="absolute top-[1361.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border w-[949px] h-px lg:w-[700px]" />
-          <div className="absolute top-[1209.5px] left-[31.5px] border-[#494949] border-solid border-t-[1px] box-border w-[729px] h-px lg:w-[500px]" />
-          <div className="absolute top-[1453.5px] left-[-1.5px] border-[#ed1c24] border-solid border-t-[3px] box-border w-[989px] h-[3px]" />
-          <div className="absolute top-[979.5px] left-[-1.5px] border-[#ed1c24] border-solid border-t-[3px] box-border w-[336px] h-[3px]" />
-          <div className="absolute top-[1453.5px] left-[984.5px] border-[#000] border-dashed border-t-[3px] box-border w-[101px] h-[3px]" />
-          <div className="absolute top-[979.5px] left-[343.5px] border-[#000] border-dashed border-t-[3px] box-border w-[376px] h-[3px]" />
+          <div className="absolute top-[1391.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[700px] lg:w-[949px] h-px lg:w-[700px]" />
+          <div className="absolute top-[1239.5px] left-[31.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[600px] lg:w-[758px] h-px lg:w-[550px]" />
+          <div className="absolute top-[1361.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[700px] lg:w-[949px] h-px lg:w-[700px]" />
+          <div className="absolute top-[1209.5px] left-[31.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[550px] lg:w-[729px] h-px lg:w-[500px]" />
+          <div className="absolute top-[1453.5px] left-[-1.5px] border-[#ed1c24] border-solid border-t-[3px] box-border md:w-[700px] lg:w-[989px] h-[3px]" />
+          <div className="absolute top-[979.5px] left-[-1.5px] border-[#ed1c24] border-solid border-t-[3px] box-border md:w-[200px] lg:w-[336px] h-[3px]" />
+          <div className="absolute top-[1453.5px] md:left-[700px] lg:left-[984.5px] border-[#000] border-dashed border-t-[3px] box-border w-[101px] h-[3px]" />
+          <div className="absolute top-[979.5px] md:left-[200px] lg:left-[343.5px] border-[#000] border-dashed border-t-[3px] box-border w-[376px] h-[3px]" />
           <Image
             className="absolute top-[820px] left-[24px] w-[21.2px] h-[21.2px] object-contain"
             width={21.2}
@@ -142,15 +142,15 @@ const Home = () => {
             src="/Group-16@2x.png"
           />
         </div>
-        <div className="self-stretch overflow-hidden flex items-start justify-between gap-0 z-[2] text-[150px]">
-          <div className="flex flex-col items-start gap-[180px] shrink-0 lg:w-auto lg:[align-self:unset] lg:pt-[130px] lg:box-border">
-            <div className="relative tracking-[-0.01em] leading-[103%] font-space-grotesk font-medium lg:text-[110px] lg:w-auto lg:[align-self:unset] sm:text-[50px]">
+        <div className="self-stretch overflow-hidden flex items-start justify-between gap-0 z-[2]">
+          <div className="flex flex-col items-start md:gap-[190px] lg:gap-[165px] shrink-0 lg:w-auto lg:[align-self:unset] md:pt-[140px] lg:pt-[50px] lg:box-border">
+            <div className="relative tracking-[-0.01em] leading-[103%] font-space-grotesk font-medium lg:text-[140px] lg:w-auto lg:[align-self:unset] md:text-[110px]">
               <p className="m-0">DEVELOPER,</p>
               <p className="m-0">DESIGNER,</p>
               <p className="m-0">CS STUDENT.</p>
             </div>
             <div className="self-stretch flex items-center justify-center text-5xl lg:pt-5 lg:box-border">
-              <div className="flex-1 relative leading-[51px] font-light lg:text-3xl lg:leading-[45px] lg:self-stretch lg:h-auto md:leading-[48px]">
+              <div className="flex-1 relative leading-[51px] font-light md:text-[35px] lg:text-3xl lg:leading-[45px] lg:self-stretch lg:h-auto md:leading-[48px]">
                 <p className="m-0">Hello, welcome to my website!</p>
                 <p className="m-0">&nbsp;</p>
                 <p className="m-0">Here you'll find info about me and</p>
@@ -161,7 +161,7 @@ const Home = () => {
             </div>
           </div>
           <Image
-            className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover min-w-[1122px] min-h-[950px] shrink-0 md:hidden"
+            className="relative max-w-full overflow-hidden h-auto max-h-[2000px] object-cover min-w-[1122px] min-h-[950px] shrink-0 md:hidden"
             width={1122}
             height={950}
             sizes="100vw"
@@ -182,7 +182,7 @@ const Home = () => {
                 <div className="self-stretch relative text-[50px] leading-[121%] font-medium font-space-grotesk">
                   TOP5 WINNING HACKATHON PROJECT
                 </div>
-                <div className="self-stretch relative text-[35px] leading-[121%] lg:hidden">
+                <div className="self-stretch relative text-[35px] leading-[121%] sm:hidden">
                   VibeMatch is a plateform designed to improve connection between
                   content creators and sponsors.
                 </div>
@@ -211,7 +211,7 @@ const Home = () => {
                 <div className="self-stretch relative text-[50px] leading-[121%] font-medium font-space-grotesk">
                   2ND POSITION GAMEJAM PROJECT
                 </div>
-                <div className="self-stretch relative text-[35px] leading-[121%] lg:hidden">
+                <div className="self-stretch relative text-[35px] leading-[121%] sm:hidden">
                   The Sound of Silence is a game where you explore a mansion,
                   trying not to go insane.
                 </div>
