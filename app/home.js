@@ -61,7 +61,7 @@ const Home = () => {
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[15px]">
-                  <p className="m-0">Honnestly, I don't know what to put</p>
+                  <p className="m-0">Honnestly I don't know what to put</p>
                   <p className="m-0">here. It just needed to be filled.</p>
                 </div>
               </div>
