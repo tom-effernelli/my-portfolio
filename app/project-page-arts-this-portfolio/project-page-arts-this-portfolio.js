@@ -59,7 +59,7 @@ const ProjectPageArtsThisPortfolio = () => {
                   </a>{" "}
                   clouds weight ~1Mt?
                 </p>
-                <p className="m-0">Anyways, take a tour on my website!</p>
+                <p className="m-0">Anyways take a tour on my website!</p>
               </div>
             </div>
             <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
