@@ -123,16 +123,16 @@ const Home = () => {
         <div className="w-[1084px] absolute !!m-[0 important] top-[0px] left-[23px] h-[5000px] pointer-events-none">
           <div className="absolute top-[-1.5px] left-[32.5px] border-[#000] border-dashed border-r-[3px] box-border w-[3px] h-[5003px]" />
           <div className="absolute top-[830.5px] left-[32.5px] border-[#ed1c24] border-solid border-r-[3px] box-border w-[3px] h-[781px]" />
-          <div className="absolute top-[1450px] left-[29px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
-          <div className="absolute top-[976px] left-[29px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
-          <div className="absolute top-[1391.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[700px] lg:w-[949px] h-px lg:w-[700px]" />
-          <div className="absolute top-[1239.5px] left-[31.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[600px] lg:w-[758px] h-px lg:w-[550px]" />
-          <div className="absolute top-[1361.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[700px] lg:w-[949px] h-px lg:w-[700px]" />
-          <div className="absolute top-[1209.5px] left-[31.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[550px] lg:w-[729px] h-px lg:w-[500px]" />
-          <div className="absolute top-[1453.5px] left-[-1.5px] border-[#ed1c24] border-solid border-t-[3px] box-border md:w-[700px] lg:w-[989px] h-[3px]" />
-          <div className="absolute top-[979.5px] left-[-1.5px] border-[#ed1c24] border-solid border-t-[3px] box-border md:w-[200px] lg:w-[336px] h-[3px]" />
-          <div className="absolute top-[1453.5px] md:left-[700px] lg:left-[984.5px] border-[#000] border-dashed border-t-[3px] box-border w-[101px] h-[3px]" />
-          <div className="absolute top-[979.5px] md:left-[200px] lg:left-[343.5px] border-[#000] border-dashed border-t-[3px] box-border w-[376px] h-[3px]" />
+          <div className="absolute md:top-[1350px] lg:top-[1450px] left-[29px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
+          <div className="absolute md:top-[876px] lg:top-[976px] left-[29px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
+          <div className="absolute md:top-[1291.5px] lg:top-[1391.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[700px] lg:w-[949px] h-px lg:w-[700px]" />
+          <div className="absolute md:top-[1139.5px] lg:top-[1239.5px] left-[31.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[600px] lg:w-[758px] h-px lg:w-[550px]" />
+          <div className="absolute md:top-[1261.5px] lg:top-[1361.5px] left-[37.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[700px] lg:w-[949px] h-px lg:w-[700px]" />
+          <div className="absolute md:top-[1109.5px] lg:top-[1209.5px] left-[31.5px] border-[#494949] border-solid border-t-[1px] box-border md:w-[550px] lg:w-[729px] h-px lg:w-[500px]" />
+          <div className="absolute md:top-[1353.5px] lg:top-[1453.5px] left-[-1.5px] border-[#ed1c24] border-solid border-t-[3px] box-border md:w-[700px] lg:w-[989px] h-[3px]" />
+          <div className="absolute md:top-[879.5px] lg:top-[979.5px] left-[-1.5px] border-[#ed1c24] border-solid border-t-[3px] box-border md:w-[200px] lg:w-[336px] h-[3px]" />
+          <div className="absolute md:top-[1353.5px] lg:top-[1453.5px] md:left-[700px] lg:left-[984.5px] border-[#000] border-dashed border-t-[3px] box-border w-[101px] h-[3px]" />
+          <div className="absolute md:top-[879.5px] lg:top-[979.5px] md:left-[200px] lg:left-[343.5px] border-[#000] border-dashed border-t-[3px] box-border w-[376px] h-[3px]" />
           <Image
             className="absolute top-[820px] left-[24px] w-[21.2px] h-[21.2px] object-contain"
             width={21.2}
@@ -143,7 +143,7 @@ const Home = () => {
           />
         </div>
         <div className="self-stretch overflow-hidden flex items-start justify-between gap-0 z-[2]">
-          <div className="flex flex-col items-start md:gap-[190px] lg:gap-[165px] shrink-0 lg:w-auto lg:[align-self:unset] md:pt-[140px] lg:pt-[50px] lg:box-border">
+          <div className="flex flex-col items-start md:gap-[190px] lg:gap-[165px] shrink-0 lg:w-auto lg:[align-self:unset] md:pt-[40px] lg:pt-[50px] lg:box-border">
             <div className="relative tracking-[-0.01em] leading-[103%] font-space-grotesk font-medium lg:text-[140px] lg:w-auto lg:[align-self:unset] md:text-[110px]">
               <p className="m-0">DEVELOPER,</p>
               <p className="m-0">DESIGNER,</p>
