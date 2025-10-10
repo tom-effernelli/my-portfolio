@@ -21,15 +21,15 @@ const Home = () => {
                   ▪ HOME
                 </b>
               </div>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
                 <div className="self-stretch relative leading-[121.1%] font-light lg:text-[15px]">
                   <p className="m-0">Hello there!</p>
                   <p className="m-0">Welcome on my personnal website.</p>
                 </div>
               </div>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[15px]">
                   <p className="m-0">Open to new opportunities,</p>
                   <p className="m-0">feel free to reach out!</p>
@@ -46,8 +46,8 @@ const Home = () => {
                   ABOUT
                 </b>
               </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[15px]">
                   <p className="m-0">
                     <a href="https://www.sciencefocus.com/planet-earth/how-much-does-a-cloud-weigh" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
@@ -58,10 +58,10 @@ const Home = () => {
                   <p className="m-0">Anyways, take a tour on my website!</p>
                 </div>
               </div>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[15px]">
-                  <p className="m-0">Honnestly, I don’t know what to put</p>
+                  <p className="m-0">Honnestly, I don't know what to put</p>
                   <p className="m-0">here. It just needed to be filled.</p>
                 </div>
               </div>
@@ -76,10 +76,10 @@ const Home = () => {
                   DEV
                 </b>
               </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[22px]">
                   {(() => {
                     const timestamp = Date.now().toString();
@@ -98,10 +98,10 @@ const Home = () => {
                   ARTS
                 </b>
               </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
             </div>
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
               <Link
@@ -113,10 +113,10 @@ const Home = () => {
                   CONTACT
                 </b>
               </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
             </div>
           </div>
         </div>
