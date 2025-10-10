@@ -36,7 +36,9 @@ const Contact = () => {
                 id="pageButton"
                 href="/"
               >
-                <b className="self-stretch relative leading-[121.1%]">HOME</b>
+                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+                  HOME
+                </b>
               </Link>
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
