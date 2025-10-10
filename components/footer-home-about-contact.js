@@ -91,7 +91,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
               id="socialsButton"
               onClick={onMakeMyInboxClick}
             >
-              Make my inbox a happy place
+              Make my inbox a happy place!
             </button>
           </div>
         </div>
@@ -238,7 +238,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
               id="socialsButton"
               onClick={onMakeMyInboxClick}
             >
-              Make my inbox a happy place
+              Make my inbox a happy place!
             </button>
           </div>
           <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
