@@ -229,34 +229,62 @@ const About = () => {
                   <table className="w-full border-collapse border border-black">
                     <tbody>
                       <tr>
-                        <td className="border border-black p-2 text-center text-sm">1</td>
-                        <td className="border border-black p-2 text-center text-sm">2</td>
-                        <td className="border border-black p-2 text-center text-sm">3</td>
-                        <td className="border border-black p-2 text-center text-sm">4</td>
+                        <td className="border border-black p-2 text-center text-sm">Event</td>
+                        <td className="border border-black p-2 text-center text-sm">Project Repo</td>
+                        <td className="border border-black p-2 text-center text-sm">App</td>
+                        <td className="border border-black p-2 text-center text-sm">Prize</td>
                       </tr>
                       <tr>
-                        <td className="border border-black p-2 text-center text-sm">5</td>
-                        <td className="border border-black p-2 text-center text-sm">6</td>
-                        <td className="border border-black p-2 text-center text-sm">7</td>
-                        <td className="border border-black p-2 text-center text-sm">8</td>
+                        <td className="border border-black p-2 text-center text-sm">Sorbonne Université GameJam</td>
+                        <td className="border border-black p-2 text-center text-sm">
+                        <a href="https://github.com/tom-effernelli/gamejam-psu-the-sound-of-silence" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+                          The Sound of Silence
+                        </a>
+                        </td>
+                        <td className="border border-black p-2 text-center text-sm">
+                        <a href="https://gamejam-psu-the-sound-of-silence.vercel.app/ " target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+                          Try it here!
+                        </a>
+                        </td>
+                        <td className="border border-black p-2 text-center text-sm">2nd position</td>
                       </tr>
                       <tr>
-                        <td className="border border-black p-2 text-center text-sm">9</td>
-                        <td className="border border-black p-2 text-center text-sm">10</td>
-                        <td className="border border-black p-2 text-center text-sm">11</td>
-                        <td className="border border-black p-2 text-center text-sm">12</td>
+                        <td className="border border-black p-2 text-center text-sm">Manus Hackathon</td>
+                        <td className="border border-black p-2 text-center text-sm">
+                        <a href="https://github.com/tom-effernelli/hackathon-manus-virtual-theremin" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+                          Virtual Theremine
+                        </a>
+                        </td>
+                        <td className="border border-black p-2 text-center text-sm">
+                        <a href="https://hackathon-manus-virtual-theremin.vercel.app/" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+                          Try it here!
+                        </a>
+                        </td>
+                        <td className="border border-black p-2 text-center text-sm">-</td>
                       </tr>
                       <tr>
-                        <td className="border border-black p-2 text-center text-sm">13</td>
-                        <td className="border border-black p-2 text-center text-sm">14</td>
-                        <td className="border border-black p-2 text-center text-sm">15</td>
-                        <td className="border border-black p-2 text-center text-sm">16</td>
+                        <td className="border border-black p-2 text-center text-sm">Shipfast Hackathon (@ Ecole 42, featuring Lovable, Anthropic, Cerebras, Windsurf)</td>
+                        <td className="border border-black p-2 text-center text-sm">
+                        <a href="https://github.com/tom-effernelli/hackathon-shipfast-caresync" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+                          CareSync
+                        </a>
+                        </td>
+                        <td className="border border-black p-2 text-center text-sm">
+                        <a href="https://hackathon-shipfast-caresync.vercel.app/" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+                          Try it here!
+                        </a>
+                        </td>
+                        <td className="border border-black p-2 text-center text-sm">Finalists (top-5)</td>
                       </tr>
                       <tr>
-                        <td className="border border-black p-2 text-center text-sm">17</td>
-                        <td className="border border-black p-2 text-center text-sm">18</td>
-                        <td className="border border-black p-2 text-center text-sm">19</td>
-                        <td className="border border-black p-2 text-center text-sm">20</td>
+                        <td className="border border-black p-2 text-center text-sm">VibeMatch</td>
+                        <td className="border border-black p-2 text-center text-sm">Private repo</td>
+                        <td className="border border-black p-2 text-center text-sm">
+                        <a href="https://vibematch.tech/" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
+                          Try it here!
+                        </a>
+                        </td>
+                        <td className="border border-black p-2 text-center text-sm">top-5</td>
                       </tr>
                     </tbody>
                   </table>
