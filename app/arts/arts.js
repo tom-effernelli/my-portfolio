@@ -161,7 +161,7 @@ const Arts = () => {
             PROJECTS:
           </div>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px]"
             id="pojectPageButton"
             href="/project-page-arts-this-portfolio"
           >
@@ -169,7 +169,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
                 THIS PORTFOLIO
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] whitespace-pre-wrap lg:text-3xl md:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] whitespace-pre-wrap lg:text-3xl sm:hidden">
                 I spent all my summer on this project, which aims to better
                 highlight my work. LinkedIn is just messy when it comes to
                 showcase dev work, and not made at all to shocase design work.
@@ -178,18 +178,18 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px]"
             id="pojectPageButton"
             href="/project-page-arts-vibematch"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium md:text-6xl">
                 VIBEMATCH
               </div>
-              <div className="self-stretch relative text-[50px] leading-[121%] font-space-grotesk font-medium">
+              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
                 VibeMatch is a plateform designed to improve connection between
                 content creators and sponsors. Check out the promotion video I
                 created for this occasion!
@@ -197,18 +197,18 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px]"
             id="pojectPageButton"
             href="/project-page-arts-t-s-o-s"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
-                THE SOUND OF SILENCE
+                T.S.O.S
               </div>
-              <div className="self-stretch relative text-[50px] leading-[121%] font-space-grotesk font-medium">
+              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium">
                 2ND POSITION GAMEJAM PROJECT
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
                 The Sound of Silence is a game where you explore a mansion, trying
                 not to go insane. Creating the design was pretty fun and taught me
                 a lot of things about tilemapping.
@@ -216,7 +216,7 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px]"
             id="pojectPageButton"
             href="/project-page-arts-instagram-account2"
           >
@@ -224,7 +224,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
                 INSTAGRAM ACCOUNT - 2
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
                 This Instagram account I designed was for my engineering school,
                 in order to help new students make their decision upon which
                 school to choose, presenting all the benefits of mine...
@@ -232,7 +232,7 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px]"
             id="pojectPageButton"
             href="/project-page-arts-caresync"
           >
@@ -240,10 +240,10 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
                 CARESYNC
               </div>
-              <div className="self-stretch relative text-[50px] leading-[121%] font-space-grotesk font-medium">
+              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
                 A hackathon project to make medical healthcare systems such as
                 hospitals more efficient, working on the patient priority sorting
                 process. Check out the demo video!
@@ -251,7 +251,7 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px]"
             id="pojectPageButton"
             href="/project-page-arts-instagram-account1"
           >
@@ -259,7 +259,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
                 INSTAGRAM ACCOUNT - 1
               </div>
-              <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
                 This Instagram account I designed with some other teammates too
                 was created during the student board election campaign I took part
                 in. I was in charge of all the communication processes.
