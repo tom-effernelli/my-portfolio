@@ -6,7 +6,7 @@ const Dev = () => {
   return (
     <>
       <StickyNavigation currentPage="dev" />
-      <div className="dev-page w-full relative overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[74px] box-border gap-[183px] bg-[url('/Dev@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[45px] text-[#fff] lg:gap-[140px] md:gap-[100px] md:box-border">
+      <div className="dev-page w-full relative overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[74px] box-border gap-[183px] bg-[url('/Dev@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[45px] text-[#fff] lg:gap-[140px] md:gap-[100px] sm:gap-[70px] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px] sm:gap-[20px]" id="header">
           <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
@@ -127,7 +127,7 @@ const Dev = () => {
             <p className="m-0 whitespace-pre-wrap">{`   ██    ██      ██      ██   ██          ██    ██    ██   ██ ██      ██  ██  `}</p>
             <p className="m-0 whitespace-pre-wrap">{`   ██    ███████  ██████ ██   ██     ███████    ██    ██   ██  ██████ ██   ██ `}</p>
           </div>
-          <div className="self-stretch relative text-3xl leading-[121.1%] lg:text-[25px] md:text-xl">
+          <div className="self-stretch relative text-3xl leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px]">
             <p className="m-0">
               I’m mainly a frontend web developer, although I also work on
               projects outside web development (such as video game development).
@@ -149,7 +149,7 @@ const Dev = () => {
           </div>
         </div>
         <div className="self-stretch flex flex-col items-center py-0 pl-[171px] pr-0 gap-[63px] text-right text-[32px] md:pl-[130px] md:box-border sm:pl-[71px] sm:box-border font-[Consolas]" id="projects">
-          <div className="self-stretch relative text-xl leading-[121.1%] lg:text-[15px] md:text-[10px] md:h-auto">
+          <div className="self-stretch relative text-xl leading-[121.1%] lg:text-[15px] md:text-[10px] sm:text-[10px]">
             <p className="m-0 whitespace-pre-wrap">{`██████  ██████   ██████       ██ ███████  ██████ ████████ ███████ `}</p>
             <p className="m-0 whitespace-pre-wrap">{`██   ██ ██   ██ ██    ██      ██ ██      ██         ██    ██      `}</p>
             <p className="m-0 whitespace-pre-wrap">{`██████  ██████  ██    ██      ██ █████   ██         ██    ███████ `}</p>
@@ -157,7 +157,7 @@ const Dev = () => {
             <p className="m-0 whitespace-pre-wrap">{`██      ██   ██  ██████   █████  ███████  ██████    ██    ███████ `}</p>
           </div>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl"
+            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px]"
             id="projectpageButton"
             href="/project-page-dev-this-portfolio"
           >
@@ -171,7 +171,7 @@ const Dev = () => {
             </p>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl"
+            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px]"
             id="projectpageButton"
             href="/project-page-dev-vibematch"
           >
@@ -186,7 +186,7 @@ const Dev = () => {
             </p>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl"
+            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px]"
             id="projectpageButton"
             href="/project-page-dev-t-s-o-s"
           >
@@ -201,7 +201,7 @@ const Dev = () => {
             </p>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl"
+            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px]"
             id="projectpageButton"
             href="/project-page-dev-caresync"
           >
