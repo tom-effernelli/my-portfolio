@@ -225,7 +225,42 @@ const About = () => {
                   <div className="w-[27px] md:w-[22px] sm:w-[18px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px] md:h-[22px] sm:h-[18px] shrink-0" />
                   <div className="relative font-semibold md:text-[25px] sm:text-xl">{`Hackathons & GameJams`}</div>
                 </div>
-                <div className="self-stretch h-[387px] flex flex-col items-start py-0 pl-[50px] pr-0 box-border" />
+                <div className="self-stretch flex flex-col items-start py-0 pl-[50px] pr-0 pt-[20px]">
+                  <table className="w-full border-collapse border border-black">
+                    <tbody>
+                      <tr>
+                        <td className="border border-black p-2 text-center text-sm">1</td>
+                        <td className="border border-black p-2 text-center text-sm">2</td>
+                        <td className="border border-black p-2 text-center text-sm">3</td>
+                        <td className="border border-black p-2 text-center text-sm">4</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-black p-2 text-center text-sm">5</td>
+                        <td className="border border-black p-2 text-center text-sm">6</td>
+                        <td className="border border-black p-2 text-center text-sm">7</td>
+                        <td className="border border-black p-2 text-center text-sm">8</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-black p-2 text-center text-sm">9</td>
+                        <td className="border border-black p-2 text-center text-sm">10</td>
+                        <td className="border border-black p-2 text-center text-sm">11</td>
+                        <td className="border border-black p-2 text-center text-sm">12</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-black p-2 text-center text-sm">13</td>
+                        <td className="border border-black p-2 text-center text-sm">14</td>
+                        <td className="border border-black p-2 text-center text-sm">15</td>
+                        <td className="border border-black p-2 text-center text-sm">16</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-black p-2 text-center text-sm">17</td>
+                        <td className="border border-black p-2 text-center text-sm">18</td>
+                        <td className="border border-black p-2 text-center text-sm">19</td>
+                        <td className="border border-black p-2 text-center text-sm">20</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
               <div className="w-[3px] absolute !!m-[0 important] top-[-26.5px] left-[13.5px] md:left-[12.5px] sm:left-[11.5px] bg-[#000] border-[#000] border-solid border-r-[3px] box-border h-[1824px] z-[2]" />
             </div>
