@@ -135,7 +135,7 @@ const About = () => {
         <div className="self-stretch flex items-center text-right">
           <div className="flex-1 flex flex-col items-center sm:w-[200px]">
             <Image
-              className="self-stretch relative max-w-full overflow-hidden max-h-full object-contain sm:w-[200px] sm:h-[200px] sm:max-h-[350px]"
+              className="self-stretch relative max-w-full overflow-hidden max-h-full object-contain sm:w-[200px] sm:h-[200px] sm:max-h-[350px] lg:max-h-[400px]"
               width={638}
               height={517.7}
               sizes="100vw"
@@ -143,7 +143,7 @@ const About = () => {
               src="/unblurred-Chrome-star@2x.png"
             />
             <Image
-              className="w-48 relative max-h-full object-contain sm:w-[50px] sm:h-[100px] sm:max-h-[100px]"
+              className="w-48 relative max-h-full object-contain sm:max-h-[100px] md:max-h-[150px] lg:max-h-[200px]"
               width={192}
               height={267}
               sizes="100vw"
@@ -153,12 +153,12 @@ const About = () => {
           </div>
           <div className="flex-[0.9687] border-[#000] border-dashed border-r-[2px] flex flex-col items-end py-0 pl-0 pr-[18px] gap-[33px]" id="who-am-i">
             <div className="w-full flex flex-col items-start max-w-[568px]">
-              <div className="w-full relative leading-[121.1%] font-medium inline-block max-w-[568px] lg:text-[80px] md:text-[70px] sm:text-[70px] font-space-grotesk">
+              <div className="w-full relative leading-[121.1%] font-medium inline-block max-w-[568px] lg:text-[80px] md:text-[70px] sm:text-[50px] font-space-grotesk">
                 WHO AM I?
               </div>
               <div className="self-stretch relative border-[#000] border-dashed border-t-[2px] box-border h-[11px] overflow-hidden shrink-0" />
             </div>
-            <div className="self-stretch relative text-3xl lg:text-[25px] md:text-xl">
+            <div className="self-stretch relative text-3xl lg:text-[25px] md:text-xl sm:text-[15px]">
               <p className="m-0">
                 <span className="leading-[180%]">
                   I’m both a computer science engineering student at Télécom Paris
@@ -206,7 +206,7 @@ const About = () => {
             <div className="self-stretch flex flex-col items-start relative gap-14 text-3xl">
               <div className="self-stretch flex flex-col items-start gap-[19px] z-[0]">
                 <div className="flex items-center gap-[19px]">
-                  <div className="w-[27px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px]" />
+                  <div className="w-[27px] md:w-[22px] sm:w-[18px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px] md:h-[22px] sm:h-[18px] shrink-0" />
                   <div className="relative font-semibold lg:text-3xl md:text-[25px] sm:text-xl">{`CTO & Co-Founder of VibeMatch`}</div>
                 </div>
                 <div className="self-stretch flex items-center py-0 pl-[50px] pr-0 text-[25px]">
@@ -222,12 +222,12 @@ const About = () => {
               </div>
               <div className="self-stretch flex flex-col items-start gap-2 z-[1]">
                 <div className="self-stretch flex items-center gap-[19px]">
-                  <div className="w-[27px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px]" />
+                  <div className="w-[27px] md:w-[22px] sm:w-[18px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px] md:h-[22px] sm:h-[18px] shrink-0" />
                   <div className="relative font-semibold md:text-[25px] sm:text-xl">{`Hackathons & GameJams`}</div>
                 </div>
                 <div className="self-stretch h-[387px] flex flex-col items-start py-0 pl-[50px] pr-0 box-border" />
               </div>
-              <div className="w-[3px] absolute !!m-[0 important] top-[-26.5px] left-[11.5px] bg-[#000] border-[#000] border-solid border-r-[3px] box-border h-[1824px] z-[2]" />
+              <div className="w-[3px] absolute !!m-[0 important] top-[-26.5px] left-[13.5px] md:left-[12.5px] sm:left-[11.5px] bg-[#000] border-[#000] border-solid border-r-[3px] box-border h-[1824px] z-[2]" />
             </div>
           </div>
           <Image
@@ -241,7 +241,7 @@ const About = () => {
         </div>
         <div className="self-stretch overflow-hidden flex items-center justify-between relative gap-0 text-right" id="education">
           <Image
-            className="flex-1 relative max-w-[333px] overflow-hidden max-h-[325px] object-contain z-[0] shrink-0"
+            className="flex-1 relative max-w-[333px] overflow-hidden max-h-[325px] object-contain z-[0] shrink-0 md:max-h-[250px] sm:max-h-[130px]"
             width={333}
             height={325}
             sizes="100vw"
@@ -255,10 +255,10 @@ const About = () => {
             <div className="self-stretch flex flex-col items-start gap-14 text-3xl">
               <div className="self-stretch flex flex-col items-end gap-[19px]">
                 <div className="flex items-center justify-end gap-[19px] md:gap-[19px] md:items-center md:justify-end">
-                  <div className="w-[501px] relative font-semibold flex items-center h-9 shrink-0 lg:text-3xl lg:w-auto lg:[align-self:unset] md:text-[25px] md:w-auto md:[align-self:unset] sm:text-xl">
+                  <div className="w-[501px] relative font-semibold flex items-center h-9 shrink-0 lg:text-3xl w-auto md:text-[25px] md:w-auto sm:text-[20px] [align-self:unset]">
                     Grande Ecole Engineering Diploma
                   </div>
-                  <div className="w-[27px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px]" />
+                  <div className="w-[27px] md:w-[22px] sm:w-[18px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px] md:h-[22px] sm:h-[18px] shrink-0" />
                 </div>
                 <div className="self-stretch flex items-center justify-end py-0 pl-0 pr-[50px] text-[25px]">
                   <div className="flex-1 relative lg:text-[25px] md:text-xl sm:text-[15px]">
@@ -283,7 +283,7 @@ const About = () => {
                   <div className="relative font-semibold lg:text-3xl md:text-[25px] sm:text-xl">
                     B.Sc. in Mathematics
                   </div>
-                  <div className="w-[27px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px]" />
+                  <div className="w-[27px] md:w-[22px] sm:w-[18px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px] md:h-[22px] sm:h-[18px] shrink-0" />
                 </div>
                 <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[50px] text-right text-[25px]">
                   <div className="self-stretch relative lg:text-[25px] md:text-xl sm:text-[15px]">
@@ -307,7 +307,7 @@ const About = () => {
                     <p className="m-0">Preparatory Classes in Mathematics,</p>
                     <p className="m-0">Physics and Computer Sciences</p>
                   </div>
-                  <div className="w-[27px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px]" />
+                  <div className="w-[27px] md:w-[22px] sm:w-[18px] relative rounded-[50%] bg-[#000] border-[#000] border-solid border-[1px] box-border h-[27px] md:h-[22px] sm:h-[18px] shrink-0" />
                 </div>
                 <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[50px] text-[25px]">
                   <div className="self-stretch relative lg:text-[25px] md:text-xl sm:text-[15px]">
@@ -357,9 +357,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="w-[3px] absolute !!m-[0 important] top-[140.5px] right-[11.5px] bg-[#000] border-[#000] border-solid border-r-[3px] box-border h-[1917px] z-[2] shrink-0" />
+          <div className="w-[3px] absolute !!m-[0 important] top-[110px] md:top-[100px] sm:top-[80px] right-[13.5px] md:right-[12.5px] sm:right-[11.5px] bg-[#000] border-[#000] border-solid border-r-[3px] box-border h-[1917px] md:h-[1500px] sm:h-[1200px] z-[2] shrink-0" />
         </div>
-        <div className="self-stretch flex items-center p-2.5 lg:text-[27px] md:text-[24px]" id="resume">
+        <div className="self-stretch flex items-center p-2.5 lg:text-[27px] md:text-[24px] sm:text-[20px]" id="resume">
           <div className="relative font-semibold">
             {`You can find my complete resume `}
             <button
