@@ -157,7 +157,7 @@ const Arts = () => {
           />
         </div>
         <div className="self-stretch flex flex-col items-end gap-[61px] text-[100px] md:gap-5" id="projects">
-          <div className="self-stretch relative text-[130px] leading-[121.1%] font-space-grotesk font-medium text-right lg:text-[100px] md:text-[80px] sm:text-[60px] md:h-auto">
+          <div className="self-stretch relative text-[130px] leading-[121.1%] font-space-grotesk font-medium text-right lg:text-[100px] md:text-[80px] sm:text-[70px] md:h-auto">
             PROJECTS:
           </div>
           <Link
