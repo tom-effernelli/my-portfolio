@@ -135,7 +135,7 @@ const About = () => {
         <div className="self-stretch flex items-center text-right">
           <div className="flex-1 flex flex-col items-center sm:w-[200px]">
             <Image
-              className="self-stretch relative max-w-full overflow-hidden max-h-full object-cover sm:w-[200px] sm:h-[200px] sm:max-h-[350px]"
+              className="self-stretch relative max-w-full overflow-hidden max-h-full object-contain sm:w-[200px] sm:h-[200px] sm:max-h-[350px]"
               width={638}
               height={517.7}
               sizes="100vw"
@@ -143,7 +143,7 @@ const About = () => {
               src="/unblurred-Chrome-star@2x.png"
             />
             <Image
-              className="w-48 relative max-h-full object-cover sm:w-[50px] sm:h-[100px] sm:max-h-[100px]"
+              className="w-48 relative max-h-full object-contain sm:w-[50px] sm:h-[100px] sm:max-h-[100px]"
               width={192}
               height={267}
               sizes="100vw"
@@ -231,7 +231,7 @@ const About = () => {
             </div>
           </div>
           <Image
-            className="flex-1 relative max-w-[379px] overflow-hidden max-h-[331px] object-cover lg:h-[250px] lg:max-w-[286px]"
+            className="flex-1 relative max-h-[331px] object-contain pl-[20px] lg:max-w-[286px] md:max-w-[250px] sm:max-w-[130px]"
             width={379}
             height={331}
             sizes="100vw"
@@ -241,7 +241,7 @@ const About = () => {
         </div>
         <div className="self-stretch overflow-hidden flex items-center justify-between relative gap-0 text-right" id="education">
           <Image
-            className="flex-1 relative max-w-[333px] overflow-hidden max-h-[325px] object-cover z-[0] shrink-0"
+            className="flex-1 relative max-w-[333px] overflow-hidden max-h-[325px] object-contain z-[0] shrink-0"
             width={333}
             height={325}
             sizes="100vw"
@@ -359,8 +359,8 @@ const About = () => {
           </div>
           <div className="w-[3px] absolute !!m-[0 important] top-[140.5px] right-[11.5px] bg-[#000] border-[#000] border-solid border-r-[3px] box-border h-[1917px] z-[2] shrink-0" />
         </div>
-        <div className="self-stretch flex items-center p-2.5 text-3xl" id="resume">
-          <div className="relative font-semibold md:text-xl">
+        <div className="self-stretch flex items-center p-2.5 lg:text-[27px] md:text-[24px]" id="resume">
+          <div className="relative font-semibold">
             {`You can find my complete resume `}
             <button
               className="cursor-pointer [border:none] p-0 bg-[transparent] [text-decoration:underline] text-[inherit] text-left inline-block"
