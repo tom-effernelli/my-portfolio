@@ -157,16 +157,16 @@ const Arts = () => {
           />
         </div>
         <div className="self-stretch flex flex-col items-end gap-[61px] text-[100px] md:gap-5" id="projects">
-          <div className="self-stretch relative text-[130px] leading-[121.1%] font-space-grotesk font-medium text-right lg:text-[100px] md:text-[80px] md:h-auto">
+          <div className="self-stretch relative text-[130px] leading-[121.1%] font-space-grotesk font-medium text-right lg:text-[100px] md:text-[80px] sm:text-[60px] md:h-auto">
             PROJECTS:
           </div>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px]"
             id="pojectPageButton"
             href="/project-page-arts-this-portfolio"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 THIS PORTFOLIO
               </div>
               <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] whitespace-pre-wrap lg:text-3xl sm:hidden">
@@ -178,15 +178,15 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px]"
             id="pojectPageButton"
             href="/project-page-arts-vibematch"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium md:text-6xl sm:text-[60px]">
                 VIBEMATCH
               </div>
-              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium">
+              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium sm:hidden">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
               <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
@@ -197,15 +197,15 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px]"
             id="pojectPageButton"
             href="/project-page-arts-t-s-o-s"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 T.S.O.S
               </div>
-              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium">
+              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium sm:hidden">
                 2ND POSITION GAMEJAM PROJECT
               </div>
               <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
@@ -216,12 +216,12 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px]"
             id="pojectPageButton"
             href="/project-page-arts-instagram-account2"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 INSTAGRAM ACCOUNT - 2
               </div>
               <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
@@ -232,15 +232,15 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px]"
             id="pojectPageButton"
             href="/project-page-arts-caresync"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 CARESYNC
               </div>
-              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium">
+              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium sm:hidden">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
               <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
@@ -251,12 +251,12 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px]"
             id="pojectPageButton"
             href="/project-page-arts-instagram-account1"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 INSTAGRAM ACCOUNT - 1
               </div>
               <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
