@@ -10,12 +10,36 @@ const ProjectPageArtsInstagramAccount1 = () => {
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
   
   const mediaItems = [
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342362/6_ga9hko.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342361/5_o6qils.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342361/4_abmo2u.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342360/3_ph8zei.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342360/2_qbdzhg.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342363/7_z1magy.png'},
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342362/6_ga9hko.png',
+      alt: 'Post Instagram 1 - Compte Instagram'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342361/5_o6qils.png',
+      alt: 'Post Instagram 2 - Compte Instagram'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342361/4_abmo2u.png',
+      alt: 'Post Instagram 3 - Compte Instagram'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342360/3_ph8zei.png',
+      alt: 'Post Instagram 4 - Compte Instagram'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342360/2_qbdzhg.png',
+      alt: 'Post Instagram 5 - Compte Instagram'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342363/7_z1magy.png',
+      alt: 'Post Instagram 6 - Compte Instagram'
+    },
   ];
 
   const goToPrevious = () => {

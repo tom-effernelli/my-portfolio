@@ -11,8 +11,16 @@ const ProjectPageArtsInstagramAccount2 = () => {
   
   // Données des médias (à remplacer par les vrais médias)
   const mediaItems = [
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330604/Capture_d_%C3%A9cran_2025-09-06_115019_v0wct7.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330606/Capture_d_%C3%A9cran_2025-09-06_115048_qjgviq.png'},
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330604/Capture_d_%C3%A9cran_2025-09-06_115019_v0wct7.png',
+      alt: 'Post Instagram 1 - Compte Instagram 2'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330606/Capture_d_%C3%A9cran_2025-09-06_115048_qjgviq.png',
+      alt: 'Post Instagram 2 - Compte Instagram 2'
+    },
   ];
 
   const goToPrevious = () => {

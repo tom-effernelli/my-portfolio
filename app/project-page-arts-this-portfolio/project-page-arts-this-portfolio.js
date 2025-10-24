@@ -11,9 +11,16 @@ const ProjectPageArtsThisPortfolio = () => {
   
   // Données des médias (à remplacer par les vrais médias)
   const mediaItems = [
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330405/Capture_d_%C3%A9cran_2025-08-19_142847_dohccl.png' },
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330403/Capture_d_%C3%A9cran_2025-08-19_142824_xwtzvp.png' },
-
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330405/Capture_d_%C3%A9cran_2025-08-19_142847_dohccl.png',
+      alt: 'Capture d\'écran du portfolio - Page d\'accueil'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330403/Capture_d_%C3%A9cran_2025-08-19_142824_xwtzvp.png',
+      alt: 'Capture d\'écran du portfolio - Page projets'
+    },
   ];
 
   const goToPrevious = () => {

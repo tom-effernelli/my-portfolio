@@ -11,13 +11,41 @@ const ProjectPageArtsTSOS = () => {
   
   // Données des médias (à remplacer par les vrais médias)
   const mediaItems = [
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330480/Capture_d_%C3%A9cran_2025-09-05_213150_kkancf.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330483/Environment_toh54c.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330481/Character_h0l6xp.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330485/Monster1_ijz0k5.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330486/Monster2_kc4iof.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330487/Torch_ecjdi7.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330483/Ecran_de_titre_fond_zhz36t.png'},
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330480/Capture_d_%C3%A9cran_2025-09-05_213150_kkancf.png',
+      alt: 'Capture d\'écran du jeu T-S-O-S'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330483/Environment_toh54c.png',
+      alt: 'Environnement du jeu T-S-O-S'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330481/Character_h0l6xp.png',
+      alt: 'Personnage principal du jeu T-S-O-S'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330485/Monster1_ijz0k5.png',
+      alt: 'Monstre 1 du jeu T-S-O-S'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330486/Monster2_kc4iof.png',
+      alt: 'Monstre 2 du jeu T-S-O-S'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330487/Torch_ecjdi7.png',
+      alt: 'Torche du jeu T-S-O-S'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330483/Ecran_de_titre_fond_zhz36t.png',
+      alt: 'Écran de titre du jeu T-S-O-S'
+    },
   ];
 
   const goToPrevious = () => {

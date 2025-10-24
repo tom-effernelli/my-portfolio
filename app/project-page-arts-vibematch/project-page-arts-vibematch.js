@@ -11,10 +11,27 @@ const ProjectPageArtsVibematch = () => {
   
   // Données des médias (à remplacer par les vrais médias)
   const mediaItems = [
-    { type: 'video', src: 'https://www.youtube.com/embed/0nxLMw0ac0Y?vq=hd1080&autoplay=0&rel=0'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330365/Banniere_LinkedIn_uhmxzf.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330364/Logo_d%C3%A9grad%C3%A9_f6aqef.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330364/Capture_d_%C3%A9cran_2025-09-05_213357_fqsndg.png'},
+    { 
+      type: 'video', 
+      src: 'https://www.youtube.com/embed/0nxLMw0ac0Y?vq=hd1080&autoplay=0&rel=0',
+      title: 'VibeMatch Demo Video',
+      alt: 'Vidéo de démonstration VibeMatch'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330365/Banniere_LinkedIn_uhmxzf.png',
+      alt: 'Bannière LinkedIn VibeMatch'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330364/Logo_d%C3%A9grad%C3%A9_f6aqef.png',
+      alt: 'Logo VibeMatch avec dégradé'
+    },
+    { 
+      type: 'image', 
+      src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330364/Capture_d_%C3%A9cran_2025-09-05_213357_fqsndg.png',
+      alt: 'Capture d\'écran de l\'interface VibeMatch'
+    },
   ];
 
   const goToPrevious = () => {
