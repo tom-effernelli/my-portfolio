@@ -19,7 +19,7 @@ const About = () => {
   return (
     <>
       <StickyNavigation currentPage="about" />
-      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-8 pb-[85px] xs:pb-[37px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[140px] text-left text-[110px] text-[#000] md:gap-[100px] md:box-border">
+      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-8 pb-[85px] xs:pb-[37px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[140px] xs:gap-[100px] text-left text-[110px] text-[#000] md:gap-[100px] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px] sm:gap-[20px] text-[45px]" id="header">
           <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px] xs:text-[25px]">
