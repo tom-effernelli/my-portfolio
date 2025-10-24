@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <StickyNavigation currentPage="home" />
-      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-8 pb-[85px] pl-[74px] xs:pl-[37px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000]">
+      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-8 pb-[85px] xs:pb-[37px] pl-[74px] xs:pl-[37px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000]">
         <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[74px] xs:pr-[37px] gap-[33px] sm:gap-[20px] z-[4] md:box-border" id="header">
           <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px] xs:text-[25px]">
@@ -143,14 +143,14 @@ const Home = () => {
           />
         </div>
         <div className="self-stretch overflow-hidden flex items-start justify-between gap-0 z-[2]">
-          <div className="flex flex-col items-start sm:gap-[130px] md:gap-[190px] lg:gap-[165px] shrink-0 lg:w-auto lg:[align-self:unset] md:pt-[40px] lg:pt-[50px] sm:pt-[60px] lg:box-border">
-            <div className="relative tracking-[-0.01em] leading-[103%] font-space-grotesk font-medium lg:text-[140px] lg:w-auto lg:[align-self:unset] md:text-[110px] sm:text-[75px]">
+          <div className="flex flex-col items-start sm:gap-[130px] xs:gap-[70px] md:gap-[190px] lg:gap-[165px] shrink-0 lg:w-auto lg:[align-self:unset] md:pt-[40px] lg:pt-[50px] sm:pt-[60px] lg:box-border">
+            <div className="relative tracking-[-0.01em] leading-[103%] font-space-grotesk font-medium lg:text-[140px] lg:w-auto lg:[align-self:unset] md:text-[110px] sm:text-[75px] xs:text-[52px]">
               <p className="m-0">DEVELOPER,</p>
               <p className="m-0">DESIGNER,</p>
               <p className="m-0">CS STUDENT.</p>
             </div>
             <div className="self-stretch flex items-center justify-center text-5xl lg:pt-5 lg:box-border">
-              <div className="flex-1 relative font-light md:text-[30px] lg:text-3xl lg:leading-[45px] lg:self-stretch lg:h-auto md:leading-[48px] sm:leading-[30px] sm:text-[25px]">
+              <div className="flex-1 relative font-light md:text-[30px] lg:text-3xl lg:leading-[45px] lg:self-stretch lg:h-auto md:leading-[48px] sm:leading-[30px] sm:text-[25px] xs:text-[16px]">
                 <p className="m-0">Hello, welcome to my website!</p>
                 <p className="m-0">&nbsp;</p>
                 <p className="m-0">Here you'll find info about me and</p>
@@ -169,17 +169,17 @@ const Home = () => {
             src="/Arch-wrapped@2x.png"
           />
         </div>
-        <div className="self-stretch flex flex-col items-end py-0 pl-0 pr-[74px] xs:pr-[37px] lg:gap-[58px] md:gap-[80px] sm:gap-[40px] z-[1] text-[100px] text-[#fff] md:box-border">
-          <div className="self-stretch relative text-[110px] leading-[121%] font-medium text-[#000] text-right lg:text-[90px] md:text-[70px] sm:text-[50px] font-space-grotesk">
+        <div className="self-stretch flex flex-col items-end py-0 pl-0 pr-[74px] xs:pr-[37px] lg:gap-[58px] md:gap-[80px] sm:gap-[40px] xs:gap-[20px] z-[1] text-[100px] text-[#fff] md:box-border">
+          <div className="self-stretch relative text-[110px] leading-[121%] font-medium text-[#000] text-right lg:text-[90px] md:text-[70px] sm:text-[50px] xs:text-[35px] font-space-grotesk">
             TOP PROJECTS:
           </div>
-          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px]">
+          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px] xs:h-[200px]">
             <div className="self-stretch flex items-end justify-between gap-0">
-              <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 lg:pr-[75px] md:pr-[40px] sm:pr-[20px] gap-[23px]">
-                <div className="self-stretch relative leading-[121%] sm:text-[50px] md:text-[75px] lg:text-[100px] font-medium font-space-grotesk">
+              <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 lg:pr-[75px] md:pr-[40px] sm:pr-[20px] xs:pr-[10px] gap-[23px]">
+                <div className="self-stretch relative leading-[121%] sm:text-[50px] xs:text-[35px] md:text-[75px] lg:text-[100px] font-medium font-space-grotesk">
                   VIBEMATCH
                 </div>
-                <div className="self-stretch relative leading-[121%] sm:text-[20px] md:text-[30px] lg:text-[50px] font-medium font-space-grotesk">
+                <div className="self-stretch relative leading-[121%] sm:text-[20px] xs:text-[15px] md:text-[30px] lg:text-[50px] font-medium font-space-grotesk">
                   TOP5 WINNING HACKATHON PROJECT
                 </div>
                 <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] xs:hidden sm:hidden">
@@ -187,7 +187,7 @@ const Home = () => {
                   content creators and sponsors.
                 </div>
               </div>
-              <b className="relative leading-[113%] inline-block max-w-[300px] lg:text-[35px] md:text-[25px] sm:text-[15px]">
+              <b className="relative leading-[113%] inline-block max-w-[300px] lg:text-[35px] md:text-[25px] sm:text-[15px] xs:text-[10px]">
                 <p className="m-0">
                   <Link href="/project-page-dev-vibematch" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
                     {`> View dev work`}
@@ -202,13 +202,13 @@ const Home = () => {
               </b>
             </div>
           </div>
-          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px]">
+          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px] xs:h-[200px]">
             <div className="self-stretch flex items-end justify-between gap-0">
-              <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 lg:pr-[75px] md:pr-[40px] sm:pr-[20px] gap-[23px]">
-                <div className="self-stretch relative leading-[121%] sm:text-[50px] md:text-[75px] lg:text-[100px] font-medium font-space-grotesk">
+              <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 lg:pr-[75px] md:pr-[40px] sm:pr-[20px] xs:pr-[10px] gap-[23px]">
+                <div className="self-stretch relative leading-[121%] sm:text-[50px] xs:text-[35px] md:text-[75px] lg:text-[100px] font-medium font-space-grotesk">
                   VIBEMATCH
                 </div>
-                <div className="self-stretch relative leading-[121%] sm:text-[20px] md:text-[30px] lg:text-[50px] font-medium font-space-grotesk">
+                <div className="self-stretch relative leading-[121%] sm:text-[20px] xs:text-[15px] md:text-[30px] lg:text-[50px] font-medium font-space-grotesk">
                   TOP5 WINNING HACKATHON PROJECT
                 </div>
                 <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] xs:hidden sm:hidden">
@@ -216,7 +216,7 @@ const Home = () => {
                   content creators and sponsors.
                 </div>
               </div>
-              <b className="relative leading-[113%] inline-block max-w-[300px] lg:text-[35px] md:text-[25px] sm:text-[15px]">
+              <b className="relative leading-[113%] inline-block max-w-[300px] lg:text-[35px] md:text-[25px] sm:text-[15px] xs:text-[10px]">
                 <p className="m-0">
                   <Link href="/project-page-dev-vibematch" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
                     {`> View dev work`}
@@ -233,7 +233,7 @@ const Home = () => {
           </div>
         </div>
         <Image
-          className="lg:w-[357px] md:w-[357px] sm:w-[250px] absolute !!m-[0 important] lg:bottom-[470px] md:bottom-[270px] sm:bottom-[165px] left-[-50px] max-h-full object-cover z-[0]"
+          className="lg:w-[357px] md:w-[357px] sm:w-[250px] xs:w-[300px] absolute !!m-[0 important] lg:bottom-[470px] md:bottom-[270px] sm:bottom-[165px] xs:top-[275px] left-[-50px] max-h-full object-cover z-[0]"
           width={357}
           height={680}
           sizes="100vw"
