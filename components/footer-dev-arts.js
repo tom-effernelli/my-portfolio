@@ -106,7 +106,7 @@ const FooterDevArts = ({ className = "" }) => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] xs:flex sm:flex xs:flex sm:flex-1 md:flex md:flex-1"
+            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] xs:w-full border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] xs:flex sm:flex xs:flex sm:flex-1 md:flex md:flex-1"
             id="pageButton"
             href="/dev"
           >
@@ -138,7 +138,7 @@ const FooterDevArts = ({ className = "" }) => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] xs:flex sm:flex xs:flex sm:flex-1 md:flex md:flex-1"
+            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] xs:w-full border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] xs:flex sm:flex xs:flex sm:flex-1 md:flex md:flex-1"
             id="pageButton"
             href="/arts"
           >
@@ -170,7 +170,7 @@ const FooterDevArts = ({ className = "" }) => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] xs:flex sm:flex xs:flex sm:flex-1 md:flex md:flex-1"
+            className="cursor-pointer [text-decoration:none] self-stretch w-[284px] xs:w-full border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] xs:flex sm:flex xs:flex sm:flex-1 md:flex md:flex-1"
             id="pageButton"
             href="/contact"
           >
@@ -201,7 +201,7 @@ const FooterDevArts = ({ className = "" }) => {
               Resume
             </div>
           </Link>
-          <div className="self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer xs:flex sm:flex xs:flex sm:flex-1 sm:cursor-auto md:flex md:flex-1 md:cursor-auto">
+          <div className="self-stretch w-[284px] xs:w-full border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer xs:flex sm:flex xs:flex sm:flex-1 sm:cursor-auto md:flex md:flex-1 md:cursor-auto">
             <div className="flex items-center py-0 pl-[7px] pr-0 gap-5">
               <button
                 className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px] sm:w-[20px] sm:h-[19px]"
@@ -232,7 +232,7 @@ const FooterDevArts = ({ className = "" }) => {
         </div>
         <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
           <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
-          <div className="self-stretch w-[284px] border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer xs:flex sm:flex xs:flex sm:flex-1 sm:cursor-auto md:flex md:flex-1 md:cursor-auto">
+          <div className="self-stretch w-[284px] xs:w-full border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer xs:flex sm:flex xs:flex sm:flex-1 sm:cursor-auto md:flex md:flex-1 md:cursor-auto">
             <button
               className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-xl [text-decoration:underline] leading-[121.1%] font-light text-[#fff] text-left inline-block lg:text-[17px] md:text-sm sm:text-[15px]"
               id="socialsButton"
