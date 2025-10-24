@@ -182,16 +182,16 @@ const ProjectPageArtsVibematch = () => {
           </button>
           
           {/* Container des médias */}
-          <div className="w-full max-w-[800px] mx-auto px-16">
+          <div className="w-full max-w-[1000px] mx-auto px-16">
             <div className="relative w-full overflow-hidden rounded-lg shadow-lg">
               {currentMedia.type === 'image' ? (
                 <Image
                   className="w-full h-auto object-contain"
                   src={currentMedia.src}
                   alt={currentMedia.alt}
-                  width={800}
+                  width={1000}
                   height={400}
-                  sizes="(max-width: 800px) 100vw, 800px"
+                  sizes="(max-width: 1000px) 100vw, 1000px"
                 />
               ) : (
                 <div className="relative w-full h-0 pb-[56.25%]">
