@@ -1,9 +1,35 @@
+"use client";
 import Link from "next/link";
 import FooterDevArts from "../../components/footer-dev-arts";
 import Image from "next/image";
 import StickyNavigation from "../../components/sticky-navigation";
+import { useState } from "react";
 
 const ProjectPageArtsInstagramAccount1 = () => {
+  // État pour le media slider
+  const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
+  
+  // Données des médias (à remplacer par les vrais médias)
+  const mediaItems = [
+    { type: 'image', src: '/placeholder1.jpg', alt: 'Média 1' },
+    { type: 'video', src: 'https://www.youtube.com/embed/example1', title: 'Vidéo 1' },
+    { type: 'image', src: '/placeholder2.jpg', alt: 'Média 2' },
+  ];
+
+  const goToPrevious = () => {
+    setCurrentMediaIndex((prev) => 
+      prev === 0 ? mediaItems.length - 1 : prev - 1
+    );
+  };
+
+  const goToNext = () => {
+    setCurrentMediaIndex((prev) => 
+      prev === mediaItems.length - 1 ? 0 : prev + 1
+    );
+  };
+
+  const currentMedia = mediaItems[currentMediaIndex];
+
   return (
     <>
       <StickyNavigation currentPage="arts" />
@@ -138,6 +164,56 @@ const ProjectPageArtsInstagramAccount1 = () => {
           <p className="m-0">INSTAGRAM</p>
           <p className="m-0">ACCOUNT - 1</p>
         </div>
+        
+        {/* Media Slider */}
+        <div className="self-stretch w-full relative flex items-center justify-center my-8">
+          {/* Bouton flèche gauche */}
+          <button 
+            className="absolute left-0 z-10 w-12 h-12 bg-[#090909] border-2 border-white rounded-full flex items-center justify-center hover:bg-white hover:text-[#090909] transition-colors duration-200"
+            onClick={goToPrevious}
+            aria-label="Média précédent"
+          >
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+            </svg>
+          </button>
+          
+          {/* Container des médias */}
+          <div className="w-full max-w-[800px] mx-auto px-16">
+            <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-lg shadow-lg">
+              {currentMedia.type === 'image' ? (
+                <Image
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                  src={currentMedia.src}
+                  alt={currentMedia.alt}
+                  fill
+                  sizes="(max-width: 800px) 100vw, 800px"
+                />
+              ) : (
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src={currentMedia.src}
+                  title={currentMedia.title}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              )}
+            </div>
+          </div>
+          
+          {/* Bouton flèche droite */}
+          <button 
+            className="absolute right-0 z-10 w-12 h-12 bg-[#090909] border-2 border-white rounded-full flex items-center justify-center hover:bg-white hover:text-[#090909] transition-colors duration-200"
+            onClick={goToNext}
+            aria-label="Média suivant"
+          >
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+            </svg>
+          </button>
+        </div>
+        
         <div className="self-stretch relative text-[35px] leading-[200%] font-medium lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]">
           <p className="m-0">
             This Instagram account was one I designed with some friends for the
