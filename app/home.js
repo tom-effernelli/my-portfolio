@@ -18,7 +18,7 @@ const Home = () => {
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center text-xl">
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[29px]">
                 <b className="self-stretch relative leading-[121.1%] cursor-auto lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  ▪ HOME
+                  <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px] inline-block -translate-y-1">■</span> HOME
                 </b>
               </div>
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
@@ -173,7 +173,7 @@ const Home = () => {
           <div className="self-stretch relative text-[110px] leading-[121%] font-medium text-[#000] text-right lg:text-[90px] md:text-[70px] sm:text-[50px] xs:text-[35px] font-space-grotesk">
             TOP PROJECTS:
           </div>
-          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px] xs:h-[200px]">
+          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331030/Top_project_1_-_fill_example_uiza2r.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px] xs:h-[200px]">
             <div className="self-stretch flex items-end justify-between gap-0">
               <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 lg:pr-[75px] md:pr-[40px] sm:pr-[20px] xs:pr-[10px] gap-[23px]">
                 <div className="self-stretch relative leading-[121%] sm:text-[50px] xs:text-[35px] md:text-[75px] lg:text-[100px] font-medium font-space-grotesk">
@@ -202,18 +202,19 @@ const Home = () => {
               </b>
             </div>
           </div>
-          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px] xs:h-[200px]">
+          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331022/Project_2_image_-_fill_example_pwrtbb.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px] xs:h-[200px]">
             <div className="self-stretch flex items-end justify-between gap-0">
               <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 lg:pr-[75px] md:pr-[40px] sm:pr-[20px] xs:pr-[10px] gap-[23px]">
                 <div className="self-stretch relative leading-[121%] sm:text-[50px] xs:text-[35px] md:text-[75px] lg:text-[100px] font-medium font-space-grotesk">
-                  VIBEMATCH
+                  T.S.O.S
                 </div>
                 <div className="self-stretch relative leading-[121%] sm:text-[20px] xs:text-[15px] md:text-[30px] lg:text-[50px] font-medium font-space-grotesk">
-                  TOP5 WINNING HACKATHON PROJECT
+                  2ND POSITION GAMEJAM PROJECT
                 </div>
                 <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] xs:hidden sm:hidden">
-                  VibeMatch is a plateform designed to improve connection between
-                  content creators and sponsors.
+                  The Sound of Silence is a game where you explore a mansion, trying
+                  not to go insane. Creating the design was pretty fun and taught me
+                  a lot of things about tilemapping.
                 </div>
               </div>
               <b className="relative leading-[113%] inline-block max-w-[300px] lg:text-[35px] md:text-[25px] sm:text-[15px] xs:text-[10px]">
