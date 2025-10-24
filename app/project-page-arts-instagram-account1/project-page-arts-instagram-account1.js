@@ -10,12 +10,12 @@ const ProjectPageArtsInstagramAccount1 = () => {
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
   
   const mediaItems = [
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330888/6_vrozpo.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330885/5_zdrxi8.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330884/4_sqcycc.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330882/3_alghjx.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330881/2_sm74ec.png'},
-    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330536/7_lvqnsf.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342362/6_ga9hko.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342361/5_o6qils.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342361/4_abmo2u.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342360/3_ph8zei.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342360/2_qbdzhg.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761342363/7_z1magy.png'},
   ];
 
   const goToPrevious = () => {
