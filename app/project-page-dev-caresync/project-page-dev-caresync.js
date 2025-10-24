@@ -138,6 +138,18 @@ const ProjectPageDevCaresync = () => {
           <p className="m-0 whitespace-pre-wrap">{`██      ██   ██ ██   ██ ██           ██    ██    ██  ██ ██ ██      `}</p>
           <p className="m-0 whitespace-pre-wrap">{` ██████ ██   ██ ██   ██ ███████ ███████    ██    ██   ████  ██████ `}</p>
         </div>
+        <div className="self-stretch w-full mx-auto my-8">
+          <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-lg shadow-lg">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/RdFEQCJy8PI?vq=hd1080&autoplay=0&rel=0"
+              title="CareSync Demo Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
         <b className="self-stretch relative text-3xl leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]">
           <p className="m-0">
             We built CareSync during the Shipfast hackathon organized at Ecole
