@@ -19,7 +19,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
 
   return (
     <div
-      className={`footer-home-about-contact w-full bg-[#090909] h-[693px] sm:h-[600px] xs:h-[500px] overflow-hidden flex flex-col items-start pt-8 xs:pt-6 pb-10 xs:pb-8 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[54px] sm:gap-[40px] xs:gap-[30px] text-left text-[35px] xs:text-[30px] text-[#fff] md:box-border ${className}`}
+      className={`footer-home-about-contact w-full bg-[#090909] h-[693px] sm:h-[600px] xs:h-[475px] overflow-hidden flex flex-col items-start pt-14 xs:pt-8 pb-20 xs:pb-10 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[54px] sm:gap-[40px] xs:gap-[30px] text-left text-[35px] xs:text-[30px] text-[#fff] md:box-border ${className}`}
     >
       <div className="relative leading-[121.1%] font-extrabold lg:text-3xl md:text-[30px] sm:text-[28px] xs:text-[25px]">
         <p className="m-0">TOM</p>

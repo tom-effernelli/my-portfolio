@@ -143,7 +143,7 @@ const Home = () => {
           />
         </div>
         <div className="self-stretch overflow-hidden flex items-start justify-between gap-0 z-[2]">
-          <div className="flex flex-col items-start sm:gap-[130px] md:gap-[190px] lg:gap-[165px] shrink-0 lg:w-auto lg:[align-self:unset] md:pt-[40px] lg:pt-[50px] sm:pt-[30px] lg:box-border">
+          <div className="flex flex-col items-start sm:gap-[130px] md:gap-[190px] lg:gap-[165px] shrink-0 lg:w-auto lg:[align-self:unset] md:pt-[40px] lg:pt-[50px] sm:pt-[60px] lg:box-border">
             <div className="relative tracking-[-0.01em] leading-[103%] font-space-grotesk font-medium lg:text-[140px] lg:w-auto lg:[align-self:unset] md:text-[110px] sm:text-[75px]">
               <p className="m-0">DEVELOPER,</p>
               <p className="m-0">DESIGNER,</p>
