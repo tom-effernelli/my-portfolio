@@ -12,8 +12,13 @@ const About = () => {
   }, []);
 
   const onResumeClick = useCallback(() => {
-    // TODO: Add resume download link
-    console.log("Resume download clicked");
+    // Create a temporary link element to download the CV
+    const link = document.createElement('a');
+    link.href = '/cv_tom_effernelli.pdf';
+    link.download = 'Tom_Effernelli_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }, []);
 
   return (
