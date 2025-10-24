@@ -95,7 +95,7 @@ const Arts = () => {
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
               <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px]">
                 <b className="self-stretch relative leading-[121.1%] cursor-auto lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  ■ ARTS
+                  <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px]">■</span> ARTS
                 </b>
               </div>
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
