@@ -19,20 +19,20 @@ const FooterHomeAboutContact = ({ className = "" }) => {
 
   return (
     <div
-      className={`footer-home-about-contact w-full bg-[#090909] h-[693px] sm:h-[600px] overflow-hidden flex flex-col items-start pt-8 pb-10 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[54px] sm:gap-[40px] text-left text-[35px] text-[#fff] md:box-border ${className}`}
+      className={`footer-home-about-contact w-full bg-[#090909] h-[693px] sm:h-[600px] xs:h-[500px] overflow-hidden flex flex-col items-start pt-8 xs:pt-6 pb-10 xs:pb-8 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[54px] sm:gap-[40px] xs:gap-[30px] text-left text-[35px] xs:text-[30px] text-[#fff] md:box-border ${className}`}
     >
-      <div className="relative leading-[121.1%] font-extrabold lg:text-3xl md:text-[30px] sm:text-[28px]">
+      <div className="relative leading-[121.1%] font-extrabold lg:text-3xl md:text-[30px] sm:text-[28px] xs:text-[25px]">
         <p className="m-0">TOM</p>
         <p className="m-0">EFFERNELLI</p>
       </div>
-      <div className="self-stretch flex-1 flex flex-col items-start lg:gap-2.5 md:gap-2.5 sm:gap-1 text-[29px]">
+      <div className="self-stretch flex-1 flex flex-col items-start lg:gap-2.5 md:gap-2.5 sm:gap-1 xs:gap-0.5 text-[29px] xs:text-[25px]">
         <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit] md:items-start md:justify-end"
             id="pageButton"
             href="/"
           >
-            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px]">
+            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px] xs:text-[18px]">
               HOME
             </b>
           </Link>
@@ -42,7 +42,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
             id="pageButton"
             href="/dev"
           >
-            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px]">
+            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px] xs:text-[18px]">
               DEV
             </b>
           </Link>
@@ -70,7 +70,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
             id="pageButton"
             href="/about"
           >
-            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px]">
+            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px] xs:text-[18px]">
               ABOUT
             </b>
           </Link>
@@ -110,7 +110,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
             id="pageButton"
             href="/dev"
           >
-            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px]">
+            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px] xs:text-[18px]">
               DEV
             </b>
           </Link>
@@ -142,7 +142,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
             id="pageButton"
             href="/arts"
           >
-            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px]">
+            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px] xs:text-[18px]">
               ARTS
             </b>
           </Link>
@@ -174,7 +174,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
             id="pageButton"
             href="/contact"
           >
-            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px]">
+            <b className="self-stretch relative leading-[121.1%] lg:text-[26px] md:text-[23px] sm:text-[20px] xs:text-[18px]">
               CONTACT
             </b>
           </Link>
@@ -204,13 +204,13 @@ const FooterHomeAboutContact = ({ className = "" }) => {
           <div className="self-stretch w-[284px] xs:w-full border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer xs:flex sm:flex xs:flex sm:flex-1 sm:cursor-auto md:flex md:flex-1 md:cursor-auto">
             <div className="flex items-center py-0 pl-[7px] pr-0 gap-5">
               <button
-                className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px] sm:w-[20px] sm:h-[19px]"
+                className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px] sm:w-[20px] sm:h-[19px] xs:w-[18px] xs:h-[17px]"
                 style={{ backgroundImage: "url('/LinkedInLogo.png')" }}
                 id="socialsButton"
                 onClick={onLinkedInLogoClick}
               />
               <button
-                className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px] sm:w-[20px] sm:h-[19px]"
+                className="cursor-pointer [border:none] p-0 w-[34px] relative h-[33px] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-[23px] md:h-[22px] sm:w-[20px] sm:h-[19px] xs:w-[18px] xs:h-[17px]"
                 style={{ backgroundImage: "url('/GithubLogo.png')" }}
                 id="socialsButton"
                 onClick={onGithubLogoClick}
@@ -234,7 +234,7 @@ const FooterHomeAboutContact = ({ className = "" }) => {
           <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
           <div className="self-stretch w-[284px] xs:w-full border-[#fff] border-solid border-b-[2px] box-border overflow-hidden hidden flex-col items-start justify-end pt-0 px-0 pb-[5px] cursor-pointer xs:flex sm:flex xs:flex sm:flex-1 sm:cursor-auto md:flex md:flex-1 md:cursor-auto">
             <button
-              className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-xl [text-decoration:underline] leading-[121.1%] font-light text-[#fff] text-left inline-block lg:text-[17px] md:text-sm sm:text-[15px]"
+              className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-xl [text-decoration:underline] leading-[121.1%] font-light text-[#fff] text-left inline-block lg:text-[17px] md:text-sm sm:text-[15px] xs:text-[14px]"
               id="socialsButton"
               onClick={onMakeMyInboxClick}
             >
