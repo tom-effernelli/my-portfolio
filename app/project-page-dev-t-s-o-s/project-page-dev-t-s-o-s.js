@@ -6,7 +6,7 @@ const ProjectPageDevTSOS = () => {
   return (
     <>
       <StickyNavigation currentPage="dev" />
-      <div className="dev-page w-full relative overflow-hidden flex flex-col items-start pt-8 pb-[85px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[120px] bg-[url('/Dev@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[45px] text-[#fff] md:box-border">
+      <div className="dev-page w-full relative overflow-hidden flex flex-col items-start pt-8 pb-[85px] xs:pb-[37px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[120px] xs:gap-[100px] bg-[url('/Dev@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[45px] text-[#fff] md:box-border">
       <div className="self-stretch flex flex-col items-start gap-[33px] sm:gap-[20px]" id="header">
         <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
           <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px] xs:text-[25px]">
@@ -123,8 +123,8 @@ const ProjectPageDevTSOS = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch flex flex-col items-end gap-32 text-[25px] font-[Consolas]">
-        <div className="self-stretch relative leading-[121%] lg:text-xl md:text-[15px] sm:text-[10px]">
+      <div className="self-stretch flex flex-col items-end gap-32 xs:gap-[60px] text-[25px] font-[Consolas]">
+        <div className="self-stretch relative leading-[121%] lg:text-xl md:text-[15px] sm:text-[10px] xs:text-[7px]">
           <p className="m-0 whitespace-pre-wrap">{`██████  ██████   ██████       ██ ███████  ██████ ████████                 `}</p>
           <p className="m-0 whitespace-pre-wrap">{`██   ██ ██   ██ ██    ██      ██ ██      ██         ██    ██              `}</p>
           <p className="m-0 whitespace-pre-wrap">{`██████  ██████  ██    ██      ██ █████   ██         ██                    `}</p>
@@ -145,7 +145,7 @@ const ProjectPageDevTSOS = () => {
           <p className="m-0 whitespace-pre-wrap">{`██    ██ ██               ██ ██ ██      ██      ██  ██ ██ ██      ██      `}</p>
           <p className="m-0 whitespace-pre-wrap">{` ██████  ██          ███████ ██ ███████ ███████ ██   ████  ██████ ███████ `}</p>
         </div>
-        <b className="self-stretch relative text-3xl leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px]">
+        <b className="self-stretch relative text-3xl leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]">
           <p className="m-0">
             We built this project during a GameJam, with the idea of creating a
             game where you interact not with your keyboard or mouse, but with
