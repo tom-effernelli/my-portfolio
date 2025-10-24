@@ -138,7 +138,7 @@ const ProjectPageDevVibematch = () => {
           <p className="m-0 whitespace-pre-wrap">{` ██  ██  ██ ██   ██ ██      ██  ██  ██ ██   ██    ██    ██      ██   ██ `}</p>
           <p className="m-0 whitespace-pre-wrap">{`  ████   ██ ██████  ███████ ██      ██ ██   ██    ██     ██████ ██   ██ `}</p>
         </div>
-        <div className="self-stretch w-full mx-auto my-8">
+        <div className="self-stretch w-full max-w-[1000px] mx-auto my-8">
           <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-lg shadow-lg">
             <iframe
               className="absolute top-0 left-0 w-full h-full"

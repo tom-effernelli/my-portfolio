@@ -138,7 +138,7 @@ const ProjectPageArtsCaresync = () => {
           <p className="m-0">CARESYNC</p>
         </div>
         <div className="self-stretch relative text-[75px] leading-[100%] font-space-grotesk font-medium lg:text-[50px] md:text-[40px] sm:text-3xl xs:text-[20px]">{`TOP5 WINNING HACKATHON PROJECT - SHIPFAST HACKATHON @ ECOLE 42 `}</div>
-        <div className="self-stretch w-full mx-auto my-8">
+        <div className="self-stretch w-full max-w-[1000px] mx-auto my-8">
           <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-lg shadow-lg">
             <iframe
               className="absolute top-0 left-0 w-full h-full"
