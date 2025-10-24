@@ -8,7 +8,7 @@ const ProjectPageArtsInstagramAccount2 = () => {
     <>
       <StickyNavigation currentPage="arts" />
       <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
-      <div className="self-stretch h-[382px] flex flex-col items-start py-0 pl-[74px] pr-[74px] box-border gap-[33px] sm:gap-[20px] z-[0] md:box-border" id="header">
+      <div className="self-stretch h-[382px] flex flex-col items-start py-0 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[33px] sm:gap-[20px] z-[0] md:box-border" id="header">
         <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
           <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
             TOM EFFERNELLI
@@ -132,7 +132,7 @@ const ProjectPageArtsInstagramAccount2 = () => {
         alt=""
         src="/Separator.svg"
       />
-      <div className="self-stretch flex flex-col items-start py-0 pl-[74px] pr-[74px] gap-[47px] z-[2] text-[200px] md:box-border">
+      <div className="self-stretch flex flex-col items-start py-0 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] gap-[47px] z-[2] text-[200px] md:box-border">
         <div className="self-stretch relative leading-[100%] font-space-grotesk font-medium lg:text-[160px] md:text-[120px] sm:text-[80px]">
           <p className="m-0">PROJECT:</p>
           <p className="m-0">INSTAGRAM</p>

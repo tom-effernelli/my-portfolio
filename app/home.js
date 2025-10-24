@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <>
       <StickyNavigation currentPage="home" />
-      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000]">
-        <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[74px] gap-[33px] sm:gap-[20px] z-[4] md:box-border" id="header">
+      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] xs:pl-[37px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000]">
+        <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[74px] xs:pr-[37px] gap-[33px] sm:gap-[20px] z-[4] md:box-border" id="header">
           <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
               TOM EFFERNELLI
@@ -120,7 +120,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="w-[1084px] absolute !!m-[0 important] top-[0px] left-[23px] h-[5000px] pointer-events-none">
+        <div className="w-[1084px] absolute !!m-[0 important] top-[0px] left-[23px] h-[5000px] pointer-events-none xs:hidden">
           <div className="absolute top-[-1.5px] left-[32.5px] border-[#000] border-dashed border-r-[3px] box-border w-[3px] h-[5003px]" />
           <div className="absolute lg:top-[830.5px] md:top-[830.5px] sm:top-[630px] left-[32.5px] border-[#ed1c24] border-solid border-r-[3px] box-border w-[3px] h-[781px]" />
           <div className="absolute sm:top-[1000px] md:top-[1350px] lg:top-[1450px] left-[29px] bg-[#ed1c24] border-[#ed1c24] border-solid border-[1px] box-border w-[11px] h-[11px]" />
@@ -169,7 +169,7 @@ const Home = () => {
             src="/Arch-wrapped@2x.png"
           />
         </div>
-        <div className="self-stretch flex flex-col items-end py-0 pl-0 pr-[74px] lg:gap-[58px] md:gap-[80px] sm:gap-[40px] z-[1] text-[100px] text-[#fff] md:box-border">
+        <div className="self-stretch flex flex-col items-end py-0 pl-0 pr-[74px] xs:pr-[37px] lg:gap-[58px] md:gap-[80px] sm:gap-[40px] z-[1] text-[100px] text-[#fff] md:box-border">
           <div className="self-stretch relative text-[110px] leading-[121%] font-medium text-[#000] text-right lg:text-[90px] md:text-[70px] sm:text-[50px] font-space-grotesk">
             TOP PROJECTS:
           </div>

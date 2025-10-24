@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const DropdownMenuContactSelected = ({ className = "", onClose }) => {
   return (
     <div
-      className={`w-full bg-[#fff3d9] border-[#000] border-solid border-b-[2px] box-border max-w-full h-[380px] flex flex-col items-start pt-5 pl-[45px] pr-[45px] pb-10 gap-2.5 text-left lg:text-[29px] md:text-[26px] sm:text-[22px] text-[#000] ${className}`}
+      className={`w-full bg-[#fff3d9] border-[#000] border-solid border-b-[2px] box-border max-w-full h-[380px] flex flex-col items-start pt-5 pl-[45px] xs:pl-[23px] pr-[45px] xs:pr-[23px] pb-10 gap-2.5 text-left lg:text-[29px] md:text-[26px] sm:text-[22px] text-[#000] ${className}`}
     >
       {/* Icône de fermeture en haut à droite */}
       <div className="self-stretch flex-1 overflow-hidden flex items-center justify-end pt-0 px-0 pb-0">

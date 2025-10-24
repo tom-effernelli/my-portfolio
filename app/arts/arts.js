@@ -7,7 +7,7 @@ const Arts = () => {
   return (
     <>
       <StickyNavigation currentPage="arts" />
-      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] pr-[74px] box-border gap-[123px] text-left text-[45px] text-[#fff] md:box-border">
+      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[123px] text-left text-[45px] text-[#fff] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px] sm:gap-[20px]" id="header">
           <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
