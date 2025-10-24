@@ -7,7 +7,7 @@ const ProjectPageArtsVibematch = () => {
   return (
     <>
       <StickyNavigation currentPage="arts" />
-      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-8 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
+      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-8 px-0 pb-[85px] xs:pb-[37px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
       <div className="self-stretch h-[382px] flex flex-col items-start py-0 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[33px] sm:gap-[20px] z-[0] md:box-border" id="header">
         <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
           <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px] xs:text-[25px]">
@@ -125,7 +125,7 @@ const ProjectPageArtsVibematch = () => {
         </div>
       </div>
       <Image
-        className="self-stretch h-5 max-w-full overflow-hidden shrink-0 z-[1]"
+        className="self-stretch h-5 max-w-full overflow-hidden shrink-0 z-[1] xs:hidden"
         width={1524}
         height={20}
         sizes="100vw"
@@ -133,14 +133,14 @@ const ProjectPageArtsVibematch = () => {
         src="/Separator.svg"
       />
       <div className="self-stretch flex flex-col items-start py-0 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] gap-[47px] z-[2] text-[200px] md:box-border">
-        <div className="self-stretch relative leading-[100%] font-space-grotesk font-medium lg:text-[160px] md:text-[120px] sm:text-[80px]">
+        <div className="self-stretch relative leading-[100%] font-space-grotesk font-medium lg:text-[160px] md:text-[120px] sm:text-[80px] xs:text-[60px]">
           <p className="m-0">PROJECT:</p>
           <p className="m-0">VIBEMATCH</p>
         </div>
-        <div className="self-stretch relative text-[75px] leading-[100%] font-medium lg:text-[50px] md:text-[40px] sm:text-3xl">
+        <div className="self-stretch relative text-[75px] leading-[100%] font-medium lg:text-[50px] md:text-[40px] sm:text-3xl xs:text-[20px]">
           TOP5 WINNING HACKATHON PROJECT - CEREBRAS x CLINE HACKATHON
         </div>
-        <div className="self-stretch relative text-[35px] leading-[200%] lg:text-[25px] md:text-xl sm:text-[15px]">
+        <div className="self-stretch relative text-[35px] leading-[200%] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]">
           <p className="m-0">
             <span className="font-medium">
               VibeMatch was an app my friend and I developed during a hackathon
@@ -223,7 +223,7 @@ const ProjectPageArtsVibematch = () => {
           </p>
         </div>
       </div>
-      <div className="w-0.5 absolute !!m-[0 important] top-[-1px] left-[43px] border-[#fff] border-dashed border-r-[2px] box-border h-[5713px] z-[3]" />
+      <div className="w-0.5 absolute !!m-[0 important] top-[-1px] left-[43px] border-[#fff] border-dashed border-r-[2px] box-border h-[5713px] z-[3] xs:hidden" />
       </div>
       <FooterDevArts />
     </>
