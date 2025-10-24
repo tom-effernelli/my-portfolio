@@ -7,17 +7,17 @@ const Home = () => {
   return (
     <>
       <StickyNavigation currentPage="home" />
-      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] xs:pl-[37px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000]">
+      <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start pt-8 pb-[85px] pl-[74px] xs:pl-[37px] pr-0 box-border gap-[60px] text-left text-[45px] text-[#000]">
         <div className="self-stretch flex flex-col items-start py-0 pl-0 pr-[74px] xs:pr-[37px] gap-[33px] sm:gap-[20px] z-[4] md:box-border" id="header">
           <div className="self-stretch border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end">
-            <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
+            <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px] xs:text-[25px]">
               TOM EFFERNELLI
             </b>
           </div>
-          <div className="self-stretch h-[295px] sm:h-[230px] flex flex-col items-start gap-2.5 sm:gap-1 text-[29px]">
+          <div className="self-stretch h-[295px] sm:h-[230px] xs:h-[210px] flex flex-col items-start gap-2.5 sm:gap-1 text-[29px]">
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center text-xl">
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[29px]">
-                <b className="self-stretch relative leading-[121.1%] cursor-auto lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] cursor-auto lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   ▪ HOME
                 </b>
               </div>
@@ -42,7 +42,7 @@ const Home = () => {
                 id="pageButton"
                 href="/about"
               >
-                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   ABOUT
                 </b>
               </Link>
@@ -72,7 +72,7 @@ const Home = () => {
                 id="pageButton"
                 href="/dev"
               >
-                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   DEV
                 </b>
               </Link>
@@ -94,7 +94,7 @@ const Home = () => {
                 id="pageButton"
                 href="/arts"
               >
-                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   ARTS
                 </b>
               </Link>
@@ -109,7 +109,7 @@ const Home = () => {
                 id="pageButton"
                 href="/contact"
               >
-                <b className="self-stretch relative leading-[121.1%] lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   CONTACT
                 </b>
               </Link>

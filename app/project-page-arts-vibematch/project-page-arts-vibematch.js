@@ -7,21 +7,21 @@ const ProjectPageArtsVibematch = () => {
   return (
     <>
       <StickyNavigation currentPage="arts" />
-      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
+      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-8 px-0 pb-[85px] box-border gap-[47px] text-left text-[45px] text-[#fff]">
       <div className="self-stretch h-[382px] flex flex-col items-start py-0 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[33px] sm:gap-[20px] z-[0] md:box-border" id="header">
         <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
-          <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
+          <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px] xs:text-[25px]">
             TOM EFFERNELLI
           </b>
         </div>
-        <div className="self-stretch h-[295px] sm:h-[230px] flex flex-col items-start gap-2.5 sm:gap-1 text-[29px]">
+        <div className="self-stretch h-[295px] sm:h-[230px] xs:h-[210px] flex flex-col items-start gap-2.5 sm:gap-1 text-[29px]">
           <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center text-xl">
             <Link
               className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[29px] text-[inherit]"
               id="pageButton"
               href="/"
             >
-              <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+              <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                 HOME
               </b>
             </Link>
@@ -46,7 +46,7 @@ const ProjectPageArtsVibematch = () => {
               id="pageButton"
               href="/about"
             >
-              <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+              <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                 ABOUT
               </b>
             </Link>
@@ -76,7 +76,7 @@ const ProjectPageArtsVibematch = () => {
               id="pageButton"
               href="/dev"
             >
-              <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+              <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                 DEV
               </b>
             </Link>
@@ -98,7 +98,7 @@ const ProjectPageArtsVibematch = () => {
               id="pageButton"
               href="/arts"
             >
-              <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+              <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                 ▪ ARTS
               </b>
             </Link>
@@ -113,7 +113,7 @@ const ProjectPageArtsVibematch = () => {
               id="pageButton"
               href="/contact"
             >
-              <b className="self-stretch relative leading-[121.1%] lg:text-[26px] sm:text-[22px]">
+              <b className="self-stretch relative leading-[121.1%] lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                 CONTACT
               </b>
             </Link>

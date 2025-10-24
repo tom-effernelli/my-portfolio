@@ -7,21 +7,21 @@ const Arts = () => {
   return (
     <>
       <StickyNavigation currentPage="arts" />
-      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-14 pb-[85px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[123px] text-left text-[45px] text-[#fff] md:box-border">
+      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-8 pb-[85px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[123px] text-left text-[45px] text-[#fff] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px] sm:gap-[20px]" id="header">
           <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
-            <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px]">
+            <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px] xs:text-[25px]">
               TOM EFFERNELLI
             </b>
           </div>
-          <div className="self-stretch h-[295px] sm:h-[230px] flex flex-col items-start gap-2.5 sm:gap-1 text-[29px]">
+          <div className="self-stretch h-[295px] sm:h-[230px] xs:h-[210px] flex flex-col items-start gap-2.5 sm:gap-1 text-[29px]">
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center text-xl">
               <Link
                 className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[29px] text-[inherit]"
                 id="pageButton"
                 href="/"
               >
-                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   HOME
                 </b>
               </Link>
@@ -46,7 +46,7 @@ const Arts = () => {
                 id="pageButton"
                 href="/about"
               >
-                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   ABOUT
                 </b>
               </Link>
@@ -76,7 +76,7 @@ const Arts = () => {
                 id="pageButton"
                 href="/dev"
               >
-                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   DEV
                 </b>
               </Link>
@@ -94,7 +94,7 @@ const Arts = () => {
             </div>
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
               <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px]">
-                <b className="self-stretch relative leading-[121.1%] cursor-auto lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] cursor-auto lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   ▪ ARTS
                 </b>
               </div>
@@ -109,7 +109,7 @@ const Arts = () => {
                 id="pageButton"
                 href="/contact"
               >
-                <b className="self-stretch relative leading-[121.1%] lg:text-[26px] sm:text-[22px]">
+                <b className="self-stretch relative leading-[121.1%] lg:text-[26px] sm:text-[22px] xs:text-[22px]">
                   CONTACT
                 </b>
               </Link>
@@ -224,7 +224,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 INSTAGRAM ACCOUNT - 2
               </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] xs:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
                 This Instagram account I designed was for my engineering school,
                 in order to help new students make their decision upon which
                 school to choose, presenting all the benefits of mine...
@@ -243,7 +243,7 @@ const Arts = () => {
               <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] xs:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
                 A hackathon project to make medical healthcare systems such as
                 hospitals more efficient, working on the patient priority sorting
                 process. Check out the demo video!

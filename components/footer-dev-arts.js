@@ -19,7 +19,7 @@ const FooterDevArts = ({ className = "" }) => {
 
   return (
     <div
-      className={`footer-dev-arts w-full bg-[#090909] border-[#FFF] border-solid border-t-[1px] h-[693px] sm:h-[600px] overflow-hidden flex flex-col items-start pt-14 pb-20 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[54px] sm:gap-[40px] text-left text-[35px] text-[#fff] md:box-border ${className}`}
+      className={`footer-dev-arts w-full bg-[#090909] border-[#FFF] border-solid border-t-[1px] h-[693px] sm:h-[600px] overflow-hidden flex flex-col items-start pt-8 pb-10 pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[54px] sm:gap-[40px] text-left text-[35px] text-[#fff] md:box-border ${className}`}
     >
       <div className="relative leading-[121.1%] font-extrabold lg:text-3xl md:text-[30px] sm:text-[28px]">
         <p className="m-0">TOM</p>
