@@ -145,13 +145,13 @@ const Contact = () => {
             src="/writing-machine@2x.png"
           />
           <div className="self-stretch flex-1 flex flex-col items-start justify-between gap-0 lg:self-stretch lg:h-auto sm:flex-[unset] sm:self-stretch">
-            <div className="self-stretch relative leading-[130px] lg:text-[100px] lg:leading-[90px] md:text-[75px] md:leading-[75px] sm:text-[100px] sm:leading-[100px] sm:text-left font-dm-serif-text font-bold">
+            <div className="self-stretch relative leading-[130px] lg:text-[100px] lg:leading-[90px] md:text-[75px] md:leading-[75px] sm:text-[100px] sm:leading-[100px] xs:text-[80px] xs:leading-[80px] sm:text-left font-dm-serif-text font-bold">
               DROP ME A LINE.
             </div>
             <div className="self-stretch flex flex-col items-start pt-[50px] px-0 pb-0 gap-[9px] text-[28px] sm:pt-[50px] sm:box-border">
               <div className="self-stretch border-[#000] border-solid border-b-[1px] flex flex-col items-start pt-0 px-0 pb-2.5">
                 <button
-                  className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-[28px] [text-decoration:underline] leading-[121.1%] text-[#000] text-left inline-block lg:text-xl md:text-[15px] sm:text-[20px]"
+                  className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch relative text-[28px] [text-decoration:underline] leading-[121.1%] text-[#000] text-left inline-block lg:text-xl md:text-[15px] sm:text-[20px] xs:text-[18px]"
                   id="socialsButton"
                   onClick={onMakeMyInboxClick}
                 >
@@ -159,19 +159,19 @@ const Contact = () => {
                 </button>
               </div>
               <div className="self-stretch border-[#000] border-solid border-b-[1px] flex flex-col items-start pt-0 px-0 pb-2.5">
-                <div className="self-stretch relative leading-[121.1%] lg:text-xl md:text-[15px] sm:text-[20px]">
+                <div className="self-stretch relative leading-[121.1%] lg:text-xl md:text-[15px] sm:text-[20px] xs:text-[18px]">
                   Also check my LinkedIn and Github:
                 </div>
               </div>
               <div className="self-stretch border-[#000] border-solid border-b-[1px] flex flex-col items-start pt-0 px-0 pb-2.5">
                 <div className="flex items-center py-0 pl-[5px] pr-0 gap-[25px]">
                   <button
-                    className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-[url('/LinkedInLogoVBLACK.png')] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-6 md:h-[23px] sm:w-[18px] sm:h-[17px]"
+                    className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-[url('/LinkedInLogoVBLACK.png')] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-6 md:h-[23px] sm:w-[18px] sm:h-[17px] xs:w-[21px] xs:h-[20px]"
                     id="socialsButton"
                     onClick={onLinkedInLogoVBLACKClick}
                   />
                   <button
-                    className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-[url('/GithubLogoVBLACK.png')] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-6 md:h-[23px] sm:w-[18px] sm:h-[17px]"
+                    className="cursor-pointer [border:none] p-0 bg-[transparent] w-[34px] relative h-[33px] bg-[url('/GithubLogoVBLACK.png')] bg-cover bg-no-repeat bg-[top] lg:w-7 lg:h-[27px] md:w-6 md:h-[23px] sm:w-[18px] sm:h-[17px] xs:w-[21px] xs:h-[20px]"
                     id="socialsButton"
                     onClick={onGithubLogoVBLACKClick}
                   />
