@@ -125,7 +125,7 @@ const Contact = () => {
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px]">
                 <b className="self-stretch relative leading-[121.1%] lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  ▪ CONTACT
+                <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px] inline-block -translate-y-1">■</span> CONTACT
                 </b>
               </div>
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />

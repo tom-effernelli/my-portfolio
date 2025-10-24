@@ -55,7 +55,7 @@ const About = () => {
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center text-xl">
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[29px]">
                 <b className="self-stretch relative leading-[121.1%] cursor-auto lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  ▪ ABOUT
+                  <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px] inline-block -translate-y-1">■</span> ABOUT
                 </b>
               </div>
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />

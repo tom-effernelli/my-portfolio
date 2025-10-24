@@ -76,7 +76,7 @@ const ProjectPageDevVibematch = () => {
                 href="/dev"
               >
                 <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  ▪ DEV
+                  <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px] inline-block -translate-y-1">■</span> DEV
                 </b>
             </Link>
             <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
