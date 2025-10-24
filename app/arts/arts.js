@@ -25,15 +25,15 @@ const Arts = () => {
                   HOME
                 </b>
               </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
                 <div className="self-stretch relative leading-[121.1%] font-light lg:text-[15px]">
                   <p className="m-0">Hello there!</p>
                   <p className="m-0">Welcome on my personnal website.</p>
                 </div>
               </div>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[15px]">
                   <p className="m-0">Open to new opportunities,</p>
                   <p className="m-0">feel free to reach out!</p>
@@ -50,8 +50,8 @@ const Arts = () => {
                   ABOUT
                 </b>
               </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[15px]">
                   <p className="m-0">
                     <a href="https://www.sciencefocus.com/planet-earth/how-much-does-a-cloud-weigh" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
@@ -62,8 +62,8 @@ const Arts = () => {
                   <p className="m-0">Anyways take a look at my website!</p>
                 </div>
               </div>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[15px]">
                   <p className="m-0">Honnestly I don't know what to put</p>
                   <p className="m-0">here. It just needed to be filled.</p>
@@ -80,10 +80,10 @@ const Arts = () => {
                   DEV
                 </b>
               </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] sm:hidden md:hidden">
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
                 <div className="relative leading-[121.1%] font-light lg:text-[22px]">
                   {(() => {
                     const timestamp = Date.now().toString();
@@ -98,10 +98,10 @@ const Arts = () => {
                   ▪ ARTS
                 </b>
               </div>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
             </div>
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
               <Link
@@ -113,10 +113,10 @@ const Arts = () => {
                   CONTACT
                 </b>
               </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
+              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
             </div>
           </div>
         </div>
@@ -169,7 +169,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 THIS PORTFOLIO
               </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] whitespace-pre-wrap lg:text-3xl sm:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] whitespace-pre-wrap lg:text-3xl xs:hidden sm:hidden">
                 I spent all my summer on this project, which aims to better
                 highlight my work. LinkedIn is just messy when it comes to
                 showcase dev work, and not made at all to shocase design work.
@@ -186,10 +186,10 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium md:text-6xl sm:text-[60px]">
                 VIBEMATCH
               </div>
-              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium sm:hidden">
+              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
                 VibeMatch is a plateform designed to improve connection between
                 content creators and sponsors. Check out the promotion video I
                 created for this occasion!
@@ -205,10 +205,10 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 T.S.O.S
               </div>
-              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium sm:hidden">
+              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
                 2ND POSITION GAMEJAM PROJECT
               </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
                 The Sound of Silence is a game where you explore a mansion, trying
                 not to go insane. Creating the design was pretty fun and taught me
                 a lot of things about tilemapping.
@@ -224,7 +224,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 INSTAGRAM ACCOUNT - 2
               </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
                 This Instagram account I designed was for my engineering school,
                 in order to help new students make their decision upon which
                 school to choose, presenting all the benefits of mine...
@@ -240,10 +240,10 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 CARESYNC
               </div>
-              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium sm:hidden">
+              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
                 TOP5 WINNING HACKATHON PROJECT
               </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
                 A hackathon project to make medical healthcare systems such as
                 hospitals more efficient, working on the patient priority sorting
                 process. Check out the demo video!
@@ -259,7 +259,7 @@ const Arts = () => {
               <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
                 INSTAGRAM ACCOUNT - 1
               </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl sm:hidden">
+              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
                 This Instagram account I designed with some other teammates too
                 was created during the student board election campaign I took part
                 in. I was in charge of all the communication processes.

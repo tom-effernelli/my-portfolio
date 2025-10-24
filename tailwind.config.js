@@ -12,6 +12,10 @@ module.exports = {
       },
       sm: {
         max: "768px",
+        min: "565px",
+      },
+      xs: {
+        max: "565px",
       },
     },
     extend: {
