@@ -9,11 +9,13 @@ const ProjectPageArtsInstagramAccount1 = () => {
   // État pour le media slider
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
   
-  // Données des médias (à remplacer par les vrais médias)
   const mediaItems = [
-    { type: 'image', src: '/placeholder1.jpg', alt: 'Média 1' },
-    { type: 'video', src: 'https://www.youtube.com/embed/example1', title: 'Vidéo 1' },
-    { type: 'image', src: '/placeholder2.jpg', alt: 'Média 2' },
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330888/6_vrozpo.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330885/5_zdrxi8.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330884/4_sqcycc.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330882/3_alghjx.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330881/2_sm74ec.png'},
+    { type: 'image', src: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1761330536/7_lvqnsf.png'},
   ];
 
   const goToPrevious = () => {
@@ -180,24 +182,27 @@ const ProjectPageArtsInstagramAccount1 = () => {
           
           {/* Container des médias */}
           <div className="w-full max-w-[800px] mx-auto px-16">
-            <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-lg shadow-lg">
+            <div className="relative w-full overflow-hidden rounded-lg shadow-lg">
               {currentMedia.type === 'image' ? (
                 <Image
-                  className="absolute top-0 left-0 w-full h-full object-cover"
+                  className="w-full h-auto object-contain"
                   src={currentMedia.src}
                   alt={currentMedia.alt}
-                  fill
+                  width={800}
+                  height={400}
                   sizes="(max-width: 800px) 100vw, 800px"
                 />
               ) : (
-                <iframe
-                  className="absolute top-0 left-0 w-full h-full"
-                  src={currentMedia.src}
-                  title={currentMedia.title}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+                <div className="relative w-full h-0 pb-[56.25%]">
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full"
+                    src={currentMedia.src}
+                    title={currentMedia.title}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
               )}
             </div>
           </div>

@@ -161,7 +161,7 @@ const Arts = () => {
             PROJECTS:
           </div>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761334364/my-portfolio-cover_yevglp.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-this-portfolio"
           >
@@ -178,7 +178,7 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331030/Top_project_1_-_fill_example_uiza2r.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-vibematch"
           >
@@ -197,7 +197,7 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331022/Project_2_image_-_fill_example_pwrtbb.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-t-s-o-s"
           >
@@ -216,7 +216,7 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331025/Project_compte_admissible_cover_jlytvm.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-instagram-account2"
           >
@@ -232,7 +232,7 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331023/Project_caresync_cover_poqaqo.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-caresync"
           >
@@ -251,7 +251,7 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] xs:pr-[20px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] xs:pr-[20px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331027/Project_compte_insta_bediana_cover_ob4wsh.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-instagram-account1"
           >
