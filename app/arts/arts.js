@@ -7,7 +7,7 @@ const Arts = () => {
   return (
     <>
       <StickyNavigation currentPage="arts" />
-      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-8 pb-[85px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[123px] text-left text-[45px] text-[#fff] md:box-border">
+      <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-8 pb-[85px] xs:pb-[37px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[123px] xs:gap-[100px] text-left text-[45px] text-[#fff] md:box-border">
         <div className="self-stretch flex flex-col items-start gap-[33px] sm:gap-[20px]" id="header">
           <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
             <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px] xs:text-[25px]">
@@ -120,35 +120,35 @@ const Arts = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch flex items-start gap-14 min-h-[700px] text-[150px] lg:min-h-[500px] md:min-h-[300px] sm:flex-col">
+        <div className="self-stretch flex items-start gap-14 text-[150px] lg:min-h-[500px] md:min-h-[300px] sm:flex-col xs:flex-col xs:text-[70px]">
           <Image
-            className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover lg:h-[500px] lg:max-h-[500px] md:self-stretch md:h-auto md:max-h-[350px] sm:flex-[unset] sm:self-stretch"
+            className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover lg:h-[500px] lg:max-h-[500px] md:self-stretch md:h-auto md:max-h-[350px] xs:max-h-[200px] sm:flex-[unset] sm:self-stretch"
             width={794}
             height={700}
             sizes="100vw"
             alt=""
             src="/First-decoration-image@2x.png"
           />
-          <div className="self-stretch w-[426px] relative leading-[92%] inline-block shrink-0 max-w-[426px] lg:text-[120px] lg:h-auto lg:max-w-[350px] md:text-[100px] sm:text-[100px] sm:w-full">
+          <div className="self-stretch relative leading-[92%] inline-block shrink-0 max-w-[426px] lg:text-[120px] lg:h-auto lg:max-w-[350px] md:text-[100px] sm:text-[100px] sm:w-full">
             <span className="font-space-grotesk font-medium">{`LET THE ARTS `}</span>
             <b>IN</b>
             <span className="font-space-grotesk font-medium">.</span>
           </div>
         </div>
-        <div className="self-stretch flex items-end justify-center min-h-[800px] text-right text-3xl lg:min-h-[500px] sm:flex-col">
-          <div className="w-[686px] flex flex-col items-end justify-end py-0 pl-0 pr-[30px] box-border gap-5 max-w-[730px] z-[1] lg:max-w-[500px] md:w-[400px] md:max-w-[400px] sm:w-[300px] sm:max-w-[300px]">
-            <div className="self-stretch relative leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px]">
+        <div className="self-stretch flex items-end justify-center text-right text-3xl lg:min-h-[500px] sm:flex-col xs:flex-col">
+          <div className="flex flex-col items-end justify-end py-0 pl-0 pr-[30px] box-border gap-5 max-w-[730px] z-[1] lg:max-w-[500px] md:w-[400px] md:max-w-[400px] sm:w-[300px] sm:max-w-[300px]">
+            <div className="self-stretch relative leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]">
               IN HERE YOU WILL FIND MY
             </div>
-            <div className="self-stretch relative text-[300px] leading-[80%] font-space-grotesk font-medium text-left lg:text-[230px] lg:h-auto md:text-[150px] sm:text-[110px]">
+            <div className="self-stretch relative text-[300px] leading-[80%] font-space-grotesk font-medium text-left lg:text-[230px] lg:h-auto md:text-[150px] sm:text-[110px] xs:text-[90px]">
               ART
             </div>
-            <div className="self-stretch relative text-[120px] leading-[121.1%] lg:text-[90px] md:text-[70px] sm:text-[50px] font-space-grotesk">
+            <div className="self-stretch relative text-[120px] leading-[121.1%] lg:text-[90px] md:text-[70px] sm:text-[50px] xs:text-[40px] font-space-grotesk">
               CREATIONS
             </div>
           </div>
           <Image
-            className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[0] sm:max-h-[720px] sm:flex-[unset] sm:self-stretch"
+            className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[0] sm:max-h-[720px] xs:max-h-[400px] sm:flex-[unset] sm:self-stretch"
             width={590}
             height={800}
             sizes="100vw"
@@ -156,17 +156,17 @@ const Arts = () => {
             src="/Decorative-image-2@2x.png"
           />
         </div>
-        <div className="self-stretch flex flex-col items-end gap-[61px] text-[100px] md:gap-5" id="projects">
-          <div className="self-stretch relative text-[130px] leading-[121.1%] font-space-grotesk font-medium text-right lg:text-[100px] md:text-[80px] sm:text-[70px] md:h-auto">
+        <div className="self-stretch flex flex-col items-end gap-[61px] xs:gap-[30px] text-[100px] md:gap-5" id="projects">
+          <div className="self-stretch relative text-[130px] leading-[121.1%] font-space-grotesk font-medium text-right lg:text-[100px] md:text-[80px] sm:text-[70px] xs:text-[40px] md:h-auto">
             PROJECTS:
           </div>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-this-portfolio"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[40px]">
                 THIS PORTFOLIO
               </div>
               <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] whitespace-pre-wrap lg:text-3xl xs:hidden sm:hidden">
@@ -178,12 +178,12 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-vibematch"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium md:text-6xl sm:text-[60px]">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium md:text-6xl sm:text-[60px] xs:text-[40px]">
                 VIBEMATCH
               </div>
               <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
@@ -197,12 +197,12 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-t-s-o-s"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[40px]">
                 T.S.O.S
               </div>
               <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
@@ -216,12 +216,12 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-instagram-account2"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[30px]">
                 INSTAGRAM ACCOUNT - 2
               </div>
               <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] xs:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
@@ -232,12 +232,12 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-caresync"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[40px]">
                 CARESYNC
               </div>
               <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
@@ -251,12 +251,12 @@ const Arts = () => {
             </div>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px]"
+            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] xs:pr-[20px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('/Project-fill-img.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
             id="pojectPageButton"
             href="/project-page-arts-instagram-account1"
           >
             <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px]">
+              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[30px]">
                 INSTAGRAM ACCOUNT - 1
               </div>
               <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
@@ -268,20 +268,20 @@ const Arts = () => {
           </Link>
         </div>
         <div className="self-stretch flex flex-col items-start gap-[39px] text-[90px]" id="design-stack">
-          <div className="relative leading-[121.1%] font-space-grotesk font-medium lg:text-[80px] md:text-6xl sm:text-[45px]">
+          <div className="relative leading-[121.1%] font-space-grotesk font-medium lg:text-[80px] md:text-6xl sm:text-[45px] xs:text-[35px]">
             DESIGN STACK:
           </div>
-          <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:text-[22px] sm:text-[17px]">
+          <div className="self-stretch relative text-[35px] leading-[121%] lg:text-3xl md:text-[22px] sm:text-[17px] xs:text-[15px]">
             <p className="m-0">
               Here are the softwares I’m the most familiar with for graphic
               creations:
             </p>
-            <ul className="m-0 font-[inherit] text-[length:inherit] pl-[47px]">
+            <ul className="m-0 font-[inherit] text-[length:inherit] pl-[47px] list-disc">
               <li className="mb-0">Adobe Photoshop</li>
               <li className="mb-0">Adobe Premiere Pro</li>
               <li className="mb-0">Adobe After Effects</li>
               <li className="mb-0">Adobe Illustrator</li>
-              <li>Figma</li>
+              <li className="mb-0">Figma</li>
             </ul>
           </div>
         </div>
