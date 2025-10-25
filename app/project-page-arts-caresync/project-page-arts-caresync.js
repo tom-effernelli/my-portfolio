@@ -29,7 +29,7 @@ const ProjectPageArtsCaresync = () => {
             <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
               <div className="self-stretch relative leading-[121.1%] font-light lg:text-[15px]">
                 <p className="m-0">Hello there!</p>
-                <p className="m-0">Welcome on my personnal website.</p>
+                <p className="m-0">Welcome on my personal website.</p>
               </div>
             </div>
             <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
