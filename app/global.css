@@ -5,6 +5,23 @@
 @layer theme, base, components, utilities;
 @config "../tailwind.config.js";
 
+/* Définition des polices Consolas personnalisées */
+@font-face {
+  font-family: 'Consolas';
+  src: url('/consolas.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Consolas';
+  src: url('/consolas-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   @apply leading-[normal] m-0;
   font-family: 'Inter', sans-serif;
