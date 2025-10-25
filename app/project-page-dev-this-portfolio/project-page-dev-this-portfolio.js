@@ -123,7 +123,7 @@ const ProjectPageDevThisPortfolio = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch flex flex-col items-end gap-32 xs:gap-[60px] text-[25px] font-[Consolas]">
+      <div className="self-stretch flex flex-col items-end gap-32 xs:gap-[60px] text-[25px] font-courier">
         <div className="self-stretch relative leading-[121%] lg:text-xl md:text-[15px] sm:text-[10px] xs:text-[7px]">
           <p className="m-0 whitespace-pre-wrap">{`██████  ██████   ██████       ██ ███████  ██████ ████████              `}</p>
           <p className="m-0 whitespace-pre-wrap">{`██   ██ ██   ██ ██    ██      ██ ██      ██         ██    ██           `}</p>

@@ -119,7 +119,7 @@ const Dev = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-start gap-[88px] xs:gap-[30px] text-xl font-[Consolas]" id="tech-stack">
+        <div className="self-stretch flex flex-col items-start gap-[88px] xs:gap-[30px] text-xl font-courier" id="tech-stack">
           <div className="self-stretch relative leading-[121.1%] lg:text-[15px] md:text-[10px] sm:text-[10px] xs:text-[7px]">
             <p className="m-0 whitespace-pre-wrap">{`████████ ███████  ██████ ██   ██     ███████ ████████  █████   ██████ ██   ██ `}</p>
             <p className="m-0 whitespace-pre-wrap">{`   ██    ██      ██      ██   ██     ██         ██    ██   ██ ██      ██  ██  `}</p>
@@ -148,7 +148,7 @@ const Dev = () => {
             <p className="m-0">- Methods and Tools: Git, Responsive Design</p>
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-center py-0 pl-[171px] xs:pl-[0px] pr-0 gap-[63px] xs:gap-[30px] text-right text-[32px] md:pl-[130px] md:box-border sm:pl-[71px] sm:box-border font-[Consolas]" id="projects">
+        <div className="self-stretch flex flex-col items-center py-0 pl-[171px] xs:pl-[0px] pr-0 gap-[63px] xs:gap-[30px] text-right text-[32px] md:pl-[130px] md:box-border sm:pl-[71px] sm:box-border font-courier" id="projects">
           <div className="self-stretch relative text-xl leading-[121.1%] lg:text-[15px] md:text-[10px] sm:text-[10px] xs:text-[7px]">
             <p className="m-0 whitespace-pre-wrap">{`██████  ██████   ██████       ██ ███████  ██████ ████████ ███████ `}</p>
             <p className="m-0 whitespace-pre-wrap">{`██   ██ ██   ██ ██    ██      ██ ██      ██         ██    ██      `}</p>
@@ -176,7 +176,7 @@ const Dev = () => {
             href="/project-page-dev-vibematch"
           >
             <p className="m-0">
-              <b className="font-[Consolas]">→ VibeMatch:</b>
+              <b className="font-courier">→ VibeMatch:</b>
               <span> Hackathon Winning Project</span>
             </p>
             <p className="m-0">
@@ -191,7 +191,7 @@ const Dev = () => {
             href="/project-page-dev-t-s-o-s"
           >
             <p className="m-0">
-              <b className="font-[Consolas]">→ The Sound of Silence:</b>
+              <b className="font-courier">→ The Sound of Silence:</b>
               <span> 2nd Position GameJam Project</span>
             </p>
             <p className="m-0">
@@ -206,7 +206,7 @@ const Dev = () => {
             href="/project-page-dev-caresync"
           >
             <p className="m-0">
-              <b className="font-[Consolas]">{`→ CareSync: `}</b>
+              <b className="font-courier">{`→ CareSync: `}</b>
               <span>Hackathon top5 Winning Project</span>
             </p>
             <p className="m-0">

@@ -5,18 +5,18 @@
 @layer theme, base, components, utilities;
 @config "../tailwind.config.js";
 
-/* Définition des polices Consolas personnalisées */
+/* Définition de la police Courier New pour l'ASCII art */
 @font-face {
-  font-family: 'Consolas';
-  src: url('/consolas.ttf') format('truetype');
+  font-family: 'Courier New';
+  src: local('Courier New'), local('CourierNew'), local('Courier');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Consolas';
-  src: url('/consolas-bold.ttf') format('truetype');
+  font-family: 'Courier New';
+  src: local('Courier New Bold'), local('CourierNew-Bold'), local('Courier Bold');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -30,6 +30,15 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Correction spécifique pour l'ASCII art avec Courier New */
+.font-courier {
+  font-family: 'Courier New', 'Courier', monospace !important;
+  letter-spacing: 0;
+  text-rendering: auto;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 /* Styles de sélection personnalisés - gris très foncé et blanc */
