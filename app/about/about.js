@@ -14,8 +14,8 @@ const About = () => {
   const onResumeClick = useCallback(() => {
     // Create a temporary link element to download the CV
     const link = document.createElement('a');
-    link.href = '/cv_tom_effernelli.pdf';
-    link.download = 'Tom_Effernelli_Resume.pdf';
+    link.href = '/tom_effernelli_resume.pdf';
+    link.download = 'tom_effernelli_resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
