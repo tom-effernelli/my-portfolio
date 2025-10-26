@@ -120,14 +120,14 @@ const Dev = () => {
           </div>
         </div>
         <div className="self-stretch flex flex-col items-start gap-[88px] xs:gap-[30px] text-xl font-courier" id="tech-stack">
-          <div className="self-stretch relative leading-[121.1%] lg:text-[15px] md:text-[10px] sm:text-[10px] xs:text-[7px]">
+          <div className="self-stretch relative leading-[121.1%] lg:text-[15px] md:text-[10px] sm:text-[9px] xs:text-[6px]">
             <p className="m-0 whitespace-pre-wrap">{`████████ ███████  ██████ ██   ██     ███████ ████████  █████   ██████ ██   ██ `}</p>
             <p className="m-0 whitespace-pre-wrap">{`   ██    ██      ██      ██   ██     ██         ██    ██   ██ ██      ██  ██  `}</p>
             <p className="m-0 whitespace-pre-wrap">{`   ██    █████   ██      ███████     ███████    ██    ███████ ██      █████   `}</p>
             <p className="m-0 whitespace-pre-wrap">{`   ██    ██      ██      ██   ██          ██    ██    ██   ██ ██      ██  ██  `}</p>
             <p className="m-0 whitespace-pre-wrap">{`   ██    ███████  ██████ ██   ██     ███████    ██    ██   ██  ██████ ██   ██ `}</p>
           </div>
-          <div className="self-stretch relative text-3xl leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]">
+          <div className="self-stretch relative text-3xl leading-[121.1%] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px] font-bold">
             <p className="m-0">
               I’m mainly a frontend web developer, although I also work on
               projects outside web development (such as video game development).
@@ -136,7 +136,7 @@ const Dev = () => {
             </p>
             <p className="m-0">&nbsp;</p>
             <p className="m-0">
-              <b>Tech Stack:</b>
+              Tech Stack:
             </p>
             <p className="m-0">
               - Programming Languages: C, C# (+ Unity), Python, JavaScript, HTML,
@@ -148,8 +148,8 @@ const Dev = () => {
             <p className="m-0">- Methods and Tools: Git, Responsive Design</p>
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-center py-0 pl-[171px] xs:pl-[0px] pr-0 gap-[63px] xs:gap-[30px] text-right text-[32px] md:pl-[130px] md:box-border sm:pl-[71px] sm:box-border font-courier" id="projects">
-          <div className="self-stretch relative text-xl leading-[121.1%] lg:text-[15px] md:text-[10px] sm:text-[10px] xs:text-[7px]">
+        <div className="self-stretch flex flex-col items-center py-0 pl-[170px] xs:pl-[0px] pr-0 gap-[63px] xs:gap-[30px] text-right text-[32px] md:pl-[130px] md:box-border sm:pl-[66px] sm:box-border font-courier" id="projects">
+          <div className="self-stretch relative text-xl leading-[121.1%] lg:text-[15px] md:text-[10px] sm:text-[9px] xs:text-[6px]">
             <p className="m-0 whitespace-pre-wrap">{`██████  ██████   ██████       ██ ███████  ██████ ████████ ███████ `}</p>
             <p className="m-0 whitespace-pre-wrap">{`██   ██ ██   ██ ██    ██      ██ ██      ██         ██    ██      `}</p>
             <p className="m-0 whitespace-pre-wrap">{`██████  ██████  ██    ██      ██ █████   ██         ██    ███████ `}</p>
@@ -157,12 +157,12 @@ const Dev = () => {
             <p className="m-0 whitespace-pre-wrap">{`██      ██   ██  ██████   █████  ███████  ██████    ██    ███████ `}</p>
           </div>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]"
+            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px] font-bold"
             id="projectpageButton"
             href="/project-page-dev-this-portfolio"
           >
             <p className="m-0">
-              <b>→ My Portfolio</b>
+              → My Portfolio
             </p>
             <p className="m-0">
               A web portfolio built to better highlight my work. This project
@@ -171,12 +171,12 @@ const Dev = () => {
             </p>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]"
+            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px] font-bold"
             id="projectpageButton"
             href="/project-page-dev-vibematch"
           >
             <p className="m-0">
-              <b className="font-courier">→ VibeMatch:</b>
+              → VibeMatch:
               <span> Hackathon Winning Project</span>
             </p>
             <p className="m-0">
@@ -186,12 +186,12 @@ const Dev = () => {
             </p>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]"
+            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px] font-bold"
             id="projectpageButton"
             href="/project-page-dev-t-s-o-s"
           >
             <p className="m-0">
-              <b className="font-courier">→ The Sound of Silence:</b>
+              → The Sound of Silence:
               <span> 2nd Position GameJam Project</span>
             </p>
             <p className="m-0">
@@ -201,12 +201,12 @@ const Dev = () => {
             </p>
           </Link>
           <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px]"
+            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px] font-bold"
             id="projectpageButton"
             href="/project-page-dev-caresync"
           >
             <p className="m-0">
-              <b className="font-courier">{`→ CareSync: `}</b>
+              → CareSync:
               <span>Hackathon top5 Winning Project</span>
             </p>
             <p className="m-0">
