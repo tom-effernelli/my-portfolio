@@ -52,7 +52,7 @@ const DropdownMenuArtsSelected = ({ className = "", onClose }) => {
         href="/arts"
       >
         <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer">
-          ▪ ARTS
+          <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px] inline-block -translate-y-1">■</span> ARTS
         </b>
       </Link>
       <Link

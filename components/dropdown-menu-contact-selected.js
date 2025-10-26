@@ -61,7 +61,7 @@ const DropdownMenuContactSelected = ({ className = "", onClose }) => {
         href="/contact"
       >
         <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer">
-          ▪ CONTACT
+          <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px] inline-block -translate-y-1">■</span> CONTACT
         </b>
       </Link>
     </div>
