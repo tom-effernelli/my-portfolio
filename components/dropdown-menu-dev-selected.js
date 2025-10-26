@@ -43,7 +43,7 @@ const DropdownMenuDevSelected = ({ className = "", onClose }) => {
         href="/dev"
       >
         <b className="self-stretch flex-1 relative leading-[121.1%] flex items-end cursor-pointer">
-          <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px] inline-block -translate-y-1">■</span> DEV
+          <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px] inline-block -translate-y-0.25">■ </span> DEV
         </b>
       </Link>
       <Link
