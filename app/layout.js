@@ -28,7 +28,7 @@ export const metadata = {
     siteName: 'Tom Effernelli - Developer',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Tom Effernelli - Developer & Graphic Designer Portfolio',
@@ -41,7 +41,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Tom Effernelli - Developer & Graphic Designer',
     description: 'My personnal portfolio showcasing my developpement and graphic design work.',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.png'],
   },
   icons: {
     icon: '/favicon.png',
