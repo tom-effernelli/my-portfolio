@@ -16,7 +16,33 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: `Tom Effernelli - Developer`,
+  title: `Tom Effernelli - Developer & Graphic Designer`,
+  description: `My personnal portfolio showcasing my developpement and graphic design work.`,
+  keywords: ['Tom Effernelli', 'Developer', 'Portfolio', 'Graphic Designer', 'React', 'Next.js'],
+  authors: [{ name: 'Tom Effernelli' }],
+  creator: 'Tom Effernelli',
+  openGraph: {
+    title: 'Tom Effernelli - Developer & Graphic Designer',
+    description: 'My personnal portfolio showcasing my developpement and graphic design work.',
+    url: 'https://tom-effernelli.vercel.app/',
+    siteName: 'Tom Effernelli - Developer',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Tom Effernelli - Developer & Graphic Designer Portfolio',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tom Effernelli - Developer & Graphic Designer',
+    description: 'My personnal portfolio showcasing my developpement and graphic design work.',
+    images: ['/og-image.jpg'],
+  },
   icons: {
     icon: '/favicon.png',
   },
