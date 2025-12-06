@@ -1,4 +1,3 @@
-import Link from "next/link";
 import FooterDevArts from "../../components/footer-dev-arts";
 import StickyNavigation from "../../components/sticky-navigation";
 import ProjectDevLink from "../../components/project-dev-link";

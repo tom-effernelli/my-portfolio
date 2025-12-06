@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import FooterHomeAboutContact from "../components/footer-home-about-contact";
 import StickyNavigation from "../components/sticky-navigation";
