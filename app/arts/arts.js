@@ -3,120 +3,14 @@ import Image from "next/image";
 import FooterDevArts from "../../components/footer-dev-arts";
 import StickyNavigation from "../../components/sticky-navigation";
 import ProjectLinkCard from "../../components/project-link-card";
-import Timestamp from "../../components/timestamp";
+import PageHeader from "../../components/page-header";
 
 const Arts = () => {
   return (
     <>
       <StickyNavigation currentPage="arts" />
       <div className="arts-page w-full relative bg-[#090909] overflow-hidden flex flex-col items-start pt-8 pb-[85px] xs:pb-[37px] pl-[74px] xs:pl-[37px] pr-[74px] xs:pr-[37px] box-border gap-[123px] xs:gap-[100px] text-left text-[45px] text-[#fff] md:box-border">
-        <div className="self-stretch flex flex-col items-start gap-[33px] sm:gap-[20px]" id="header">
-          <div className="self-stretch border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end">
-            <b className="self-stretch relative leading-[121.1%] lg:text-[40px] md:text-[35px] sm:text-[25px] xs:text-[25px]">
-              TOM EFFERNELLI
-            </b>
-          </div>
-          <div className="self-stretch h-[295px] sm:h-[230px] xs:h-[210px] flex flex-col items-start gap-2.5 sm:gap-1 text-[29px]">
-            <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center text-xl">
-              <Link
-                className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[29px] text-[inherit]"
-                id="pageButton"
-                href="/"
-              >
-                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  HOME
-                </b>
-              </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
-                <div className="self-stretch relative leading-[121.1%] font-light lg:text-[15px]">
-                  <p className="m-0">Hello there!</p>
-                  <p className="m-0">Welcome on my personal website.</p>
-                </div>
-              </div>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
-                <div className="relative leading-[121.1%] font-light lg:text-[15px]">
-                  <p className="m-0">Open to new opportunities,</p>
-                  <p className="m-0">feel free to reach out!</p>
-                </div>
-              </div>
-            </div>
-            <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center text-xl">
-              <Link
-                className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[29px] text-[inherit]"
-                id="pageButton"
-                href="/about"
-              >
-                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  ABOUT
-                </b>
-              </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
-                <div className="relative leading-[121.1%] font-light lg:text-[15px]">
-                  <p className="m-0">
-                    <a href="https://www.sciencefocus.com/planet-earth/how-much-does-a-cloud-weigh" target="_blank" rel="noopener noreferrer" className="[text-decoration:underline]">
-                      Did you know
-                    </a>{" "}
-                    clouds weight ~1Mt?
-                  </p>
-                  <p className="m-0">Anyways take a look at my website!</p>
-                </div>
-              </div>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
-                <div className="relative leading-[121.1%] font-light lg:text-[15px]">
-                  <p className="m-0">Honnestly I don't know what to put</p>
-                  <p className="m-0">here. It just needed to be filled.</p>
-                </div>
-              </div>
-            </div>
-            <div className="self-stretch flex-1 overflow-hidden flex items-end">
-              <Link
-                className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit]"
-                id="pageButton"
-                href="/dev"
-              >
-                <b className="self-stretch relative leading-[121.1%] cursor-pointer lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  DEV
-                </b>
-              </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
-                <Timestamp className="relative leading-[121.1%] font-light lg:text-[22px] text-[#fff]" />
-              </div>
-            </div>
-            <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
-              <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px]">
-                <b className="self-stretch relative leading-[121.1%] cursor-auto lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  <span className="text-[16px] lg:text-[14px] sm:text-[12px] xs:text-[12px] inline-block -translate-y-1">■</span> ARTS
-                </b>
-              </div>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
-            </div>
-            <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
-              <Link
-                className="cursor-pointer [text-decoration:none] self-stretch flex-1 border-[#fff] border-solid border-b-[2px] flex flex-col items-start justify-end pt-0 px-0 pb-[5px] text-[inherit]"
-                id="pageButton"
-                href="/contact"
-              >
-                <b className="self-stretch relative leading-[121.1%] lg:text-[26px] sm:text-[22px] xs:text-[22px]">
-                  CONTACT
-                </b>
-              </Link>
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
-              <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
-            </div>
-          </div>
-        </div>
+        <PageHeader currentPage="arts" borderColor="#fff" />
         <div className="self-stretch flex items-start gap-14 text-[150px] lg:min-h-[500px] md:min-h-[300px] sm:flex-col xs:flex-col xs:text-[70px]">
           <Image
             className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover lg:h-[500px] lg:max-h-[500px] md:self-stretch md:h-auto md:max-h-[350px] xs:max-h-[200px] sm:flex-[unset] sm:self-stretch"
