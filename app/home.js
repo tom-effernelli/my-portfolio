@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import FooterHomeAboutContact from "../components/footer-home-about-contact";
 import StickyNavigation from "../components/sticky-navigation";
+import Timestamp from "../components/timestamp";
+import ProjectCard from "../components/project-card";
 
 const Home = () => {
   return (
@@ -80,12 +82,7 @@ const Home = () => {
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
-                <div className="relative leading-[121.1%] font-light lg:text-[22px]">
-                  {(() => {
-                    const timestamp = Date.now().toString();
-                    return timestamp.length > 16 ? timestamp.slice(-16) : timestamp.padStart(16, '0');
-                  })()}
-                </div>
+                <Timestamp className="relative leading-[121.1%] font-light lg:text-[22px]" />
               </div>
             </div>
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
@@ -173,65 +170,22 @@ const Home = () => {
           <div className="self-stretch relative text-[110px] leading-[121%] font-medium text-[#000] text-right lg:text-[90px] md:text-[70px] sm:text-[50px] xs:text-[35px] font-space-grotesk">
             TOP PROJECTS:
           </div>
-          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331030/Top_project_1_-_fill_example_uiza2r.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px] xs:h-[200px]">
-            <div className="self-stretch flex items-end justify-between gap-0">
-              <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 lg:pr-[75px] md:pr-[40px] sm:pr-[20px] xs:pr-[10px] gap-[23px]">
-                <div className="self-stretch relative leading-[121%] sm:text-[50px] xs:text-[35px] md:text-[75px] lg:text-[100px] font-medium font-space-grotesk">
-                  VIBEMATCH
-                </div>
-                <div className="self-stretch relative leading-[121%] sm:text-[20px] xs:text-[15px] md:text-[30px] lg:text-[50px] font-medium font-space-grotesk">
-                  TOP5 WINNING HACKATHON PROJECT
-                </div>
-                <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] xs:hidden sm:hidden">
-                  VibeMatch is a plateform designed to improve connection between
-                  content creators and sponsors.
-                </div>
-              </div>
-              <b className="relative leading-[113%] inline-block max-w-[300px] lg:text-[35px] md:text-[25px] sm:text-[15px] xs:text-[10px]">
-                <p className="m-0">
-                  <Link href="/project-page-dev-vibematch" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
-                    {`> View dev work`}
-                  </Link>
-                </p>
-                <p className="m-0">&nbsp;</p>
-                <p className="m-0">
-                  <Link href="/project-page-arts-vibematch" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
-                    {`> View creative work`}
-                  </Link>
-                </p>
-              </b>
-            </div>
-          </div>
-          <div className="self-stretch lg:h-[698px] overflow-hidden shrink-0 flex flex-col items-center justify-end p-5 box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331022/Project_2_image_-_fill_example_pwrtbb.png')] bg-cover bg-no-repeat bg-[top] md:h-[500px] sm:h-[300px] xs:h-[200px]">
-            <div className="self-stretch flex items-end justify-between gap-0">
-              <div className="flex-1 flex flex-col items-start justify-end py-0 pl-0 lg:pr-[75px] md:pr-[40px] sm:pr-[20px] xs:pr-[10px] gap-[23px]">
-                <div className="self-stretch relative leading-[121%] sm:text-[50px] xs:text-[35px] md:text-[75px] lg:text-[100px] font-medium font-space-grotesk">
-                  T.S.O.S
-                </div>
-                <div className="self-stretch relative leading-[121%] sm:text-[20px] xs:text-[15px] md:text-[30px] lg:text-[50px] font-medium font-space-grotesk">
-                  2ND POSITION GAMEJAM PROJECT
-                </div>
-                <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] xs:hidden sm:hidden">
-                  The Sound of Silence is a game where you explore a mansion, trying
-                  not to go insane. Creating the design was pretty fun and taught me
-                  a lot of things about tilemapping.
-                </div>
-              </div>
-              <b className="relative leading-[113%] inline-block max-w-[300px] lg:text-[35px] md:text-[25px] sm:text-[15px] xs:text-[10px]">
-                <p className="m-0">
-                  <Link href="/project-page-dev-t-s-o-s" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
-                    {`> View dev work`}
-                  </Link>
-                </p>
-                <p className="m-0">&nbsp;</p>
-                <p className="m-0">
-                  <Link href="/project-page-arts-t-s-o-s" className="cursor-pointer [text-decoration:none] text-[inherit] hover:underline">
-                    {`> View creative work`}
-                  </Link>
-                </p>
-              </b>
-            </div>
-          </div>
+          <ProjectCard
+            title="VIBEMATCH"
+            subtitle="TOP5 WINNING HACKATHON PROJECT"
+            description="VibeMatch is a plateform designed to improve connection between content creators and sponsors."
+            devLink="/project-page-dev-vibematch"
+            artsLink="/project-page-arts-vibematch"
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761331030/Top_project_1_-_fill_example_uiza2r.png"
+          />
+          <ProjectCard
+            title="T.S.O.S"
+            subtitle="2ND POSITION GAMEJAM PROJECT"
+            description="The Sound of Silence is a game where you explore a mansion, trying not to go insane. Creating the design was pretty fun and taught me a lot of things about tilemapping."
+            devLink="/project-page-dev-t-s-o-s"
+            artsLink="/project-page-arts-t-s-o-s"
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761331022/Project_2_image_-_fill_example_pwrtbb.png"
+          />
         </div>
         <Image
           className="lg:w-[357px] md:w-[357px] sm:w-[250px] xs:w-[300px] absolute !!m-[0 important] lg:bottom-[470px] md:bottom-[270px] sm:bottom-[165px] xs:top-[275px] left-[-50px] max-h-full object-cover z-[0]"

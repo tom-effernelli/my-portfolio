@@ -1,6 +1,8 @@
 import Link from "next/link";
 import FooterDevArts from "../../components/footer-dev-arts";
 import StickyNavigation from "../../components/sticky-navigation";
+import ProjectDevLink from "../../components/project-dev-link";
+import Timestamp from "../../components/timestamp";
 
 const Dev = () => {
   return (
@@ -79,12 +81,7 @@ const Dev = () => {
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
               <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
-                <div className="relative leading-[121.1%] font-light lg:text-[22px]">
-                  {(() => {
-                    const timestamp = Date.now().toString();
-                    return timestamp.length > 16 ? timestamp.slice(-16) : timestamp.padStart(16, '0');
-                  })()}
-                </div>
+                <Timestamp className="relative leading-[121.1%] font-light lg:text-[22px] text-[#fff]" />
               </div>
             </div>
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
@@ -156,65 +153,26 @@ const Dev = () => {
             <p className="m-0 whitespace-pre-wrap">{`██      ██   ██ ██    ██ ██   ██ ██      ██         ██         ██ `}</p>
             <p className="m-0 whitespace-pre-wrap">{`██      ██   ██  ██████   █████  ███████  ██████    ██    ███████ `}</p>
           </div>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px] font-bold"
-            id="projectpageButton"
+          <ProjectDevLink
+            title="→ My Portfolio"
+            description="A web portfolio built to better highlight my work. This project marked a significant step forward in my comprehension of JavaScript, React, and Next.js."
             href="/project-page-dev-this-portfolio"
-          >
-            <p className="m-0">
-              → My Portfolio
-            </p>
-            <p className="m-0">
-              A web portfolio built to better highlight my work. This project
-              marked a significant step forward in my comprehension of JavaScript,
-              React, and Next.js.
-            </p>
-          </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px] font-bold"
-            id="projectpageButton"
+          />
+          <ProjectDevLink
+            title="→ VibeMatch: Hackathon Winning Project"
+            description="VibeMatch is a platform designed to improve connection between content creators and sponsors. Built in 1 week using NLP, AI matching and social media API integration."
             href="/project-page-dev-vibematch"
-          >
-            <p className="m-0">
-              → VibeMatch:
-              <span> Hackathon Winning Project</span>
-            </p>
-            <p className="m-0">
-              VibeMatch is a platform designed to improve connection between
-              content creators and sponsors. Built in 1 week using NLP, AI
-              matching and social media API integration.
-            </p>
-          </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px] font-bold"
-            id="projectpageButton"
+          />
+          <ProjectDevLink
+            title="→ The Sound of Silence: 2nd Position GameJam Project"
+            description="A 2D video game where you explore a mansion and try not to go insane. Developed in one week using Phaser.js, a framework for browser-based game creation."
             href="/project-page-dev-t-s-o-s"
-          >
-            <p className="m-0">
-              → The Sound of Silence:
-              <span> 2nd Position GameJam Project</span>
-            </p>
-            <p className="m-0">
-              A 2D video game where you explore a mansion and try not to go
-              insane. Developed in one week using Phaser.js, a framework for
-              browser-based game creation.
-            </p>
-          </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch relative leading-[121%] text-[inherit] lg:text-[25px] md:text-xl sm:text-[15px] xs:text-[15px] font-bold"
-            id="projectpageButton"
+          />
+          <ProjectDevLink
+            title="→ CareSync: Hackathon top5 Winning Project"
+            description="A project built to improve medical healthcare systems, making hospital patient sorting more efficient. Focused on priority handling and automation, coded with Claude API calls."
             href="/project-page-dev-caresync"
-          >
-            <p className="m-0">
-              → CareSync:
-              <span>Hackathon top5 Winning Project</span>
-            </p>
-            <p className="m-0">
-              A project built to improve medical healthcare systems, making
-              hospital patient sorting more efficient. Focused on priority
-              handling and automation, coded with Claude API calls.
-            </p>
-          </Link>
+          />
         </div>
       </div>
       <FooterDevArts />

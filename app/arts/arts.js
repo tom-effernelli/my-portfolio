@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import FooterDevArts from "../../components/footer-dev-arts";
 import StickyNavigation from "../../components/sticky-navigation";
+import ProjectLinkCard from "../../components/project-link-card";
+import Timestamp from "../../components/timestamp";
 
 const Arts = () => {
   return (
@@ -84,12 +86,7 @@ const Arts = () => {
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
               <div className="self-stretch flex-1 border-[#fff] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
-                <div className="relative leading-[121.1%] font-light lg:text-[22px]">
-                  {(() => {
-                    const timestamp = Date.now().toString();
-                    return timestamp.length > 16 ? timestamp.slice(-16) : timestamp.padStart(16, '0');
-                  })()}
-                </div>
+                <Timestamp className="relative leading-[121.1%] font-light lg:text-[22px] text-[#fff]" />
               </div>
             </div>
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
@@ -160,112 +157,48 @@ const Arts = () => {
           <div className="self-stretch relative text-[130px] leading-[121.1%] font-space-grotesk font-medium text-right lg:text-[100px] md:text-[80px] sm:text-[70px] xs:text-[40px] md:h-auto">
             PROJECTS:
           </div>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[698px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761334364/my-portfolio-cover_yevglp.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
-            id="pojectPageButton"
+          <ProjectLinkCard
+            title="THIS PORTFOLIO"
+            description="I spent all my summer on this project, which aims to better highlight my work. LinkedIn is just messy when it comes to showcase dev work, and not made at all to shocase design work. Super fun and creative to do!"
             href="/project-page-arts-this-portfolio"
-          >
-            <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[40px]">
-                THIS PORTFOLIO
-              </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] whitespace-pre-wrap lg:text-3xl xs:hidden sm:hidden">
-                I spent all my summer on this project, which aims to better
-                highlight my work. LinkedIn is just messy when it comes to
-                showcase dev work, and not made at all to shocase design work.
-                Super fun and creative to do!
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331030/Top_project_1_-_fill_example_uiza2r.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
-            id="pojectPageButton"
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761334364/my-portfolio-cover_yevglp.png"
+            textColor="text-[#000]"
+          />
+          <ProjectLinkCard
+            title="VIBEMATCH"
+            subtitle="TOP5 WINNING HACKATHON PROJECT"
+            description="VibeMatch is a plateform designed to improve connection between content creators and sponsors. Check out the promotion video I created for this occasion!"
             href="/project-page-arts-vibematch"
-          >
-            <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium md:text-6xl sm:text-[60px] xs:text-[40px]">
-                VIBEMATCH
-              </div>
-              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
-                TOP5 WINNING HACKATHON PROJECT
-              </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
-                VibeMatch is a plateform designed to improve connection between
-                content creators and sponsors. Check out the promotion video I
-                created for this occasion!
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331022/Project_2_image_-_fill_example_pwrtbb.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
-            id="pojectPageButton"
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761331030/Top_project_1_-_fill_example_uiza2r.png"
+          />
+          <ProjectLinkCard
+            title="T.S.O.S"
+            subtitle="2ND POSITION GAMEJAM PROJECT"
+            description="The Sound of Silence is a game where you explore a mansion, trying not to go insane. Creating the design was pretty fun and taught me a lot of things about tilemapping."
             href="/project-page-arts-t-s-o-s"
-          >
-            <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[40px]">
-                T.S.O.S
-              </div>
-              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
-                2ND POSITION GAMEJAM PROJECT
-              </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
-                The Sound of Silence is a game where you explore a mansion, trying
-                not to go insane. Creating the design was pretty fun and taught me
-                a lot of things about tilemapping.
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331025/Project_compte_admissible_cover_jlytvm.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
-            id="pojectPageButton"
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761331022/Project_2_image_-_fill_example_pwrtbb.png"
+          />
+          <ProjectLinkCard
+            title="INSTAGRAM ACCOUNT - 2"
+            description="This Instagram account I designed was for my engineering school, in order to help new students make their decision upon which school to choose, presenting all the benefits of mine..."
             href="/project-page-arts-instagram-account2"
-          >
-            <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[30px]">
-                INSTAGRAM ACCOUNT - 2
-              </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] xs:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
-                This Instagram account I designed was for my engineering school,
-                in order to help new students make their decision upon which
-                school to choose, presenting all the benefits of mine...
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331023/Project_caresync_cover_poqaqo.png')] bg-cover bg-no-repeat bg-[top] text-[inherit] md:h-[400px] sm:h-[300px] xs:h-[200px]"
-            id="pojectPageButton"
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761331025/Project_compte_admissible_cover_jlytvm.png"
+            textColor="text-[#000]"
+          />
+          <ProjectLinkCard
+            title="CARESYNC"
+            subtitle="TOP5 WINNING HACKATHON PROJECT"
+            description="A hackathon project to make medical healthcare systems such as hospitals more efficient, working on the patient priority sorting process. Check out the demo video!"
             href="/project-page-arts-caresync"
-          >
-            <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[40px]">
-                CARESYNC
-              </div>
-              <div className="self-stretch relative lg:text-[50px] md:text-[35px] leading-[121%] font-space-grotesk font-medium xs:hidden sm:hidden">
-                TOP5 WINNING HACKATHON PROJECT
-              </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] sm:text-[25px] xs:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
-                A hackathon project to make medical healthcare systems such as
-                hospitals more efficient, working on the patient priority sorting
-                process. Check out the demo video!
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch h-[697.6px] overflow-hidden shrink-0 flex flex-col items-start justify-end py-[18px] pl-[18px] pr-[321px] md:pr-[150px] xs:pr-[20px] sm:pr-[50px] xs:pr-[20px] box-border bg-[url('https://res.cloudinary.com/dixdfunwk/image/upload/v1761331027/Project_compte_insta_bediana_cover_ob4wsh.png')] bg-cover bg-no-repeat bg-[top] text-[#000] md:h-[400px] sm:h-[300px] xs:h-[200px]"
-            id="pojectPageButton"
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761331023/Project_caresync_cover_poqaqo.png"
+          />
+          <ProjectLinkCard
+            title="INSTAGRAM ACCOUNT - 1"
+            description="This Instagram account I designed with some other teammates too was created during the student board election campaign I took part in. I was in charge of all the communication processes."
             href="/project-page-arts-instagram-account1"
-          >
-            <div className="self-stretch flex flex-col items-start justify-end p-2.5 gap-[30px]">
-              <div className="self-stretch relative leading-[121%] font-space-grotesk font-medium lg:text-[90px] md:text-6xl sm:text-[60px] xs:text-[30px]">
-                INSTAGRAM ACCOUNT - 1
-              </div>
-              <div className="self-stretch relative lg:text-[35px] md:text-[25px] leading-[121%] lg:text-3xl xs:hidden sm:hidden">
-                This Instagram account I designed with some other teammates too
-                was created during the student board election campaign I took part
-                in. I was in charge of all the communication processes.
-              </div>
-            </div>
-          </Link>
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761331027/Project_compte_insta_bediana_cover_ob4wsh.png"
+            textColor="text-[#000]"
+          />
         </div>
         <div className="self-stretch flex flex-col items-start gap-[39px] text-[90px]" id="design-stack">
           <div className="relative leading-[121.1%] font-space-grotesk font-medium lg:text-[80px] md:text-6xl sm:text-[45px] xs:text-[35px]">

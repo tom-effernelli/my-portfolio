@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import FooterHomeAboutContact from "../../components/footer-home-about-contact";
 import StickyNavigation from "../../components/sticky-navigation";
+import Timestamp from "../../components/timestamp";
 
 const About = () => {
   const onEmailMeClick = useCallback(() => {
@@ -97,12 +98,7 @@ const About = () => {
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-end xs:hidden sm:hidden md:hidden" />
               <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-between max-w-[70px] xs:hidden sm:hidden md:hidden" />
               <div className="self-stretch flex-1 border-[#000] border-solid border-b-[2px] overflow-hidden flex flex-col items-start justify-end pt-0 px-0 pb-[5px] xs:hidden sm:hidden md:hidden">
-                <div className="relative leading-[121.1%] font-light lg:text-[22px]">
-                  {(() => {
-                    const timestamp = Date.now().toString();
-                    return timestamp.length > 16 ? timestamp.slice(-16) : timestamp.padStart(16, '0');
-                  })()}
-                </div>
+                <Timestamp className="relative leading-[121.1%] font-light lg:text-[22px]" />
               </div>
             </div>
             <div className="self-stretch flex-1 overflow-hidden flex items-end justify-center">
