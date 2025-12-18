@@ -47,6 +47,11 @@ const Dev = () => {
             <p className="m-0 whitespace-pre-wrap">{`██      ██   ██  ██████   █████  ███████  ██████    ██    ███████ `}</p>
           </div>
           <ProjectDevLink
+            title="→ small-LLM: Transformer from scratch"
+            description="An educational LLM project where I reimplemented the Transformer architecture from the 'Attention is All You Need' paper, including multi-head self-attention, positional encodings, and a full training pipeline."
+            href="/project-page-dev-small-llm"
+          />
+          <ProjectDevLink
             title="→ My Portfolio"
             description="A web portfolio built to better highlight my work. This project marked a significant step forward in my comprehension of JavaScript, React, and Next.js."
             href="/project-page-dev-this-portfolio"
