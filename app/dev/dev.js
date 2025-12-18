@@ -48,7 +48,7 @@ const Dev = () => {
           </div>
           <ProjectDevLink
             title="→ small-LLM: Transformer from scratch"
-            description="An educational LLM project where I reimplemented the Transformer architecture from the 'Attention is All You Need' paper, including multi-head self-attention, positional encodings, and a full training pipeline."
+            description="An educational LLM project where I reimplemented the Transformer architecture from the 'Attention is All You Need' paper, including multi-head self-attention, positional encodings, and a full training pipeline. The LLM is trained on a dataset containing all Shakespeare's writings."
             href="/project-page-dev-small-llm"
           />
           <ProjectDevLink
