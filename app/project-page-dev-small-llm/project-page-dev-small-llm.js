@@ -24,9 +24,6 @@ const ProjectPageDevSmallLLM = () => {
             <p className="m-0 whitespace-pre-wrap">{`███████ ██      ██ ██   ██ ███████ ███████ ████████ ████████ ██      ██ `}</p>
           </div>
           <div className="self-stretch w-full max-w-[1000px] mx-auto my-8">
-            <p className="mb-4 text-3xl lg:text-2xl md:text-xl sm:text-[16px] xs:text-[14px] font-bold text-left">
-              Let&apos;s speak some Shakespeare!
-            </p>
             <div className="relative w-full h-[600px] xs:h-[450px] overflow-hidden rounded-lg shadow-lg bg-[#050505]">
               <iframe
                 className="absolute top-0 left-0 w-full h-full border-0"
