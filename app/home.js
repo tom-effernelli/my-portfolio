@@ -64,20 +64,18 @@ const Home = () => {
             TOP PROJECTS:
           </div>
           <ProjectCard
-            title="VIBEMATCH"
-            subtitle="TOP5 WINNING HACKATHON PROJECT"
-            description="VibeMatch is a plateform designed to improve connection between content creators and sponsors."
-            devLink="/project-page-dev-vibematch"
-            artsLink="/project-page-arts-vibematch"
-            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761331030/Top_project_1_-_fill_example_uiza2r.png"
+            title="SMALL-LLM"
+            subtitle="TRANSFORMER FROM SCRATCH"
+            description="An educational LLM project where I reimplemented the Transformer architecture from scratch, including multi-head self-attention and a full training pipeline."
+            devLink="/project-page-dev-small-llm"
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1766753782/cover_ike8jj.jpg"
           />
           <ProjectCard
-            title="T.S.O.S"
-            subtitle="2ND POSITION GAMEJAM PROJECT"
-            description="The Sound of Silence is a game where you explore a mansion, trying not to go insane. Creating the design was pretty fun and taught me a lot of things about tilemapping."
-            devLink="/project-page-dev-t-s-o-s"
-            artsLink="/project-page-arts-t-s-o-s"
-            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1761331022/Project_2_image_-_fill_example_pwrtbb.png"
+            title="TEXTURE GENERATOR"
+            subtitle="STOCHASTIC PROCEDURAL TEXTURE SYNTHESIS"
+            description="A texture generator that can tile a texture sample across arbitrarily large 3D surfaces without visible repetition patterns."
+            devLink="/project-page-dev-stochastic-texture"
+            backgroundImage="https://res.cloudinary.com/dixdfunwk/image/upload/v1766752758/cover_xeo56w.png"
           />
         </div>
         <Image
