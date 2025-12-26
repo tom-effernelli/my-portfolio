@@ -47,6 +47,11 @@ const Dev = () => {
             <p className="m-0 whitespace-pre-wrap">{`██      ██   ██  ██████   █████  ███████  ██████    ██    ███████ `}</p>
           </div>
           <ProjectDevLink
+            title="→ Stochastic Texture Generator"
+            description="A texture generator that can tile a given texture sample across arbitrarily large 3D surfaces without visible repetition patterns. Implementation based on the research paper 'Procedural Stochastic Textures by Tiling and Blending' by Deliot and Heitz."
+            href="/project-page-dev-stochastic-texture"
+          />
+          <ProjectDevLink
             title="→ small-LLM: Transformer from scratch"
             description="An educational LLM project where I reimplemented the Transformer architecture from the 'Attention is All You Need' paper, including multi-head self-attention, positional encodings, and a full training pipeline. The LLM is trained on a dataset containing all Shakespeare's writings."
             href="/project-page-dev-small-llm"
