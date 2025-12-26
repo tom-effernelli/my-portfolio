@@ -13,44 +13,44 @@ const ProjectPageDevStochasticTexture = () => {
   // À remplacer par les vraies URLs des images
   const texturePairs = [
     {
-      original: 'URL_TEXTURE_ORIGINALE_1',
-      generated: 'URL_IMAGE_GENERE_1',
+      original: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752926/texture-1_pa2noe.jpg',
+      generated: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752825/output-1_jzvbov.jpg',
       altOriginal: 'Original texture 1',
       altGenerated: 'Generated image 1'
     },
     {
-      original: 'URL_TEXTURE_ORIGINALE_2',
-      generated: 'URL_IMAGE_GENERE_2',
+      original: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752947/texture-2_ipzxwv.jpg',
+      generated: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752942/output-2_gcdzja.jpg',
       altOriginal: 'Original texture 2',
       altGenerated: 'Generated image 2'
     },
     {
-      original: 'URL_TEXTURE_ORIGINALE_3',
-      generated: 'URL_IMAGE_GENERE_3',
+      original: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752872/texture-3_hty4ym.jpg',
+      generated: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752858/output-3_aggp7o.jpg',
       altOriginal: 'Original texture 3',
       altGenerated: 'Generated image 3'
     },
     {
-      original: 'URL_TEXTURE_ORIGINALE_4',
-      generated: 'URL_IMAGE_GENERE_4',
+      original: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752924/texture-4_mkhk2u.jpg',
+      generated: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752853/output-4_cqqkdh.jpg',
       altOriginal: 'Original texture 4',
       altGenerated: 'Generated image 4'
     },
     {
-      original: 'URL_TEXTURE_ORIGINALE_5',
-      generated: 'URL_IMAGE_GENERE_5',
+      original: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752931/texture-5_aigzdf.jpg',
+      generated: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752828/output-5_scsmft.jpg',
       altOriginal: 'Original texture 5',
       altGenerated: 'Generated image 5'
     },
     {
-      original: 'URL_TEXTURE_ORIGINALE_6',
-      generated: 'URL_IMAGE_GENERE_6',
+      original: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752934/texture-6_cjvn0l.jpg',
+      generated: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752823/output-6_vmuhad.jpg',
       altOriginal: 'Original texture 6',
       altGenerated: 'Generated image 6'
     },
     {
-      original: 'URL_TEXTURE_ORIGINALE_7',
-      generated: 'URL_IMAGE_GENERE_7',
+      original: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752938/texture-7_ltypn7.jpg',
+      generated: 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766752821/output-7_e9vs8l.jpg',
       altOriginal: 'Original texture 7',
       altGenerated: 'Generated image 7'
     },
