@@ -154,7 +154,7 @@ const ProjectPageDevStochasticTexture = () => {
             <p className="m-0">
               {`→ Check the repo `}
               <a
-                href="https://github.com/tom-effernelli/stochastic-texture-generator"
+                href="https://github.com/tom-effernelli/stochastic-procedural-texture-gen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="[text-decoration:underline]"
