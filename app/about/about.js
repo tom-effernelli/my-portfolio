@@ -12,9 +12,10 @@ const About = () => {
   }, []);
 
   const onResumeClick = useCallback(() => {
-    // Create a temporary link element to download the CV
+    // Download CV from CDN
+    const cvUrl = 'https://res.cloudinary.com/dixdfunwk/image/upload/v1766936346/tom_effernelli_resume_okexhh.pdf'; // Remplacez par votre URL CDN
     const link = document.createElement('a');
-    link.href = '/tom_effernelli_resume.pdf';
+    link.href = cvUrl;
     link.download = 'tom_effernelli_resume.pdf';
     document.body.appendChild(link);
     link.click();
